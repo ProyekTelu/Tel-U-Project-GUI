@@ -174,7 +174,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Montserrat Medium", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(31, 28);
+            this.label1.Location = new System.Drawing.Point(89, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(166, 33);
             this.label1.TabIndex = 12;
