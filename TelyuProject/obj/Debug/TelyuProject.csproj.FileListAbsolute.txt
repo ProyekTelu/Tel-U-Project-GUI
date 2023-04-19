@@ -3,9 +3,11 @@ D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\Te
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\bin\Debug\TelyuProject.pdb
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.csproj.AssemblyReference.cache
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.csproj.SuggestedBindingRedirects.cache
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.DosenMenu.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.Login.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.Properties.Resources.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.csproj.GenerateResource.cache
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.csproj.CoreCompileInputs.cache
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.exe
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.pdb
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
