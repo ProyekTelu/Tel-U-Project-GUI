@@ -48,7 +48,7 @@
             this.LoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LoginButton.Font = new System.Drawing.Font("Montserrat SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginButton.ForeColor = System.Drawing.Color.White;
-            this.LoginButton.Location = new System.Drawing.Point(869, 465);
+            this.LoginButton.Location = new System.Drawing.Point(846, 438);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(127, 73);
             this.LoginButton.TabIndex = 0;
@@ -61,7 +61,7 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(533, 79);
+            this.label1.Location = new System.Drawing.Point(509, -16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(292, 100);
             this.label1.TabIndex = 1;
@@ -72,7 +72,7 @@
             // PasswordTextBox
             // 
             this.PasswordTextBox.Font = new System.Drawing.Font("Montserrat", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PasswordTextBox.Location = new System.Drawing.Point(393, 390);
+            this.PasswordTextBox.Location = new System.Drawing.Point(370, 363);
             this.PasswordTextBox.Multiline = true;
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.Size = new System.Drawing.Size(586, 51);
@@ -82,7 +82,7 @@
             // 
             this.LinkGabisaAksesAkun.AutoSize = true;
             this.LinkGabisaAksesAkun.Font = new System.Drawing.Font("Montserrat", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LinkGabisaAksesAkun.Location = new System.Drawing.Point(389, 465);
+            this.LinkGabisaAksesAkun.Location = new System.Drawing.Point(366, 438);
             this.LinkGabisaAksesAkun.Name = "LinkGabisaAksesAkun";
             this.LinkGabisaAksesAkun.Size = new System.Drawing.Size(165, 22);
             this.LinkGabisaAksesAkun.TabIndex = 3;
@@ -93,7 +93,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Montserrat", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(389, 561);
+            this.label2.Location = new System.Drawing.Point(366, 534);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(475, 103);
             this.label2.TabIndex = 4;
@@ -106,7 +106,7 @@
             // 
             this.UsernameTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.UsernameTextBox.Font = new System.Drawing.Font("Montserrat", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsernameTextBox.Location = new System.Drawing.Point(393, 290);
+            this.UsernameTextBox.Location = new System.Drawing.Point(370, 250);
             this.UsernameTextBox.Multiline = true;
             this.UsernameTextBox.Name = "UsernameTextBox";
             this.UsernameTextBox.Size = new System.Drawing.Size(586, 59);
@@ -116,7 +116,7 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(533, 160);
+            this.label3.Location = new System.Drawing.Point(509, 73);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(292, 50);
             this.label3.TabIndex = 6;
@@ -127,7 +127,7 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(304, 257);
+            this.label4.Location = new System.Drawing.Point(281, 208);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(292, 30);
             this.label4.TabIndex = 7;
@@ -138,7 +138,7 @@
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(304, 357);
+            this.label5.Location = new System.Drawing.Point(281, 330);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(292, 30);
             this.label5.TabIndex = 8;
@@ -150,7 +150,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1436, 821);
+            this.ClientSize = new System.Drawing.Size(1258, 664);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);

@@ -12,6 +12,9 @@ namespace TelyuProject
             {
                 control.Anchor = AnchorStyles.None;
             }
+
+            this.WindowState = FormWindowState.Maximized;
+            this.Bounds = Screen.PrimaryScreen.Bounds;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -38,32 +41,10 @@ namespace TelyuProject
             string username = UsernameTextBox.Text;
             string password = PasswordTextBox.Text;
 
-            if (username == "" && password == "")
-            {
-                DosenMenu dosen = new DosenMenu(username);
-                MessageBox.Show("Login berhasil!");
-                dosen.Show();
-                this.Hide();
-            }
-            else if (username == "zaky" || password == "zaky")
-            {
+            DosenMenu dosen = new DosenMenu(username);
 
-                MessageBox.Show("Kolom tidak lengkap!");
-                UsernameTextBox.Text = "";
-                PasswordTextBox.Text = "";
-            }
-            else if (username == "" || password == "")
-            {
-                MessageBox.Show("Kolom tidak lengkap!");
-                UsernameTextBox.Text = "";
-                PasswordTextBox.Text = "";
-            }
-            else
-            {
-                MessageBox.Show("Username atau Password salah!");
-                UsernameTextBox.Text = "";
-                PasswordTextBox.Text = "";
-            }
+            MessageBox.Show("Login berhasil!");
+            dosen.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)

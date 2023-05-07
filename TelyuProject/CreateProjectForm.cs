@@ -93,5 +93,10 @@ namespace TelyuProject
         {
             label1.ForeColor = SystemColors.ControlText;
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

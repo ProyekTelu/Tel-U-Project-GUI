@@ -11,3 +11,4 @@ D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\Te
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.exe
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.pdb
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.ListProdi.resources

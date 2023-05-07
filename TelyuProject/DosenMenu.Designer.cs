@@ -92,9 +92,9 @@
             this.DAccepted.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DAccepted.Location = new System.Drawing.Point(949, 152);
             this.DAccepted.Name = "DAccepted";
-            this.DAccepted.Size = new System.Drawing.Size(130, 33);
+            this.DAccepted.Size = new System.Drawing.Size(143, 33);
             this.DAccepted.TabIndex = 8;
-            this.DAccepted.Text = "Accepted";
+            this.DAccepted.Text = "My Project";
             this.DAccepted.Click += new System.EventHandler(this.Accepted_Click);
             // 
             // DListProject
@@ -115,7 +115,7 @@
             this.CreateProject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CreateProject.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateProject.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.CreateProject.Location = new System.Drawing.Point(599, 218);
+            this.CreateProject.Location = new System.Drawing.Point(1169, 693);
             this.CreateProject.Name = "CreateProject";
             this.CreateProject.Size = new System.Drawing.Size(194, 62);
             this.CreateProject.TabIndex = 10;

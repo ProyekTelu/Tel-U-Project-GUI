@@ -64,6 +64,12 @@
     <Compile Include="CreateProjectForm.Designer.cs">
       <DependentUpon>CreateProjectForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListProdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListProdi.Designer.cs">
+      <DependentUpon>ListProdi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CreateProjectForm.resx">
       <DependentUpon>CreateProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListProdi.resx">
+      <DependentUpon>ListProdi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
