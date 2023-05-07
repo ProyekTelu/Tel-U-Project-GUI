@@ -1,17 +1,8 @@
 {
   "ExpandedNodes": [
-<<<<<<< HEAD
     "",
     "\\TelyuProject"
   ],
-<<<<<<< Updated upstream
-  "SelectedNode": "\\TelyuProject\\Login.cs",
-=======
-    ""
-  ],
->>>>>>> origin/RezaPart
-=======
-  "SelectedNode": "\\TelyuProject.sln",
->>>>>>> Stashed changes
+  "SelectedNode": "\\TelyuProject\\UC_Teams.cs",
   "PreviewInSolutionExplorer": false
 }
