@@ -31,3 +31,18 @@ E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.ProjectDeta
 E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.UC_Teams.resources
 E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.UC_ProjectInfo.resources
 >>>>>>> origin/RezaPart
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.AssemblyReference.cache
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.SuggestedBindingRedirects.cache
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.DosenMenu.resources
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.EditProfil.resources
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.ListProdi.resources
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.Login.resources
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.ProjectDetails.resources
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.Properties.Resources.resources
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.UC_ProjectInfo.resources
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.UC_Teams.resources
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.GenerateResource.cache
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.CoreCompileInputs.cache
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.exe
+E:\Tugas Kuliah\Semester 4\KPL\Tubes\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.pdb
