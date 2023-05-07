@@ -11,3 +11,19 @@ D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\Te
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.exe
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.pdb
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\bin\Debug\TelyuProject.exe.config
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\bin\Debug\TelyuProject.exe
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\bin\Debug\TelyuProject.pdb
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.csproj.AssemblyReference.cache
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.csproj.SuggestedBindingRedirects.cache
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.DosenMenu.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.Login.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.Properties.Resources.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.csproj.GenerateResource.cache
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.csproj.CoreCompileInputs.cache
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.exe
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.pdb
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.ProjectDetails.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.UC_Teams.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.UC_ProjectInfo.resources
