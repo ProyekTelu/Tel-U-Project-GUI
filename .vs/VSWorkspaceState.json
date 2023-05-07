@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\TelyuProject"
   ],
   "SelectedNode": "\\TelyuProject\\Login.cs",
+=======
+    ""
+  ],
+>>>>>>> origin/RezaPart
   "PreviewInSolutionExplorer": false
 }

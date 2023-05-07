@@ -77,7 +77,25 @@
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="ProjectDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectDetails.Designer.cs">
+      <DependentUpon>ProjectDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC_ProjectInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ProjectInfo.Designer.cs">
+      <DependentUpon>UC_ProjectInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Teams.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Teams.Designer.cs">
+      <DependentUpon>UC_Teams.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DosenMenu.resx">
       <DependentUpon>DosenMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +108,9 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProjectDetails.resx">
+      <DependentUpon>ProjectDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -99,6 +120,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UC_ProjectInfo.resx">
+      <DependentUpon>UC_ProjectInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Teams.resx">
+      <DependentUpon>UC_Teams.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -99,5 +99,19 @@ namespace TelyuProject
 
             button.Region = new System.Drawing.Region(path);
         }
+
+        private void Project1_Click(object sender, EventArgs e)
+        {
+            string projectName = Project1.Text;
+            ProjectDetails projectDetails = new ProjectDetails(projectName);
+            projectDetails.Show();
+        }
+
+        private void Project2_Click(object sender, EventArgs e)
+        {
+            string projectName = Project2.Text;
+            ProjectDetails projectDetails = new ProjectDetails(projectName);
+            projectDetails.Show();
+        }
     }
 }
