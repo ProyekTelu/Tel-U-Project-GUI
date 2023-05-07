@@ -16,6 +16,7 @@ namespace TelyuProject
         {
             InitializeComponent();
             panelContainer.Hide();
+            LInfo_Click(this, new EventArgs());
             label1.Text = projectName;
             foreach (Control control in Controls)
             {

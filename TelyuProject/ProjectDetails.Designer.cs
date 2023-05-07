@@ -42,7 +42,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(518, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(232, 38);
+            this.label1.Size = new System.Drawing.Size(237, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "Project YOLO";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -50,10 +50,10 @@
             // LTeams
             // 
             this.LTeams.AutoSize = true;
-            this.LTeams.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LTeams.Location = new System.Drawing.Point(484, 117);
+            this.LTeams.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LTeams.Location = new System.Drawing.Point(669, 117);
             this.LTeams.Name = "LTeams";
-            this.LTeams.Size = new System.Drawing.Size(73, 25);
+            this.LTeams.Size = new System.Drawing.Size(88, 29);
             this.LTeams.TabIndex = 1;
             this.LTeams.Text = "Teams";
             this.LTeams.Click += new System.EventHandler(this.LTeams_Click);
@@ -61,10 +61,10 @@
             // LInfo
             // 
             this.LInfo.AutoSize = true;
-            this.LInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LInfo.Location = new System.Drawing.Point(722, 117);
+            this.LInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LInfo.Location = new System.Drawing.Point(506, 117);
             this.LInfo.Name = "LInfo";
-            this.LInfo.Size = new System.Drawing.Size(44, 25);
+            this.LInfo.Size = new System.Drawing.Size(52, 29);
             this.LInfo.TabIndex = 2;
             this.LInfo.Text = "Info";
             this.LInfo.Click += new System.EventHandler(this.LInfo_Click);
