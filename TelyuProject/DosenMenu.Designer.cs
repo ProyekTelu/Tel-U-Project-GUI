@@ -47,8 +47,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
+<<<<<<< Updated upstream
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(478, 41);
+=======
+            this.label1.Font = new System.Drawing.Font("Montserrat SemiBold", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(490, 51);
+>>>>>>> Stashed changes
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(248, 42);
             this.label1.TabIndex = 0;
@@ -79,8 +84,13 @@
             // DRequested
             // 
             this.DRequested.AutoSize = true;
+<<<<<<< Updated upstream
             this.DRequested.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DRequested.Location = new System.Drawing.Point(556, 122);
+=======
+            this.DRequested.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DRequested.Location = new System.Drawing.Point(582, 152);
+>>>>>>> Stashed changes
             this.DRequested.Name = "DRequested";
             this.DRequested.Size = new System.Drawing.Size(106, 25);
             this.DRequested.TabIndex = 7;
@@ -91,8 +101,13 @@
             // DAccepted
             // 
             this.DAccepted.AutoSize = true;
+<<<<<<< Updated upstream
             this.DAccepted.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DAccepted.Location = new System.Drawing.Point(844, 122);
+=======
+            this.DAccepted.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DAccepted.Location = new System.Drawing.Point(874, 152);
+>>>>>>> Stashed changes
             this.DAccepted.Name = "DAccepted";
 <<<<<<< HEAD
             this.DAccepted.Size = new System.Drawing.Size(143, 33);
@@ -106,8 +121,13 @@
             // DListProject
             // 
             this.DListProject.AutoSize = true;
+<<<<<<< Updated upstream
             this.DListProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DListProject.Location = new System.Drawing.Point(284, 122);
+=======
+            this.DListProject.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DListProject.Location = new System.Drawing.Point(276, 152);
+>>>>>>> Stashed changes
             this.DListProject.Name = "DListProject";
             this.DListProject.Size = new System.Drawing.Size(107, 25);
             this.DListProject.TabIndex = 9;
@@ -121,12 +141,16 @@
             this.CreateProject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CreateProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateProject.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+<<<<<<< Updated upstream
 <<<<<<< HEAD
             this.CreateProject.Location = new System.Drawing.Point(1169, 693);
 =======
             this.CreateProject.Location = new System.Drawing.Point(1043, 564);
             this.CreateProject.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 >>>>>>> origin/RezaPart
+=======
+            this.CreateProject.Location = new System.Drawing.Point(1006, 541);
+>>>>>>> Stashed changes
             this.CreateProject.Name = "CreateProject";
             this.CreateProject.Size = new System.Drawing.Size(172, 50);
             this.CreateProject.TabIndex = 10;
@@ -163,9 +187,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+<<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(1267, 652);
             this.Controls.Add(this.Project2);
             this.Controls.Add(this.Project1);
+=======
+            this.ClientSize = new System.Drawing.Size(1258, 664);
+>>>>>>> Stashed changes
             this.Controls.Add(this.DListProject);
             this.Controls.Add(this.DAccepted);
             this.Controls.Add(this.DRequested);

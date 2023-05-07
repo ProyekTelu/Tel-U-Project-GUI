@@ -4,10 +4,14 @@
     "",
     "\\TelyuProject"
   ],
+<<<<<<< Updated upstream
   "SelectedNode": "\\TelyuProject\\Login.cs",
 =======
     ""
   ],
 >>>>>>> origin/RezaPart
+=======
+  "SelectedNode": "\\TelyuProject.sln",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }

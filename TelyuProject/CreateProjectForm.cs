@@ -54,7 +54,7 @@ namespace TelyuProject
 
         private void CreateProjectForm_Load(object sender, EventArgs e)
         {
-
+            this.AutoScroll = true;
         }
 
         private void button1_Paint(object sender, PaintEventArgs e)
