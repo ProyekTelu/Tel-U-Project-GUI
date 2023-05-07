@@ -31,3 +31,6 @@ E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.ProjectDeta
 E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.UC_Teams.resources
 E:\#ME\KULIAH\TUGAS\S4\KPL\TUBES\TelyuProject\obj\Debug\TelyuProject.UC_ProjectInfo.resources
 >>>>>>> origin/RezaPart
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.ProjectDetails.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.UC_ProjectInfo.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.UC_Teams.resources
