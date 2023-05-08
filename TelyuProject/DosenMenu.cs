@@ -13,6 +13,11 @@ namespace TelyuProject
             label3.Text = Username;
             foreach (Control control in Controls)
             {
+                control.Anchor = AnchorStyles.None;
+            }
+
+            foreach (Control control in Controls)
+            {
                 control.Anchor = AnchorStyles.Top;
             }
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Left;
@@ -112,6 +117,11 @@ namespace TelyuProject
             string projectName = Project2.Text;
             ProjectDetails projectDetails = new ProjectDetails(projectName);
             projectDetails.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TelyuProject
 {
-    public partial class ListProdi : Form
+    public partial class ListSkill : Form
     {
-        public ListProdi()
+        public ListSkill()
         {
             InitializeComponent();
             foreach (Control control in Controls)
@@ -22,7 +22,26 @@ namespace TelyuProject
 
         }
 
-        private void ListProdi_Load(object sender, EventArgs e)
+        private void ListSkill_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ListSkill_StyleChanged(object sender, EventArgs e)
+        {
+            foreach (Control control in Controls)
+            {
+                control.Anchor = AnchorStyles.None;
+            }
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkedListBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
@@ -32,21 +51,12 @@ namespace TelyuProject
 
         }
 
-        private void ListProdi_StyleChanged(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            foreach (Control control in Controls)
-            {
-                control.Anchor = AnchorStyles.None;
-            }
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void checkedListBox2_SelectedIndexChanged(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

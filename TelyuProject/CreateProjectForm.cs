@@ -15,6 +15,12 @@ namespace TelyuProject
         public CreateProjectForm()
         {
             InitializeComponent();
+            foreach (Control control in Controls)
+            {
+                control.Anchor = AnchorStyles.None;
+            }
+
+
         }
 
         private void KontrakProyek_Click(object sender, EventArgs e)
@@ -97,6 +103,46 @@ namespace TelyuProject
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CreateProjectForm_StyleChanged(object sender, EventArgs e)
+        {
+            foreach (Control control in Controls)
+            {
+                control.Anchor = AnchorStyles.None;
+            }
+
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

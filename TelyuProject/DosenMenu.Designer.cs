@@ -41,27 +41,32 @@
             this.CreateProject = new System.Windows.Forms.Button();
             this.Project1 = new System.Windows.Forms.Label();
             this.Project2 = new System.Windows.Forms.Label();
+            this.eventLog1 = new System.Diagnostics.EventLog();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(538, 51);
+            this.label1.Location = new System.Drawing.Point(513, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(291, 52);
+            this.label1.Size = new System.Drawing.Size(202, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tel-U Project";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(39, 51);
+            this.label2.Location = new System.Drawing.Point(26, 33);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 29);
+            this.label2.Size = new System.Drawing.Size(24, 20);
             this.label2.TabIndex = 5;
             this.label2.Text = "Hi";
             // 
@@ -69,9 +74,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(75, 51);
+            this.label3.Location = new System.Drawing.Point(50, 33);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 29);
+            this.label3.Size = new System.Drawing.Size(51, 20);
             this.label3.TabIndex = 6;
             this.label3.Text = "Nama";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -80,9 +86,10 @@
             // 
             this.DRequested.AutoSize = true;
             this.DRequested.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DRequested.Location = new System.Drawing.Point(626, 152);
+            this.DRequested.Location = new System.Drawing.Point(575, 101);
+            this.DRequested.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DRequested.Name = "DRequested";
-            this.DRequested.Size = new System.Drawing.Size(131, 29);
+            this.DRequested.Size = new System.Drawing.Size(88, 20);
             this.DRequested.TabIndex = 7;
             this.DRequested.Text = "Requested";
             this.DRequested.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -92,9 +99,10 @@
             // 
             this.DAccepted.AutoSize = true;
             this.DAccepted.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DAccepted.Location = new System.Drawing.Point(950, 152);
+            this.DAccepted.Location = new System.Drawing.Point(791, 101);
+            this.DAccepted.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DAccepted.Name = "DAccepted";
-            this.DAccepted.Size = new System.Drawing.Size(126, 29);
+            this.DAccepted.Size = new System.Drawing.Size(82, 20);
             this.DAccepted.TabIndex = 8;
             this.DAccepted.Text = "My Project";
             this.DAccepted.Click += new System.EventHandler(this.Accepted_Click);
@@ -103,9 +111,10 @@
             // 
             this.DListProject.AutoSize = true;
             this.DListProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DListProject.Location = new System.Drawing.Point(320, 152);
+            this.DListProject.Location = new System.Drawing.Point(371, 101);
+            this.DListProject.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DListProject.Name = "DListProject";
-            this.DListProject.Size = new System.Drawing.Size(132, 29);
+            this.DListProject.Size = new System.Drawing.Size(87, 20);
             this.DListProject.TabIndex = 9;
             this.DListProject.Text = "List Project";
             this.DListProject.Click += new System.EventHandler(this.ListProject_Click);
@@ -117,10 +126,10 @@
             this.CreateProject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CreateProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateProject.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.CreateProject.Location = new System.Drawing.Point(1315, 866);
-            this.CreateProject.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CreateProject.Location = new System.Drawing.Point(942, 519);
+            this.CreateProject.Margin = new System.Windows.Forms.Padding(2);
             this.CreateProject.Name = "CreateProject";
-            this.CreateProject.Size = new System.Drawing.Size(194, 62);
+            this.CreateProject.Size = new System.Drawing.Size(129, 41);
             this.CreateProject.TabIndex = 10;
             this.CreateProject.Text = "Create Project";
             this.CreateProject.UseVisualStyleBackColor = false;
@@ -132,9 +141,10 @@
             // 
             this.Project1.AutoSize = true;
             this.Project1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Project1.Location = new System.Drawing.Point(320, 281);
+            this.Project1.Location = new System.Drawing.Point(368, 153);
+            this.Project1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Project1.Name = "Project1";
-            this.Project1.Size = new System.Drawing.Size(162, 29);
+            this.Project1.Size = new System.Drawing.Size(106, 20);
             this.Project1.TabIndex = 11;
             this.Project1.Text = "Project YOLO";
             this.Project1.Click += new System.EventHandler(this.Project1_Click);
@@ -143,19 +153,24 @@
             // 
             this.Project2.AutoSize = true;
             this.Project2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Project2.Location = new System.Drawing.Point(320, 417);
+            this.Project2.Location = new System.Drawing.Point(368, 195);
+            this.Project2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Project2.Name = "Project2";
-            this.Project2.Size = new System.Drawing.Size(160, 29);
+            this.Project2.Size = new System.Drawing.Size(103, 20);
             this.Project2.TabIndex = 12;
             this.Project2.Text = "Project TPLM";
             this.Project2.Click += new System.EventHandler(this.Project2_Click);
             // 
+            // eventLog1
+            // 
+            this.eventLog1.SynchronizingObject = this;
+            // 
             // DosenMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1425, 815);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.Project2);
             this.Controls.Add(this.Project1);
             this.Controls.Add(this.DListProject);
@@ -165,11 +180,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.CreateProject);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DosenMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DosenMenu";
             this.Load += new System.EventHandler(this.DosenMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -187,5 +204,6 @@
         private System.Windows.Forms.Button CreateProject;
         private System.Windows.Forms.Label Project1;
         private System.Windows.Forms.Label Project2;
+        private System.Diagnostics.EventLog eventLog1;
     }
 }

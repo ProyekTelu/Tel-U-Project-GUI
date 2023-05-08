@@ -37,6 +37,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -64,11 +65,23 @@
     <Compile Include="CreateProjectForm.Designer.cs">
       <DependentUpon>CreateProjectForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditProfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditProfil.Designer.cs">
+      <DependentUpon>EditProfil.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListProdi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ListProdi.Designer.cs">
       <DependentUpon>ListProdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListSkill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListSkill.Designer.cs">
+      <DependentUpon>ListSkill.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -84,6 +97,12 @@
       <DependentUpon>ProjectDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectTeam.Designer.cs">
+      <DependentUpon>SelectTeam.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC_ProjectInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -102,8 +121,14 @@
     <EmbeddedResource Include="CreateProjectForm.resx">
       <DependentUpon>CreateProjectForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditProfil.resx">
+      <DependentUpon>EditProfil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListProdi.resx">
       <DependentUpon>ListProdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListSkill.resx">
+      <DependentUpon>ListSkill.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -119,7 +144,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SelectTeam.resx">
+      <DependentUpon>SelectTeam.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC_ProjectInfo.resx">
       <DependentUpon>UC_ProjectInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,6 +167,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
