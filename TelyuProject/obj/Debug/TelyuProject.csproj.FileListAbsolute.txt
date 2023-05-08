@@ -11,3 +11,17 @@ D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\Te
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.exe
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.pdb
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\TelyuProject\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\bin\Debug\TelyuProject.exe.config
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\bin\Debug\TelyuProject.exe
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\bin\Debug\TelyuProject.pdb
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.AssemblyReference.cache
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.DosenMenu.resources
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.Login.resources
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.Properties.Resources.resources
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.GenerateResource.cache
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.CoreCompileInputs.cache
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.exe
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.pdb
+C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Umum\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.Sign_Up.resources

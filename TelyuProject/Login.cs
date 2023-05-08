@@ -111,5 +111,17 @@ namespace TelyuProject
 
             button.Region = new System.Drawing.Region(path);
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Sign_Up sign_Up = new Sign_Up();
+            sign_Up.Show();
+            this.Hide();
+        }
     }
 }
