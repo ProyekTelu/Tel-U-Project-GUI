@@ -66,3 +66,23 @@ C:\Users\Raihan Sulthon Y\OneDrive - Telkom University\Desktop\Tel-U-Project-GUI
 C:\Users\Raihan Sulthon Y\OneDrive - Telkom University\Desktop\Tel-U-Project-GUI-Rizki\TelyuProject\bin\Debug\TelyuProject.exe
 C:\Users\Raihan Sulthon Y\OneDrive - Telkom University\Desktop\Tel-U-Project-GUI-Rizki\TelyuProject\bin\Debug\TelyuProject.pdb
 C:\Users\Raihan Sulthon Y\OneDrive - Telkom University\Desktop\Tel-U-Project-GUI-Rizki\TelyuProject\obj\Debug\TelyuProject.SelectTeam.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\bin\Debug\TelyuProject.exe.config
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\bin\Debug\TelyuProject.exe
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.csproj.AssemblyReference.cache
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.csproj.SuggestedBindingRedirects.cache
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.DosenMenu.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.EditProfil.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.ListProdi.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.ListSkill.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.Login.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.ProjectDetails.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.Properties.Resources.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.SelectTeam.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.Sign_Up.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.UC_ProjectInfo.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.UC_Teams.resources
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.csproj.GenerateResource.cache
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.csproj.CoreCompileInputs.cache
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.exe
+E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.pdb

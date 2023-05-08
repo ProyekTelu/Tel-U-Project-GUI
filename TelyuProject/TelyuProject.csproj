@@ -103,6 +103,12 @@
     <Compile Include="SelectTeam.Designer.cs">
       <DependentUpon>SelectTeam.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sign Up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign Up.designer.cs">
+      <DependentUpon>Sign Up.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC_ProjectInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -148,6 +154,9 @@
     </Compile>
     <EmbeddedResource Include="SelectTeam.resx">
       <DependentUpon>SelectTeam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sign Up.resx">
+      <DependentUpon>Sign Up.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC_ProjectInfo.resx">
       <DependentUpon>UC_ProjectInfo.cs</DependentUpon>
