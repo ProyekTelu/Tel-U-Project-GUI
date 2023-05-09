@@ -42,6 +42,7 @@
             this.Project2 = new System.Windows.Forms.Label();
             this.eventLog1 = new System.Diagnostics.EventLog();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
@@ -50,7 +51,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(513, 20);
+            this.label1.Location = new System.Drawing.Point(531, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(202, 36);
@@ -85,7 +86,7 @@
             // 
             this.DRequested.AutoSize = true;
             this.DRequested.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DRequested.Location = new System.Drawing.Point(575, 101);
+            this.DRequested.Location = new System.Drawing.Point(591, 101);
             this.DRequested.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DRequested.Name = "DRequested";
             this.DRequested.Size = new System.Drawing.Size(88, 20);
@@ -98,7 +99,7 @@
             // 
             this.DAccepted.AutoSize = true;
             this.DAccepted.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DAccepted.Location = new System.Drawing.Point(791, 101);
+            this.DAccepted.Location = new System.Drawing.Point(801, 101);
             this.DAccepted.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DAccepted.Name = "DAccepted";
             this.DAccepted.Size = new System.Drawing.Size(82, 20);
@@ -110,7 +111,7 @@
             // 
             this.DListProject.AutoSize = true;
             this.DListProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DListProject.Location = new System.Drawing.Point(371, 101);
+            this.DListProject.Location = new System.Drawing.Point(382, 101);
             this.DListProject.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DListProject.Name = "DListProject";
             this.DListProject.Size = new System.Drawing.Size(87, 20);
@@ -123,9 +124,9 @@
             this.CreateProject.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CreateProject.BackColor = System.Drawing.Color.DodgerBlue;
             this.CreateProject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CreateProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreateProject.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateProject.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.CreateProject.Location = new System.Drawing.Point(942, 519);
+            this.CreateProject.Location = new System.Drawing.Point(1020, 526);
             this.CreateProject.Margin = new System.Windows.Forms.Padding(2);
             this.CreateProject.Name = "CreateProject";
             this.CreateProject.Size = new System.Drawing.Size(129, 41);
@@ -140,7 +141,7 @@
             // 
             this.Project1.AutoSize = true;
             this.Project1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Project1.Location = new System.Drawing.Point(368, 153);
+            this.Project1.Location = new System.Drawing.Point(1083, 163);
             this.Project1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Project1.Name = "Project1";
             this.Project1.Size = new System.Drawing.Size(106, 20);
@@ -152,7 +153,7 @@
             // 
             this.Project2.AutoSize = true;
             this.Project2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Project2.Location = new System.Drawing.Point(368, 195);
+            this.Project2.Location = new System.Drawing.Point(1127, 243);
             this.Project2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Project2.Name = "Project2";
             this.Project2.Size = new System.Drawing.Size(103, 20);
@@ -164,12 +165,21 @@
             // 
             this.eventLog1.SynchronizingObject = this;
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(350, 173);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(572, 385);
+            this.flowLayoutPanel1.TabIndex = 13;
+            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            // 
             // DosenMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.Project2);
             this.Controls.Add(this.Project1);
             this.Controls.Add(this.DListProject);
@@ -204,5 +214,6 @@
         private System.Windows.Forms.Label Project1;
         private System.Windows.Forms.Label Project2;
         private System.Diagnostics.EventLog eventLog1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
