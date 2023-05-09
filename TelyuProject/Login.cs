@@ -13,8 +13,6 @@ namespace TelyuProject
                 control.Anchor = AnchorStyles.None;
             }
 
-            this.WindowState = FormWindowState.Maximized;
-            this.Bounds = Screen.PrimaryScreen.Bounds;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -45,6 +43,7 @@ namespace TelyuProject
 
             MessageBox.Show("Login berhasil!");
             dosen.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -95,6 +94,24 @@ namespace TelyuProject
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void PasswordTextBox_TextChanged(object sender, EventArgs e)
+        {
+            PasswordTextBox.UseSystemPasswordChar = true;
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Sign_Up signup = new Sign_Up();
+            signup.Show();
+            this.Hide();
 
         }
     }

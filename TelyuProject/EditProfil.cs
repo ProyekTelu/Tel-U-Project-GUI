@@ -54,7 +54,6 @@ namespace TelyuProject
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-            DosenMenu menu = new DosenMenu();
             this.Close();
         }
 

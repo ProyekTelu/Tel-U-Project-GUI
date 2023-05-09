@@ -27,11 +27,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj": {
-                "projectPath": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

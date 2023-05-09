@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Tel-U-Project-GUI-TempatNgulikRay\Model\Model.csproj" />
   </ItemGroup>
 
 </Project>

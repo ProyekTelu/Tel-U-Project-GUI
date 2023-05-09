@@ -5,9 +5,7 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\mzaky\\.nuget\\packages\\": {}
@@ -35,11 +33,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj": {
-              "projectPath": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -70,16 +64,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }
