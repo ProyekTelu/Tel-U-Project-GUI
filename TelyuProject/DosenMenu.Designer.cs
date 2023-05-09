@@ -41,10 +41,8 @@
             this.Project1 = new System.Windows.Forms.Label();
             this.Project2 = new System.Windows.Forms.Label();
             this.eventLog1 = new System.Diagnostics.EventLog();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,7 +57,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Tel-U Project";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -167,24 +164,12 @@
             // 
             this.eventLog1.SynchronizingObject = this;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::TelyuProject.Properties.Resources.user1;
-            this.pictureBox1.Location = new System.Drawing.Point(358, 485);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
-            // 
             // DosenMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Project2);
             this.Controls.Add(this.Project1);
             this.Controls.Add(this.DListProject);
@@ -200,7 +185,6 @@
             this.Text = "DosenMenu";
             this.Load += new System.EventHandler(this.DosenMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -220,6 +204,5 @@
         private System.Windows.Forms.Label Project1;
         private System.Windows.Forms.Label Project2;
         private System.Diagnostics.EventLog eventLog1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "esgha3z8MU7pOMtKsSu895wTBvRDZExjCgjWdd7d9CKIivSQIIm2znmFLkmuWApm+m+iIvRfrLXCfjUFH1DvOQ==",
+  "dgSpecHash": "TVxpdQpwHrTK3tk9s2L8fCJflf0NiWTYKC2I5hTQTqdR0+4+C7gp6e7vISVzb2dNebFSu1pzvG0MI3Ga3LbWwQ==",
   "success": false,
-  "projectFilePath": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
+  "projectFilePath": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj",
+      "message": "Unable to find project 'D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj",
       "targetGraphs": [
         "net6.0"
       ]

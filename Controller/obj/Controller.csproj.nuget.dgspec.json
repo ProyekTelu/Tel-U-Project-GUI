@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\Controller.csproj": {}
+    "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI\\Controller\\Controller.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\Controller.csproj": {
+    "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI\\Controller\\Controller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
+        "projectUniqueName": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
         "projectName": "Controller",
-        "projectPath": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
-        "packagesPath": "C:\\Users\\Raihan Sulthon Y\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\obj\\",
+        "projectPath": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
+        "packagesPath": "C:\\Users\\mzaky\\.nuget\\packages\\",
+        "outputPath": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI\\Controller\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Raihan Sulthon Y\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mzaky\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj"
+              "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj": {
+                "projectPath": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj"
               }
             }
           }
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

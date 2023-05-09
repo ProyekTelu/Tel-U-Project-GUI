@@ -108,3 +108,20 @@ C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\Tel
 C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.CoreCompileInputs.cache
 C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.exe
 C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.pdb
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.AssemblyReference.cache
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.SuggestedBindingRedirects.cache
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.DosenMenu.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.EditProfil.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.ListProdi.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.ListSkill.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.Login.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.Profil.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.ProjectDetails.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.SelectTeam.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.Sign_Up.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.UC_ProjectInfo.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.UC_Teams.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.GenerateResource.cache
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.exe
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.pdb

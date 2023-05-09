@@ -6,23 +6,23 @@
   "libraries": {},
   "projectFileDependencyGroups": {
     "net6.0": [
-      "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj"
+      "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Raihan Sulthon Y\\.nuget\\packages\\": {}
+    "C:\\Users\\mzaky\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
+      "projectUniqueName": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
       "projectName": "Controller",
-      "projectPath": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
-      "packagesPath": "C:\\Users\\Raihan Sulthon Y\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\obj\\",
+      "projectPath": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
+      "packagesPath": "C:\\Users\\mzaky\\.nuget\\packages\\",
+      "outputPath": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI\\Controller\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Raihan Sulthon Y\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mzaky\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -36,8 +36,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj"
+            "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj": {
+              "projectPath": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj"
             }
           }
         }
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -75,8 +75,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj",
+      "message": "Unable to find project 'D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Zaky\\Kuliah\\Semester 4\\Kontruksi Perangkat Lunak\\Kelompok\\GUI\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj",
       "targetGraphs": [
         "net6.0"
       ]
