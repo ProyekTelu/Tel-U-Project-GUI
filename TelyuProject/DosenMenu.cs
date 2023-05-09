@@ -22,8 +22,6 @@ namespace TelyuProject
             }
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             label2.Anchor = AnchorStyles.Top | AnchorStyles.Left;
-
-
         }
 
         private void DosenMenu_Load(object sender, EventArgs e)
@@ -61,9 +59,6 @@ namespace TelyuProject
                      this.Controls.Add(createProjectButton);*/
 
             CreateProject.Show();
-
-
-
         }
 
         private void Requested_Click(object sender, EventArgs e)
@@ -119,9 +114,6 @@ namespace TelyuProject
             projectDetails.Show();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
 
-        }
     }
 }

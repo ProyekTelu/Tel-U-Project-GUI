@@ -48,7 +48,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(54, 28);
+            this.label1.Location = new System.Drawing.Point(104, 73);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(99, 20);
@@ -60,7 +60,7 @@
             // 
             this.TitleForm.AutoSize = true;
             this.TitleForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TitleForm.Location = new System.Drawing.Point(629, 37);
+            this.TitleForm.Location = new System.Drawing.Point(629, 73);
             this.TitleForm.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TitleForm.Name = "TitleForm";
             this.TitleForm.Size = new System.Drawing.Size(82, 31);
@@ -75,9 +75,8 @@
             this.label2.Location = new System.Drawing.Point(620, 110);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 24);
+            this.label2.Size = new System.Drawing.Size(0, 24);
             this.label2.TabIndex = 15;
-            this.label2.Text = "Basic Info";
             // 
             // textBox1
             // 

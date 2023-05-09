@@ -89,6 +89,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Profil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profil.Designer.cs">
+      <DependentUpon>Profil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="ProjectDetails.cs">
       <SubType>Form</SubType>
@@ -139,19 +145,16 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Profil.resx">
+      <DependentUpon>Profil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProjectDetails.resx">
       <DependentUpon>ProjectDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="SelectTeam.resx">
       <DependentUpon>SelectTeam.cs</DependentUpon>
     </EmbeddedResource>

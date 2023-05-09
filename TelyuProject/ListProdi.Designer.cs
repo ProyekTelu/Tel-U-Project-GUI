@@ -31,7 +31,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -50,6 +49,7 @@
             // checkedListBox1
             // 
             this.checkedListBox1.CheckOnClick = true;
+            this.checkedListBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
             "S1 Rekayasa Perangkat Lunak",
@@ -60,12 +60,21 @@
             "S1 Leisure Management",
             "D3 Digital Marketing",
             "S1 Kriya",
-            "D3 Digital Marketing"});
-            this.checkedListBox1.Location = new System.Drawing.Point(248, 129);
+            "D3 Digital Marketing",
+            "S1 Teknik Elektro",
+            "S1 Teknik Elektro (International Class)",
+            "S1 Teknik Telekomunikasi",
+            "S1 Smart Science and Technology",
+            "S1 Teknik Biomedis",
+            "S1 Ilmu Komunikasi",
+            "S1 Administrasi Bisnis",
+            "S1 Creative Arts",
+            "S1 Teknik Industri"});
+            this.checkedListBox1.Location = new System.Drawing.Point(446, 113);
             this.checkedListBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(241, 139);
-            this.checkedListBox1.TabIndex = 1;
+            this.checkedListBox1.Size = new System.Drawing.Size(403, 454);
+            this.checkedListBox1.TabIndex = 2;
             this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // button1
@@ -77,39 +86,19 @@
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(762, 380);
+            this.button1.Location = new System.Drawing.Point(889, 307);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 51);
+            this.button1.Size = new System.Drawing.Size(102, 54);
             this.button1.TabIndex = 2;
             this.button1.Text = "Proceed";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // checkedListBox2
-            // 
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Items.AddRange(new object[] {
-            "S1 Teknik Elektro",
-            "S1 Teknik Elektro (International Class)",
-            "S1 Teknik Telekomunikasi",
-            "S1 Smart Science and Technology",
-            "S1 Teknik Biomedis",
-            "S1 Ilmu Komunikasi",
-            "S1 Administrasi Bisnis",
-            "S1 Creative Arts",
-            "S1 Teknik Industri"});
-            this.checkedListBox2.Location = new System.Drawing.Point(544, 129);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(231, 139);
-            this.checkedListBox2.TabIndex = 3;
-            this.checkedListBox2.SelectedIndexChanged += new System.EventHandler(this.checkedListBox2_SelectedIndexChanged);
-            // 
             // ListProdi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1008, 537);
-            this.Controls.Add(this.checkedListBox2);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.label1);
@@ -129,6 +118,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckedListBox checkedListBox2;
     }
 }

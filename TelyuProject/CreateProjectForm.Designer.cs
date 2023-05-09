@@ -42,9 +42,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.listBox3 = new System.Windows.Forms.ListBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.listBox4 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // Nama
@@ -52,7 +54,7 @@
             this.Nama.AutoSize = true;
             this.Nama.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nama.ForeColor = System.Drawing.Color.DarkGray;
-            this.Nama.Location = new System.Drawing.Point(287, 111);
+            this.Nama.Location = new System.Drawing.Point(284, 136);
             this.Nama.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Nama.Name = "Nama";
             this.Nama.Size = new System.Drawing.Size(55, 20);
@@ -65,7 +67,7 @@
             this.Deskripsi.AutoSize = true;
             this.Deskripsi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Deskripsi.ForeColor = System.Drawing.Color.DarkGray;
-            this.Deskripsi.Location = new System.Drawing.Point(287, 155);
+            this.Deskripsi.Location = new System.Drawing.Point(284, 180);
             this.Deskripsi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Deskripsi.Name = "Deskripsi";
             this.Deskripsi.Size = new System.Drawing.Size(83, 20);
@@ -78,7 +80,7 @@
             this.ProgramStudi.AutoSize = true;
             this.ProgramStudi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProgramStudi.ForeColor = System.Drawing.Color.DarkGray;
-            this.ProgramStudi.Location = new System.Drawing.Point(287, 233);
+            this.ProgramStudi.Location = new System.Drawing.Point(284, 258);
             this.ProgramStudi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ProgramStudi.Name = "ProgramStudi";
             this.ProgramStudi.Size = new System.Drawing.Size(123, 20);
@@ -91,7 +93,7 @@
             this.Skill.AutoSize = true;
             this.Skill.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Skill.ForeColor = System.Drawing.Color.DarkGray;
-            this.Skill.Location = new System.Drawing.Point(287, 279);
+            this.Skill.Location = new System.Drawing.Point(284, 304);
             this.Skill.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Skill.Name = "Skill";
             this.Skill.Size = new System.Drawing.Size(42, 20);
@@ -104,7 +106,7 @@
             this.KontrakProyek.AutoSize = true;
             this.KontrakProyek.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.KontrakProyek.ForeColor = System.Drawing.Color.DarkGray;
-            this.KontrakProyek.Location = new System.Drawing.Point(287, 322);
+            this.KontrakProyek.Location = new System.Drawing.Point(284, 347);
             this.KontrakProyek.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.KontrakProyek.Name = "KontrakProyek";
             this.KontrakProyek.Size = new System.Drawing.Size(130, 20);
@@ -117,7 +119,7 @@
             this.Tim.AutoSize = true;
             this.Tim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Tim.ForeColor = System.Drawing.Color.DarkGray;
-            this.Tim.Location = new System.Drawing.Point(287, 363);
+            this.Tim.Location = new System.Drawing.Point(284, 390);
             this.Tim.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Tim.Name = "Tim";
             this.Tim.Size = new System.Drawing.Size(37, 20);
@@ -129,7 +131,7 @@
             this.BerlakuHingga.AutoSize = true;
             this.BerlakuHingga.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.BerlakuHingga.ForeColor = System.Drawing.Color.DarkGray;
-            this.BerlakuHingga.Location = new System.Drawing.Point(285, 406);
+            this.BerlakuHingga.Location = new System.Drawing.Point(282, 433);
             this.BerlakuHingga.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.BerlakuHingga.Name = "BerlakuHingga";
             this.BerlakuHingga.Size = new System.Drawing.Size(132, 20);
@@ -141,11 +143,11 @@
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(489, 111);
+            this.textBox1.Location = new System.Drawing.Point(486, 136);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(399, 27);
+            this.textBox1.Size = new System.Drawing.Size(440, 27);
             this.textBox1.TabIndex = 8;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -153,11 +155,11 @@
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox2.Location = new System.Drawing.Point(489, 155);
+            this.textBox2.Location = new System.Drawing.Point(486, 180);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(399, 64);
+            this.textBox2.Size = new System.Drawing.Size(440, 64);
             this.textBox2.TabIndex = 9;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -178,7 +180,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(653, 480);
+            this.button1.Location = new System.Drawing.Point(652, 489);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 44);
@@ -206,48 +208,53 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.HorizontalScrollbar = true;
-            this.listBox1.Location = new System.Drawing.Point(489, 236);
+            this.listBox1.Location = new System.Drawing.Point(486, 261);
             this.listBox1.Margin = new System.Windows.Forms.Padding(2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(399, 17);
+            this.listBox1.Size = new System.Drawing.Size(440, 17);
             this.listBox1.TabIndex = 13;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(489, 282);
+            this.listBox2.Location = new System.Drawing.Point(486, 307);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(399, 17);
+            this.listBox2.Size = new System.Drawing.Size(440, 17);
             this.listBox2.TabIndex = 14;
             this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
-            // 
-            // textBox3
-            // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Location = new System.Drawing.Point(489, 321);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(399, 20);
-            this.textBox3.TabIndex = 15;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            // 
-            // textBox4
-            // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Location = new System.Drawing.Point(489, 405);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(399, 20);
-            this.textBox4.TabIndex = 16;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // listBox3
             // 
             this.listBox3.FormattingEnabled = true;
-            this.listBox3.Location = new System.Drawing.Point(489, 364);
+            this.listBox3.Location = new System.Drawing.Point(486, 391);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(399, 17);
+            this.listBox3.Size = new System.Drawing.Size(440, 17);
             this.listBox3.TabIndex = 17;
             this.listBox3.SelectedIndexChanged += new System.EventHandler(this.listBox3_SelectedIndexChanged);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(486, 432);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(138, 20);
+            this.dateTimePicker1.TabIndex = 18;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(486, 347);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.TabIndex = 21;
+            // 
+            // listBox4
+            // 
+            this.listBox4.FormattingEnabled = true;
+            this.listBox4.Location = new System.Drawing.Point(486, 347);
+            this.listBox4.Name = "listBox4";
+            this.listBox4.Size = new System.Drawing.Size(440, 17);
+            this.listBox4.TabIndex = 22;
             // 
             // CreateProjectForm
             // 
@@ -256,9 +263,10 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.listBox4);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.listBox3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
@@ -300,8 +308,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.ListBox listBox3;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ListBox listBox4;
     }
 }

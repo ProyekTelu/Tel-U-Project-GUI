@@ -34,6 +34,7 @@
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -105,7 +106,7 @@
             "Java"});
             this.checkedListBox2.Location = new System.Drawing.Point(659, 161);
             this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(247, 184);
+            this.checkedListBox2.Size = new System.Drawing.Size(247, 180);
             this.checkedListBox2.TabIndex = 4;
             this.checkedListBox2.SelectedIndexChanged += new System.EventHandler(this.checkedListBox2_SelectedIndexChanged);
             // 
@@ -121,11 +122,23 @@
             this.button1.Text = "Proceed";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(67, 46);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(99, 20);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "<-- Kembali";
+            // 
             // ListSkill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkedListBox2);
             this.Controls.Add(this.checkedListBox1);
@@ -134,7 +147,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ListSkill";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ListSkill";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.ListSkill_Load);
             this.StyleChanged += new System.EventHandler(this.ListSkill_StyleChanged);
             this.ResumeLayout(false);
@@ -150,5 +163,6 @@
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.CheckedListBox checkedListBox2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
     }
 }

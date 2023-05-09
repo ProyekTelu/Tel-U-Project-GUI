@@ -1,45 +1,28 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "Model/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Model.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Model.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "Model/1.0.0": {
-      "type": "project",
-      "path": "../../Tel-U-Project-GUI-TempatNgulikRay/Model/Model.csproj",
-      "msbuildProject": "../../Tel-U-Project-GUI-TempatNgulikRay/Model/Model.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Model >= 1.0.0"
+      "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rezad\\.nuget\\packages\\": {}
+    "C:\\Users\\Raihan Sulthon Y\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\#ME\\KULIAH\\TUGAS\\S4\\KPL\\TUGAS\\TUBES\\SecondCloned\\Controller\\Controller.csproj",
+      "projectUniqueName": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
       "projectName": "Controller",
-      "projectPath": "E:\\#ME\\KULIAH\\TUGAS\\S4\\KPL\\TUGAS\\TUBES\\SecondCloned\\Controller\\Controller.csproj",
-      "packagesPath": "C:\\Users\\rezad\\.nuget\\packages\\",
-      "outputPath": "E:\\#ME\\KULIAH\\TUGAS\\S4\\KPL\\TUGAS\\TUBES\\SecondCloned\\Controller\\obj\\",
+      "projectPath": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
+      "packagesPath": "C:\\Users\\Raihan Sulthon Y\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rezad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Raihan Sulthon Y\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +36,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\#ME\\KULIAH\\TUGAS\\S4\\KPL\\TUGAS\\TUBES\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj": {
-              "projectPath": "E:\\#ME\\KULIAH\\TUGAS\\S4\\KPL\\TUGAS\\TUBES\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj"
+            "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj"
             }
           }
         }
@@ -84,8 +67,19 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

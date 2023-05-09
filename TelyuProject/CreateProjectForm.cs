@@ -116,8 +116,6 @@ namespace TelyuProject
             {
                 control.Anchor = AnchorStyles.None;
             }
-
-
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -141,6 +139,16 @@ namespace TelyuProject
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

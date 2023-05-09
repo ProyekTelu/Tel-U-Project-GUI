@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "2e0Jegjgcnt4hjtJ+qCy3ZQTTrlBmtMxag4qQaL3K6yWw5tOh4eigOUiiXv0WWB2D1ZcqLl/n2g6fLHhKqESUw==",
-  "success": true,
-  "projectFilePath": "E:\\#ME\\KULIAH\\TUGAS\\S4\\KPL\\TUGAS\\TUBES\\SecondCloned\\Controller\\Controller.csproj",
+  "dgSpecHash": "esgha3z8MU7pOMtKsSu895wTBvRDZExjCgjWdd7d9CKIivSQIIm2znmFLkmuWApm+m+iIvRfrLXCfjUFH1DvOQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI\\Controller\\Controller.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Raihan Sulthon Y\\Downloads\\Tel-U-Project-GUI-TempatNgulikRay\\Model\\Model.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

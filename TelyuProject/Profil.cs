@@ -10,24 +10,28 @@ using System.Windows.Forms;
 
 namespace TelyuProject
 {
-    public partial class EditProfil : Form
+    public partial class Profil : Form
     {
-        public EditProfil()
+        public Profil()
         {
             InitializeComponent();
             foreach (Control control in Controls)
             {
                 control.Anchor = AnchorStyles.None;
             }
-
         }
 
-        private void Nama_Click(object sender, EventArgs e)
+        private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -42,38 +46,26 @@ namespace TelyuProject
 
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void SaveButton_Click(object sender, EventArgs e)
-        {
-            DosenMenu menu = new DosenMenu();
-            this.Close();
-        }
-
-        private void TitleForm_Click(object sender, EventArgs e)
+        private void Profil_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void EditProfil_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void EditProfil_StyleChanged(object sender, EventArgs e)
+        private void Profil_StyleChanged(object sender, EventArgs e)
         {
             foreach (Control control in Controls)
             {
                 control.Anchor = AnchorStyles.None;
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
 
         }
     }

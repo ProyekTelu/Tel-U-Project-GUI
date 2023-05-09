@@ -86,3 +86,25 @@ E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\Telyu
 E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.csproj.CoreCompileInputs.cache
 E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.exe
 E:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\SecondCloned\TelyuProject\obj\Debug\TelyuProject.pdb
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\bin\Debug\TelyuProject.exe.config
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\bin\Debug\TelyuProject.exe
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\bin\Debug\TelyuProject.pdb
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.AssemblyReference.cache
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.DosenMenu.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.EditProfil.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.ListProdi.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.ListSkill.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.Login.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.Profil.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.ProjectDetails.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.Properties.Resources.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.SelectTeam.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.Sign_Up.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.UC_ProjectInfo.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.UC_Teams.resources
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.GenerateResource.cache
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.csproj.CoreCompileInputs.cache
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.exe
+C:\Users\Raihan Sulthon Y\Downloads\Tel-U-Project-GUI\TelyuProject\obj\Debug\TelyuProject.pdb

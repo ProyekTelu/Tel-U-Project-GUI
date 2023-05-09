@@ -92,5 +92,10 @@ namespace TelyuProject
 
             button.Region = new System.Drawing.Region(path);
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
