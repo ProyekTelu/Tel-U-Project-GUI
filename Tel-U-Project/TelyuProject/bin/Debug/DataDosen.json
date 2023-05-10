@@ -1,0 +1,35 @@
+[
+  {
+    "NIP": "1231323",
+    "email": "zaky@telkomuniversity.ac.id",
+    "first_name": "zaky",
+    "last_name": "zaky",
+    "kode_dosen": "AHY",
+    "gender": "Laki-Laki",
+    "prodi": "S1 Teknik Elektro (International Class)",
+    "fakultas": "Fakultas Rekayasa Industri. ",
+    "phone": "08372313131"
+  },
+  {
+    "NIP": "69420",
+    "email": "ripochan@telkomuniversity.ac.id",
+    "first_name": "ripo",
+    "last_name": "senpai",
+    "kode_dosen": "RSP",
+    "gender": "Laki-Laki",
+    "prodi": "S1 Teknik Elektro",
+    "fakultas": "Fakultas Informatika.",
+    "phone": "08269420"
+  },
+  {
+    "NIP": "1201",
+    "email": "dosen@telkomuniversity.ac.id",
+    "first_name": "dosen",
+    "last_name": "reza",
+    "kode_dosen": "ACR",
+    "gender": "Perempuan",
+    "prodi": "S1 Teknik Industri",
+    "fakultas": "Fakultas Informatika.",
+    "phone": "08901"
+  }
+]
