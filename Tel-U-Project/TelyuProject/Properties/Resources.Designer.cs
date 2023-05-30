@@ -73,6 +73,16 @@ namespace TelyuProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap listWhite {
+            get {
+                object obj = ResourceManager.GetObject("listWhite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap myProjectDed {
             get {
                 object obj = ResourceManager.GetObject("myProjectDed", resourceCulture);
@@ -83,9 +93,29 @@ namespace TelyuProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap myProjectWhite {
+            get {
+                object obj = ResourceManager.GetObject("myProjectWhite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap requestDed {
             get {
                 object obj = ResourceManager.GetObject("requestDed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap requestWhite {
+            get {
+                object obj = ResourceManager.GetObject("requestWhite", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
