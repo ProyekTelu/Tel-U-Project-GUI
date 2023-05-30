@@ -29,7 +29,6 @@ namespace TelyuProject
                 control.Anchor = AnchorStyles.Top;
             }
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Left;
-            label2.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             UC_ListProject ucproject = new UC_ListProject();
             panel1.Show();
             ucproject.Dock = DockStyle.Fill;
@@ -160,6 +159,11 @@ namespace TelyuProject
 
             this.Hide();
             login.Show();
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
