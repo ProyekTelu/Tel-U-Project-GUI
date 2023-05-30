@@ -97,14 +97,20 @@ namespace TelyuProject
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Login());
 
-            using (FileStream fs = new FileStream("filename.txt", FileMode.Open))
+            try{
+                using (FileStream fs = new FileStream("filename.txt", FileMode.Open))
+                {
+                    StreamReader sr = new StreamReader(fs);
+
+
+                    sr.Close();
+                    fs.Close();
+                }
+            } catch (Exception ex)
             {
-                StreamReader sr = new StreamReader(fs);
-
-
-                sr.Close();
-                fs.Close();
+                Console.WriteLine(ex.Message);
             }
+
         }
     }
 }
