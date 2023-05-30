@@ -10,17 +10,24 @@ using System.Windows.Forms;
 using System.IO;
 using System.Text.RegularExpressions;
 using TelyuProject.Model;
+using Newtonsoft.Json;
 
 namespace TelyuProject
 {
     public partial class RequestProject : Form
     {
         public string dosen;
-        public RequestProject(String username, String dosen)
+        public string destinationFilePath;
+        Requested request = new Requested();
+        public RequestProject(String dosen)
         {
             InitializeComponent();
-            EmailTextBox.Text = UserSession.currentMhsUser.email;
             this.dosen = dosen;
+
+            labelStudentName.Text = UserSession.currentMhsUser.first_name+" "+UserSession.currentMhsUser.last_name;
+            labelLecturerName.Text = dosen;
+            EmailTextBox.Text = UserSession.currentMhsUser.email;
+            textBoxPhoneNumber.Text = UserSession.currentMhsUser.phone;
             txtFilePath.ReadOnly = true;
             foreach (Control control in Controls)
             {
@@ -91,9 +98,13 @@ namespace TelyuProject
 
                 string fileName = Path.GetFileName(filePath);
                 txtFilePath.Text = fileName;
-
-
-
+                string targetDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "UploadedFiles");
+                destinationFilePath = Path.Combine(targetDirectory, fileName);
+                if (!Directory.Exists(targetDirectory))
+                {
+                    Directory.CreateDirectory(targetDirectory);
+                }
+                File.Copy(filePath, destinationFilePath, true);
             }
         }
 
@@ -119,7 +130,21 @@ namespace TelyuProject
 
         private void button2_Click(object sender, EventArgs e)
         {
+            request.student_name = UserSession.currentMhsUser.first_name + " " + UserSession.currentMhsUser.last_name;
+            request.lecturer_name = dosen;
+            request.email = UserSession.currentMhsUser.email;
+            request.phone = UserSession.currentMhsUser.phone;
+            request.notes = textBoxNotes.Text;
+            request.cv_directory = destinationFilePath;
+            request.ListMahasiswa = new List<Mahasiswa>();
+            request.ListMahasiswa.Add(UserSession.currentMhsUser);
+                
+            Data.requestList.Add(request);
 
+            string json_data_requested = JsonConvert.SerializeObject(Data.requestList, Formatting.Indented);
+            File.WriteAllText("DataRequested.json", json_data_requested);
+
+            MessageBox.Show("Request Sent!");
             this.Close();
         }
 
@@ -142,7 +167,7 @@ namespace TelyuProject
             }
             else if (char.IsDigit(e.KeyChar))
             {
-                if (textBox1.Text.Length >= 12)
+                if (textBoxPhoneNumber.Text.Length >= 12)
                 {
                     e.Handled = true;
                 }

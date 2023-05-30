@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TelyuProject.Model;
 
 namespace TelyuProject
 {
@@ -100,6 +101,12 @@ namespace TelyuProject
             panelContainer.Controls.Clear();
             panelContainer.Controls.Add( userControl );
             userControl.BringToFront();
+        }
+
+        private void JoinProject_Click(object sender, EventArgs e)
+        {
+            RequestProject requestProject = new RequestProject(lecturer);
+            requestProject.Show();
         }
     }
 }

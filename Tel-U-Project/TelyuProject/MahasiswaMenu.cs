@@ -17,7 +17,6 @@ namespace TelyuProject
         public MahasiswaMenu()
         {
             InitializeComponent();
-            JoinProject.Show();
 
             label3.Text =   UserSession.currentMhsUser.first_name;
             foreach (Control control in Controls)
@@ -68,7 +67,7 @@ namespace TelyuProject
 
         private void JoinProject_Click(object sender, EventArgs e)
         {
-            RequestProject rp = new RequestProject(label3.Text, "mahendra");
+            RequestProject rp = new RequestProject("mahendra");
             rp.Show();
             this.Hide();
         }
@@ -84,18 +83,6 @@ namespace TelyuProject
 
             this.Hide();
             login.Show();
-        }
-
-        private void dListProject_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            RequestProject rp = new RequestProject(label3.Text, "mahendra");
-            rp.Show();
-            this.Hide();
         }
 
         private void panelListProject_Paint_1(object sender, PaintEventArgs e)
@@ -115,7 +102,6 @@ namespace TelyuProject
 
         private void labelMyProject_Click(object sender, EventArgs e)
         {
-            JoinProject.Hide();
             panelContent.Controls.Clear();
             UC_MyProject uC_MyProject = new UC_MyProject();
             panelContent.Controls.Add(uC_MyProject);
@@ -131,7 +117,6 @@ namespace TelyuProject
 
         private void labelListProject_Click(object sender, EventArgs e)
         {
-            JoinProject.Show();
             UC_ListProject ucproject = new UC_ListProject();
             panelContent.Show();
             ucproject.Dock = DockStyle.Fill;

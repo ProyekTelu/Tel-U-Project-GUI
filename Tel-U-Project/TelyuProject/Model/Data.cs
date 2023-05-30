@@ -12,5 +12,6 @@ namespace TelyuProject
         public static Akun<Mahasiswa> mahasiswaList = new Akun<Mahasiswa>();
         public static Akun<Dosen> dosenList = new Akun<Dosen>();
         public static List<Project> projectList = new List<Project>();
+        public static List<Requested> requestList = new List<Requested>();
     }
 }
