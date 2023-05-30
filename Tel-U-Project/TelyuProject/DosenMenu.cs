@@ -13,9 +13,6 @@ namespace TelyuProject
         {
             InitializeComponent();
             CreateProject.Show();
-            DListProject.ForeColor = Color.DarkCyan;
-            DRequested.ForeColor = Color.Black;
-            DAccepted.ForeColor = Color.Black;
             
             label3.Text = Username;
             username = Username;
@@ -55,9 +52,7 @@ namespace TelyuProject
 
         private void ListProject_Click(object sender, EventArgs e)
         {
-            DListProject.ForeColor = Color.DarkCyan;
-            DRequested.ForeColor = Color.Black;
-            DAccepted.ForeColor = Color.Black;
+            DListProject.ForeColor = Color.White;
 
             /*Button createProjectButton = new Button();
 
@@ -83,9 +78,7 @@ namespace TelyuProject
 
         private void Requested_Click(object sender, EventArgs e)
         {
-            DRequested.ForeColor = Color.DarkCyan;
-            DListProject.ForeColor = Color.Black;
-            DAccepted.ForeColor = Color.Black;
+            DRequested.ForeColor = Color.White;
             CreateProject.Hide();
             panel1.Controls.Clear();
             UC_Requested ucreq = new UC_Requested();
@@ -95,9 +88,7 @@ namespace TelyuProject
 
         private void Accepted_Click(object sender, EventArgs e)
         {
-            DAccepted.ForeColor = Color.DarkCyan;
-            DRequested.ForeColor = Color.Black;
-            DListProject.ForeColor = Color.Black;
+            DAccepted.ForeColor = Color.White;
             CreateProject.Hide();
             panel1.Controls.Clear();
             UC_MyProject uC_MyProject = new UC_MyProject();

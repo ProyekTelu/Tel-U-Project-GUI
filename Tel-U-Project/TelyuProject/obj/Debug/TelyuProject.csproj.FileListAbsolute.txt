@@ -120,3 +120,35 @@ D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-G
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\Newtonsoft.Json.dll
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\Newtonsoft.Json.xml
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.csproj.CopyComplete
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\TelyuProject.exe.config
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\TelyuProject.exe
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\TelyuProject.pdb
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\Newtonsoft.Json.dll
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\Newtonsoft.Json.xml
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.csproj.AssemblyReference.cache
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.csproj.SuggestedBindingRedirects.cache
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.DosenMenu.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.EditProfil.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.ListProdi.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.ListSkill.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.Login.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.MahasiswaMenu.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.Profil.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.ProjectDetails.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.Properties.Resources.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.RequestProject.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.SelectTeam.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.Sign_Up.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.SignUpDosen.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.SignUpMahasiswa.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UC_ListProject.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UC_MyProject.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UC_ProjectInfo.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UC_Requested.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UC_Teams.resources
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.csproj.GenerateResource.cache
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.csproj.CoreCompileInputs.cache
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.csproj.CopyComplete
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.exe
+D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.pdb
