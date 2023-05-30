@@ -116,16 +116,10 @@ namespace TelyuProject
 
         private void Project1_Click(object sender, EventArgs e)
         {
-            string projectName = Project1.Text;
-            ProjectDetails projectDetails = new ProjectDetails(projectName);
-            projectDetails.Show();
         }
 
         private void Project2_Click(object sender, EventArgs e)
         {
-            string projectName = Project2.Text;
-            ProjectDetails projectDetails = new ProjectDetails(projectName);
-            projectDetails.Show();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

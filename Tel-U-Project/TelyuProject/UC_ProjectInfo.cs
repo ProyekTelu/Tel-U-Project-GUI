@@ -12,9 +12,15 @@ namespace TelyuProject
 {
     public partial class UC_ProjectInfo : UserControl
     {
-        public UC_ProjectInfo()
+        public UC_ProjectInfo(String projectName, String lecturer, String description, String major, String dates, String quota)
         {
+
             InitializeComponent();
+            TProjectNama.Text = projectName;
+            TDosen.Text = lecturer;
+            TDeskripsi.Text = description;
+            TMajor.Text = major;
+            TContract.Text = dates;
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -23,6 +29,11 @@ namespace TelyuProject
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UC_ProjectInfo_Load(object sender, EventArgs e)
         {
 
         }

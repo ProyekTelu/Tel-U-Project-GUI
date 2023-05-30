@@ -34,13 +34,18 @@
             this.label2 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panelContainer = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(529, 66);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(412, 83);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(193, 31);
@@ -52,7 +57,7 @@
             // 
             this.LTeams.AutoSize = true;
             this.LTeams.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LTeams.Location = new System.Drawing.Point(643, 128);
+            this.LTeams.Location = new System.Drawing.Point(66, 322);
             this.LTeams.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LTeams.Name = "LTeams";
             this.LTeams.Size = new System.Drawing.Size(68, 24);
@@ -64,7 +69,7 @@
             // 
             this.LInfo.AutoSize = true;
             this.LInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LInfo.Location = new System.Drawing.Point(521, 128);
+            this.LInfo.Location = new System.Drawing.Point(66, 274);
             this.LInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LInfo.Name = "LInfo";
             this.LInfo.Size = new System.Drawing.Size(40, 24);
@@ -76,7 +81,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(59, 19);
+            this.label2.Location = new System.Drawing.Point(30, 24);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 20);
@@ -86,12 +91,34 @@
             // 
             // panelContainer
             // 
-            this.panelContainer.Location = new System.Drawing.Point(272, 174);
-            this.panelContainer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelContainer.Location = new System.Drawing.Point(140, 171);
+            this.panelContainer.Margin = new System.Windows.Forms.Padding(2);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(684, 372);
+            this.panelContainer.Size = new System.Drawing.Size(737, 372);
             this.panelContainer.TabIndex = 16;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(88)))), ((int)(((byte)(135)))));
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.LTeams);
+            this.panel1.Controls.Add(this.LInfo);
+            this.panel1.ForeColor = System.Drawing.Color.White;
+            this.panel1.Location = new System.Drawing.Point(1, -2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(250, 688);
+            this.panel1.TabIndex = 17;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(62)))));
+            this.panel2.Controls.Add(this.panelContainer);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Location = new System.Drawing.Point(250, -2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1016, 688);
+            this.panel2.TabIndex = 18;
             // 
             // ProjectDetails
             // 
@@ -99,20 +126,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.LInfo);
-            this.Controls.Add(this.LTeams);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.panelContainer);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ProjectDetails";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProjectDetails";
             this.Load += new System.EventHandler(this.ProjectDetails_Load);
             this.Shown += new System.EventHandler(this.ProjectDetails_Shown);
             this.StyleChanged += new System.EventHandler(this.ProjectDetails_StyleChanged);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -124,5 +151,7 @@
         private System.Windows.Forms.Label label2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Panel panelContainer;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }

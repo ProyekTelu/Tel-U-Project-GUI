@@ -49,7 +49,7 @@
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(3, 0);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(768, 405);
+            this.listView1.Size = new System.Drawing.Size(846, 439);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -91,7 +91,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.listView1);
             this.Name = "UC_ListProject";
-            this.Size = new System.Drawing.Size(774, 408);
+            this.Size = new System.Drawing.Size(852, 442);
             this.Load += new System.EventHandler(this.UC_ListProject_Load);
             this.ResumeLayout(false);
 

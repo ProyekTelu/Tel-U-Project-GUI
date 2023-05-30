@@ -12,9 +12,23 @@ namespace TelyuProject
 {
     public partial class ProjectDetails : Form
     {
-        public ProjectDetails(String projectName)
+
+        String projectName;
+        String lecturer;
+         String description;
+         String major;
+         String dates;
+         String quota;
+
+        public ProjectDetails(String projectName, String lecturer,  String description, String major, String dates,String quota)
         {
             InitializeComponent();
+            this.projectName = projectName;
+            this.lecturer = lecturer;
+            this.description = description;
+            this.major = major;
+            this.dates = dates;
+            this.quota = quota;
             panelContainer.Hide();
             LInfo_Click(this, new EventArgs());
             label1.Text = projectName;
@@ -22,6 +36,8 @@ namespace TelyuProject
             {
                 control.Anchor = AnchorStyles.None;
             }
+            UC_ProjectInfo uc = new UC_ProjectInfo(projectName, lecturer, description, major, dates, quota);
+            addUserControl(uc);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -58,7 +74,7 @@ namespace TelyuProject
             LInfo.ForeColor = Color.DarkCyan;
             LTeams.ForeColor = Color.Black;
             panelContainer.Show();
-            UC_ProjectInfo uc = new UC_ProjectInfo();
+            UC_ProjectInfo uc = new UC_ProjectInfo(projectName,lecturer,description, major,dates,quota);
             addUserControl(uc);
         }
 

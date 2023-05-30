@@ -182,6 +182,12 @@
     <Compile Include="UC_ListProject.Designer.cs">
       <DependentUpon>UC_ListProject.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControlListProject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlListProject.Designer.cs">
+      <DependentUpon>UserControlListProject.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DosenMenu.resx">
       <DependentUpon>DosenMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -243,6 +249,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UC_Teams.resx">
       <DependentUpon>UC_Teams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlListProject.resx">
+      <DependentUpon>UserControlListProject.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="akun.json" />
     <None Include="packages.config" />
