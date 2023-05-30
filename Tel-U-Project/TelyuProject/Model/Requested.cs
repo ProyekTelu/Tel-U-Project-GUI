@@ -14,6 +14,7 @@ namespace TelyuProject
         public String phone { get; set; }
         public String notes { get; set; }
         public String cv_directory { get; set; }
-        public List<Mahasiswa> ListMahasiswa { get; set; }
+        public String projectName { get; set; }
+        public Mahasiswa Mahasiswa { get; set; }
     }
 }

@@ -18,12 +18,13 @@ namespace TelyuProject
     {
         public string dosen;
         public string destinationFilePath;
+        String projectName;
         Requested request = new Requested();
-        public RequestProject(String dosen)
+        public RequestProject(String dosen, String projectName)
         {
             InitializeComponent();
             this.dosen = dosen;
-
+            this.projectName = projectName;
             labelStudentName.Text = UserSession.currentMhsUser.first_name+" "+UserSession.currentMhsUser.last_name;
             labelLecturerName.Text = dosen;
             EmailTextBox.Text = UserSession.currentMhsUser.email;
@@ -136,9 +137,8 @@ namespace TelyuProject
             request.phone = UserSession.currentMhsUser.phone;
             request.notes = textBoxNotes.Text;
             request.cv_directory = destinationFilePath;
-            request.ListMahasiswa = new List<Mahasiswa>();
-            request.ListMahasiswa.Add(UserSession.currentMhsUser);
-                
+            request.Mahasiswa = (UserSession.currentMhsUser);
+            request.projectName = projectName;
             Data.requestList.Add(request);
 
             string json_data_requested = JsonConvert.SerializeObject(Data.requestList, Formatting.Indented);

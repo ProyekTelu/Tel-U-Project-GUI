@@ -67,9 +67,6 @@ namespace TelyuProject
 
         private void JoinProject_Click(object sender, EventArgs e)
         {
-            RequestProject rp = new RequestProject("mahendra");
-            rp.Show();
-            this.Hide();
         }
 
         private void panelContent_Paint(object sender, PaintEventArgs e)

@@ -16,10 +16,5 @@ namespace TelyuProject
         {
             InitializeComponent();
         }
-
-        private void UC_Requested_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

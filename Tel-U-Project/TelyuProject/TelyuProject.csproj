@@ -169,7 +169,7 @@
     <Compile Include="UC_Requested.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC_Requested.designer.cs">
+    <Compile Include="UC_Requested.Designer.cs">
       <DependentUpon>UC_Requested.cs</DependentUpon>
     </Compile>
     <Compile Include="UC_Teams.cs">

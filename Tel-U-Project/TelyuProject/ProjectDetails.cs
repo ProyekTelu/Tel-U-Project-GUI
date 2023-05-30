@@ -105,7 +105,7 @@ namespace TelyuProject
 
         private void JoinProject_Click(object sender, EventArgs e)
         {
-            RequestProject requestProject = new RequestProject(lecturer);
+            RequestProject requestProject = new RequestProject(lecturer,projectName);
             requestProject.Show();
         }
     }
