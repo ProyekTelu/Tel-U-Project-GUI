@@ -1,0 +1,150 @@
+[
+  {
+    "Title": "Sistem Informasi Penjualan",
+    "Lecturer": "Dr. Ahmad",
+    "Description": "Membuat sistem informasi penjualan untuk toko baju online",
+    "Prodi": [
+      "S1 Informatika",
+      "S1 Sistem Informasi",
+      "S1 Teknik Komputer"
+    ],
+    "StartDate": "2022-01-01T00:00:00",
+    "EndDate": "2022-06-30T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 6,
+    "linkGroup": "https://web.whatsapp.com/"
+  },
+  {
+    "Title": "Aplikasi E-commerce",
+    "Lecturer": "Prof. Budi",
+    "Description": "Membuat aplikasi e-commerce untuk toko baju",
+    "Prodi": [
+      "S1 Informatika",
+      "S1 Sistem Informasi",
+      "S1 Teknik Komputer"
+    ],
+    "StartDate": "2022-03-01T00:00:00",
+    "EndDate": "2022-08-31T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 6,
+    "linkGroup": "https://web.whatsapp.com/"
+  },
+  {
+    "Title": "Aplikasi Mobile Restoran",
+    "Lecturer": "Dr. Hadi",
+    "Description": "Membuat aplikasi mobile untuk memesan makanan di restoran",
+    "Prodi": [
+      "S1 Informatika",
+      "S1 Sistem Informasi",
+      "S1 Teknik Komputer"
+    ],
+    "StartDate": "2022-05-01T00:00:00",
+    "EndDate": "2022-10-31T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 3,
+    "linkGroup": "https://web.whatsapp.com/"
+  },
+  {
+    "Title": "Sistem Informasi Perpustakaan",
+    "Lecturer": "Dr. Sarah",
+    "Description": "Membuat sistem informasi perpustakaan untuk universitas",
+    "Prodi": [
+      "S1 Informatika",
+      "S1 Sistem Informasi",
+      "S1 Teknik Komputer"
+    ],
+    "StartDate": "2022-07-01T00:00:00",
+    "EndDate": "2022-12-31T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 8,
+    "linkGroup": "https://web.whatsapp.com/"
+  },
+  {
+    "Title": "Sistem Informasi Akademik",
+    "Lecturer": "Dr. Andi",
+    "Description": "Membuat sistem informasi akademik untuk universitas",
+    "Prodi": [
+      "S1 Informatika",
+      "S1 Sistem Informasi",
+      "S1 Teknik Komputer"
+    ],
+    "StartDate": "2022-09-01T00:00:00",
+    "EndDate": "2022-02-28T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 4,
+    "linkGroup": "https://web.whatsapp.com/"
+  },
+  {
+    "Title": "Membuat Waifu menjadi nyata",
+    "Lecturer": "ripo",
+    "Description": "saya cinta bronya",
+    "Prodi": [
+      "S1 Rekayasa Perangkat Lunak",
+      "S1 Sistem Informasi",
+      "S1 Smart Science and Technology"
+    ],
+    "StartDate": "2022-03-01T00:00:00",
+    "EndDate": "2022-08-31T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 10,
+    "linkGroup": "fjbhsr.com"
+  },
+  {
+    "Title": "telkom pesawat",
+    "Lecturer": "dosen",
+    "Description": "adadadada",
+    "Prodi": [
+      "D3 Digital Marketing",
+      "S1 Akutansi",
+      "S1 Creative Arts",
+      "S1 Data Science",
+      "S1 Ilmu Komunikasi",
+      "S1 Informatika"
+    ],
+    "StartDate": "2022-03-01T00:00:00",
+    "EndDate": "2022-08-31T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 5,
+    "linkGroup": "keaow"
+  },
+  {
+    "Title": "",
+    "Lecturer": "dosen",
+    "Description": "",
+    "Prodi": [],
+    "StartDate": "2022-03-01T00:00:00",
+    "EndDate": "2022-08-31T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 0,
+    "linkGroup": ""
+  },
+  {
+    "Title": "",
+    "Lecturer": "dosen",
+    "Description": "",
+    "Prodi": [],
+    "StartDate": "2022-03-01T00:00:00",
+    "EndDate": "2022-08-31T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 0,
+    "linkGroup": ""
+  }
+]
