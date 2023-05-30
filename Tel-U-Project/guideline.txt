@@ -1,0 +1,20 @@
+Size halaman: 1280x720
+StartPosition: CenterScreen
+Judul halaman, Size 20, BOLD
+Menu, Size 14, reguler
+Konten dalem:
+Headline 1, 12
+Headline 2, 11
+
+Konten selalu ditengah
+1. Masukkin di setiap constructor:
+foreach (Control control in Controls)
+{
+	control.Anchor = AnchorStyles.None;
+}
+
+2. Tambahin kode diatas lagi di:
+Klik form  -> events (logo petir disamping properties) -> StyleChanged (klik dua kali)
+paste kode nya di dalem method itu
+
+
