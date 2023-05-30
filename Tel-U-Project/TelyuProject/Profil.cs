@@ -13,17 +13,6 @@ namespace TelyuProject
 {
     public partial class Profil : Form
     {
-        private String username;
-        public Profil(string Username)
-        {
-            InitializeComponent();
-            foreach (Control control in Controls)
-            {
-                control.Anchor = AnchorStyles.None;
-            }
-
-            this.username = Username;
-        }
 
         public Profil()
         {
@@ -79,14 +68,14 @@ namespace TelyuProject
 
         private void label2_Click(object sender, EventArgs e)
         {
-            DosenMenu dosenMenu = new DosenMenu(username);
+            DosenMenu dosenMenu = new DosenMenu();
             dosenMenu.Show();
             this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            EditProfil editProfil = new EditProfil(username);
+            EditProfil editProfil = new EditProfil();
             this.Hide();
             editProfil.Show();
         }

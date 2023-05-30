@@ -5,7 +5,7 @@ using System.IO;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-
+using TelyuProject.Model;
 
 namespace TelyuProject
 {
@@ -13,12 +13,10 @@ namespace TelyuProject
     {
 
         List<String> prodi;
-        private string username;
 
-        public CreateProjectForm(String username)
+        public CreateProjectForm()
         {
             InitializeComponent();
-            this.username = username;
             prodi = new List<String>();
             foreach (Control control in Controls)
             {
@@ -93,7 +91,7 @@ namespace TelyuProject
             Project project = new Project
             {
                 Title = textBox1.Text,
-                Lecturer = username,
+                Lecturer = UserSession.currentDosenUser.first_name + " " + UserSession.currentDosenUser.last_name + " (" + UserSession.currentDosenUser.NIP + ")",
                 Description = textBox2.Text,
                 Prodi = prodi,
                 StartDate = new DateTime(2022, 3, 1),
@@ -110,14 +108,14 @@ namespace TelyuProject
             File.WriteAllText("Project.json", json_project);
 
             this.Close();
-            DosenMenu dosenm = new DosenMenu(username);
+            DosenMenu dosenm = new DosenMenu();
             dosenm.Show();
 
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-            DosenMenu dosenMenu = new DosenMenu(username);
+            DosenMenu dosenMenu = new DosenMenu();
             this.Close();
             dosenMenu.Show();
         }

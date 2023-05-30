@@ -13,8 +13,7 @@ namespace TelyuProject
     public partial class EditProfil : Form
     {
 
-        public string username;
-        public EditProfil(string username)
+        public EditProfil()
         {
             InitializeComponent();
             foreach (Control control in Controls)
@@ -58,7 +57,7 @@ namespace TelyuProject
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-            Profil profil = new Profil(username);
+            Profil profil = new Profil();
             profil.Show();
             this.Close();
         }

@@ -46,6 +46,7 @@
             // 
             this.Lproject.AutoSize = true;
             this.Lproject.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lproject.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Lproject.Location = new System.Drawing.Point(76, 55);
             this.Lproject.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lproject.Name = "Lproject";
@@ -57,6 +58,7 @@
             // 
             this.TProjectNama.AutoSize = true;
             this.TProjectNama.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TProjectNama.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.TProjectNama.Location = new System.Drawing.Point(191, 55);
             this.TProjectNama.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TProjectNama.Name = "TProjectNama";
@@ -68,6 +70,7 @@
             // 
             this.LDeskripsi.AutoSize = true;
             this.LDeskripsi.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LDeskripsi.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.LDeskripsi.Location = new System.Drawing.Point(76, 108);
             this.LDeskripsi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LDeskripsi.Name = "LDeskripsi";
@@ -79,6 +82,7 @@
             // 
             this.LDosen.AutoSize = true;
             this.LDosen.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LDosen.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.LDosen.Location = new System.Drawing.Point(76, 158);
             this.LDosen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LDosen.Name = "LDosen";
@@ -90,6 +94,7 @@
             // 
             this.TDeskripsi.AutoSize = true;
             this.TDeskripsi.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TDeskripsi.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.TDeskripsi.Location = new System.Drawing.Point(192, 110);
             this.TDeskripsi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TDeskripsi.Name = "TDeskripsi";
@@ -108,6 +113,7 @@
             // 
             this.TDosen.AutoSize = true;
             this.TDosen.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TDosen.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.TDosen.Location = new System.Drawing.Point(192, 160);
             this.TDosen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TDosen.Name = "TDosen";
@@ -119,6 +125,7 @@
             // 
             this.LContract.AutoSize = true;
             this.LContract.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LContract.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.LContract.Location = new System.Drawing.Point(76, 250);
             this.LContract.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LContract.Name = "LContract";
@@ -130,6 +137,7 @@
             // 
             this.TContract.AutoSize = true;
             this.TContract.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TContract.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.TContract.Location = new System.Drawing.Point(192, 252);
             this.TContract.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TContract.Name = "TContract";
@@ -142,6 +150,7 @@
             // 
             this.LMajor.AutoSize = true;
             this.LMajor.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LMajor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.LMajor.Location = new System.Drawing.Point(78, 204);
             this.LMajor.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LMajor.Name = "LMajor";
@@ -153,6 +162,7 @@
             // 
             this.TMajor.AutoSize = true;
             this.TMajor.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TMajor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.TMajor.Location = new System.Drawing.Point(192, 206);
             this.TMajor.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TMajor.Name = "TMajor";

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using TelyuProject.Model;
 
 namespace TelyuProject
 {
@@ -8,14 +9,14 @@ namespace TelyuProject
 
     public partial class DosenMenu : Form
     {
-        private String username;
-        public DosenMenu(String Username)
+    
+        public DosenMenu()
         {
             InitializeComponent();
             CreateProject.Show();
             
-            label3.Text = Username;
-            username = Username;
+            label3.Text = UserSession.currentDosenUser.first_name;
+          
             foreach (Control control in Controls)
             {
                 control.Anchor = AnchorStyles.None;
@@ -52,22 +53,25 @@ namespace TelyuProject
 
         private void ListProject_Click(object sender, EventArgs e)
         {
-            CreateProject.Hide();
+            CreateProject.Show();
+            UC_ListProject ucproject = new UC_ListProject();
+            panelContent.Show();
+            ucproject.Dock = DockStyle.Fill;
             panelContent.Controls.Clear();
-            UC_Requested ucreq = new UC_Requested();
-            panelContent.Controls.Add(ucreq);
-            dRequested.ForeColor = Color.White;
+            panelContent.Controls.Add(ucproject);
+            ucproject.BringToFront();
+            dListProject.ForeColor = Color.White;
             dMyProject.ForeColor = Color.FromArgb(197, 190, 213);
-            dListProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dRequested.ForeColor = Color.FromArgb(197, 190, 213);
             myProjectImageActive.Visible = false;
             myProjectImageDed.Visible = true;
-            listProjectImageDed.Visible = true;
-            listProjectImageActive.Visible = false;
-            requestedImageDed.Visible = false;
-            requestedImageActive.Visible = true;
+            listProjectImageDed.Visible = false;
+            listProjectImageActive.Visible = true;
+            requestedImageDed.Visible = true;
+            requestedImageActive.Visible = false;
             myProjectPanel.BackColor = Color.FromArgb(50, 41, 93);
-            panelListProject.BackColor = Color.FromArgb(50, 41, 93);
-            panelRequested.BackColor = Color.FromArgb(29, 32, 62);
+            panelListProject.BackColor = Color.FromArgb(29, 32, 62);
+            panelRequested.BackColor = Color.FromArgb(50, 41, 93);
         }
 
         private void Requested_Click(object sender, EventArgs e)
@@ -93,7 +97,7 @@ namespace TelyuProject
 
         private void CreateProject_Click(object sender, EventArgs e)
         {
-            CreateProjectForm CPF = new CreateProjectForm(username);
+            CreateProjectForm CPF = new CreateProjectForm();
             this.Hide();
             CPF.Show();
         }
@@ -129,13 +133,15 @@ namespace TelyuProject
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Profil bebas = new Profil(username);
+            Profil bebas = new Profil();
             this.Hide();
             bebas.Show();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            UserSession.currentDosenUser = null;
+
             Login login = new Login();
 
             this.Hide();

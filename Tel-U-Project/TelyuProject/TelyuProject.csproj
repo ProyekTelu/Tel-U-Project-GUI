@@ -102,6 +102,8 @@
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Mahasiswa.cs" />
+    <Compile Include="Model\Requested.cs" />
+    <Compile Include="Model\UserSession.cs" />
     <Compile Include="Profil.cs">
       <SubType>Form</SubType>
     </Compile>

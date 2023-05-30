@@ -3,6 +3,7 @@ using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using TelyuProject.Model;
 
 namespace TelyuProject
 {
@@ -60,8 +61,10 @@ namespace TelyuProject
                     {
                         if (PasswordTextBox.Text.Equals(Data.mahasiswaList.password[i]))
                         {
+                            UserSession.currentMhsUser = Data.mahasiswaList.data[i];
+                            UserSession.currentDosenUser = null;
                             MessageBox.Show("Login Berhasil");
-                            MahasiswaMenu mahasiswamenu = new MahasiswaMenu(Data.mahasiswaList.data[i].first_name);
+                            MahasiswaMenu mahasiswamenu = new MahasiswaMenu();
                             mahasiswamenu.Show();
                             this.Hide();
                         }
@@ -83,7 +86,9 @@ namespace TelyuProject
                        
                         if (PasswordTextBox.Text.Equals(Data.dosenList.password[i]))
                         {
-                            DosenMenu dosen_menu = new DosenMenu(Data.dosenList.data[i].first_name);
+                            UserSession.currentDosenUser = Data.dosenList.data[i];
+                            UserSession.currentMhsUser = null;
+                            DosenMenu dosen_menu = new DosenMenu();
                             MessageBox.Show("Login Berhasil");
                             dosen_menu.Show();
                             this.Hide();

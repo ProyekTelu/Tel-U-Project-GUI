@@ -9,16 +9,17 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Text.RegularExpressions;
+using TelyuProject.Model;
 
 namespace TelyuProject
 {
     public partial class RequestProject : Form
     {
-        public string username, dosen;
+        public string dosen;
         public RequestProject(String username, String dosen)
         {
             InitializeComponent();
-            this.username = username;
+            EmailTextBox.Text = UserSession.currentMhsUser.email;
             this.dosen = dosen;
             txtFilePath.ReadOnly = true;
             foreach (Control control in Controls)
@@ -118,15 +119,13 @@ namespace TelyuProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MahasiswaMenu mahasiswamenu = new MahasiswaMenu(username);
-            mahasiswamenu.Show();
+
             this.Close();
         }
 
         private void label12_Click(object sender, EventArgs e)
         {
-            MahasiswaMenu mahasiswamenu = new MahasiswaMenu(username);
-            mahasiswamenu.Show();
+
             this.Close();
         }
 
@@ -162,6 +161,41 @@ namespace TelyuProject
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
         {
 
         }
