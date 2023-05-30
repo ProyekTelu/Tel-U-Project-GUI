@@ -80,12 +80,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(435, 19);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 24);
+            this.label1.Size = new System.Drawing.Size(114, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tel-U Project";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -93,7 +93,7 @@
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label3.Location = new System.Drawing.Point(2, 102);
@@ -109,12 +109,12 @@
             // 
             this.dRequested.AutoSize = true;
             this.dRequested.BackColor = System.Drawing.Color.Transparent;
-            this.dRequested.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dRequested.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dRequested.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(190)))), ((int)(((byte)(213)))));
             this.dRequested.Location = new System.Drawing.Point(56, 15);
             this.dRequested.Margin = new System.Windows.Forms.Padding(2, 0, 2, 20);
             this.dRequested.Name = "dRequested";
-            this.dRequested.Size = new System.Drawing.Size(102, 24);
+            this.dRequested.Size = new System.Drawing.Size(98, 28);
             this.dRequested.TabIndex = 7;
             this.dRequested.Text = "Requested";
             this.dRequested.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -125,12 +125,12 @@
             this.dMyProject.AutoSize = true;
             this.dMyProject.BackColor = System.Drawing.Color.Transparent;
             this.dMyProject.CausesValidation = false;
-            this.dMyProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dMyProject.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dMyProject.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(190)))), ((int)(((byte)(213)))));
             this.dMyProject.Location = new System.Drawing.Point(58, 15);
             this.dMyProject.Margin = new System.Windows.Forms.Padding(2, 0, 2, 20);
             this.dMyProject.Name = "dMyProject";
-            this.dMyProject.Size = new System.Drawing.Size(98, 24);
+            this.dMyProject.Size = new System.Drawing.Size(94, 28);
             this.dMyProject.TabIndex = 8;
             this.dMyProject.Text = "My Project";
             this.dMyProject.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -140,12 +140,12 @@
             // 
             this.dListProject.AutoSize = true;
             this.dListProject.BackColor = System.Drawing.Color.Transparent;
-            this.dListProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dListProject.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dListProject.ForeColor = System.Drawing.Color.White;
             this.dListProject.Location = new System.Drawing.Point(55, 15);
             this.dListProject.Margin = new System.Windows.Forms.Padding(2, 0, 2, 20);
             this.dListProject.Name = "dListProject";
-            this.dListProject.Size = new System.Drawing.Size(100, 24);
+            this.dListProject.Size = new System.Drawing.Size(96, 28);
             this.dListProject.TabIndex = 9;
             this.dListProject.Text = "List Project";
             this.dListProject.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -156,7 +156,7 @@
             this.CreateProject.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CreateProject.BackColor = System.Drawing.Color.AliceBlue;
             this.CreateProject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CreateProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreateProject.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateProject.ForeColor = System.Drawing.SystemColors.ControlText;
             this.CreateProject.Location = new System.Drawing.Point(388, 510);
             this.CreateProject.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -172,12 +172,12 @@
             // Project1
             // 
             this.Project1.AutoSize = true;
-            this.Project1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Project1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Project1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Project1.Location = new System.Drawing.Point(158, 525);
             this.Project1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Project1.Name = "Project1";
-            this.Project1.Size = new System.Drawing.Size(125, 24);
+            this.Project1.Size = new System.Drawing.Size(113, 28);
             this.Project1.TabIndex = 11;
             this.Project1.Text = "Project YOLO";
             this.Project1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -186,12 +186,12 @@
             // Project2
             // 
             this.Project2.AutoSize = true;
-            this.Project2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Project2.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Project2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Project2.Location = new System.Drawing.Point(737, 525);
             this.Project2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Project2.Name = "Project2";
-            this.Project2.Size = new System.Drawing.Size(123, 24);
+            this.Project2.Size = new System.Drawing.Size(110, 28);
             this.Project2.TabIndex = 12;
             this.Project2.Text = "Project TPLM";
             this.Project2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -211,7 +211,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(77, 591);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
@@ -234,6 +234,7 @@
             this.panelKiri.Name = "panelKiri";
             this.panelKiri.Size = new System.Drawing.Size(266, 682);
             this.panelKiri.TabIndex = 16;
+            this.panelKiri.Paint += new System.Windows.Forms.PaintEventHandler(this.panelKiri_Paint);
             // 
             // requestedImageDed
             // 
@@ -271,11 +272,11 @@
             // Explore
             // 
             this.Explore.AutoSize = true;
-            this.Explore.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Explore.Font = new System.Drawing.Font("Poppins", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Explore.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Explore.Location = new System.Drawing.Point(36, 193);
             this.Explore.Name = "Explore";
-            this.Explore.Size = new System.Drawing.Size(92, 25);
+            this.Explore.Size = new System.Drawing.Size(95, 37);
             this.Explore.TabIndex = 18;
             this.Explore.Text = "Explore";
             this.Explore.Click += new System.EventHandler(this.Explore_Click);

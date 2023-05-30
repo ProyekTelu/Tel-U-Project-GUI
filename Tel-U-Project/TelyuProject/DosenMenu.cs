@@ -386,5 +386,10 @@ namespace TelyuProject
             panelListProject.BackColor = Color.FromArgb(50, 41, 93);
             panelRequested.BackColor = Color.FromArgb(50, 41, 93);
         }
+
+        private void panelKiri_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
