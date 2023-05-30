@@ -27,10 +27,10 @@ namespace TelyuProject
             }
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             UC_ListProject ucproject = new UC_ListProject();
-            panel1.Show();
+            panelContent.Show();
             ucproject.Dock = DockStyle.Fill;
-            panel1.Controls.Clear();
-            panel1.Controls.Add(ucproject);
+            panelContent.Controls.Clear();
+            panelContent.Controls.Add(ucproject);
             ucproject.BringToFront();
 
         }
@@ -52,47 +52,43 @@ namespace TelyuProject
 
         private void ListProject_Click(object sender, EventArgs e)
         {
-            DListProject.ForeColor = Color.White;
-
-            /*Button createProjectButton = new Button();
-
-                     createProjectButton.Name = "CreateProjectButton";
-                     createProjectButton.Text = "Create Project";
-                     createProjectButton.Font = new Font("Montserrat",10, FontStyle.Bold);
-                     createProjectButton.BackColor = Color.DodgerBlue;
-                     createProjectButton.Location = new Point(426, 132);
-                     createProjectButton.Anchor = AnchorStyles.None;
-                     createProjectButton.Size = new Size(150, 40);
-                     createProjectButton.ForeColor = Color.White;
-
-                     this.Controls.Add(createProjectButton);*/
-
-            CreateProject.Show();
-            UC_ListProject ucproject = new UC_ListProject();
-            panel1.Show();
-            ucproject.Dock = DockStyle.Fill;
-            panel1.Controls.Clear();
-            panel1.Controls.Add(ucproject);
-            ucproject.BringToFront();
+            CreateProject.Hide();
+            panelContent.Controls.Clear();
+            UC_Requested ucreq = new UC_Requested();
+            panelContent.Controls.Add(ucreq);
+            dRequested.ForeColor = Color.White;
+            dMyProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dListProject.ForeColor = Color.FromArgb(197, 190, 213);
+            myProjectImageActive.Visible = false;
+            myProjectImageDed.Visible = true;
+            listProjectImageDed.Visible = true;
+            listProjectImageActive.Visible = false;
+            requestedImageDed.Visible = false;
+            requestedImageActive.Visible = true;
+            myProjectPanel.BackColor = Color.FromArgb(50, 41, 93);
+            panelListProject.BackColor = Color.FromArgb(50, 41, 93);
+            panelRequested.BackColor = Color.FromArgb(29, 32, 62);
         }
 
         private void Requested_Click(object sender, EventArgs e)
         {
-            DRequested.ForeColor = Color.White;
             CreateProject.Hide();
-            panel1.Controls.Clear();
+            panelContent.Controls.Clear();
             UC_Requested ucreq = new UC_Requested();
-            panel1.Controls.Add(ucreq);
+            panelContent.Controls.Add(ucreq);
+            dRequested.ForeColor = Color.White;
+            dMyProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dListProject.ForeColor = Color.FromArgb(197, 190, 213);
+            myProjectImageActive.Visible = false;
+            myProjectImageDed.Visible = true;
+            listProjectImageDed.Visible = true;
+            listProjectImageActive.Visible = false;
+            requestedImageDed.Visible = false;
+            requestedImageActive.Visible = true;
+            myProjectPanel.BackColor = Color.FromArgb(50, 41, 93);
+            panelListProject.BackColor = Color.FromArgb(50, 41, 93);
+            panelRequested.BackColor = Color.FromArgb(29, 32, 62);
 
-        }
-
-        private void Accepted_Click(object sender, EventArgs e)
-        {
-            DAccepted.ForeColor = Color.White;
-            CreateProject.Hide();
-            panel1.Controls.Clear();
-            UC_MyProject uC_MyProject = new UC_MyProject();
-            panel1.Controls.Add(uC_MyProject);
         }
 
         private void CreateProject_Click(object sender, EventArgs e)
@@ -165,6 +161,230 @@ namespace TelyuProject
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelRequested_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panelRequested_MouseClick(object sender, MouseEventArgs e)
+        {
+            CreateProject.Hide();
+            panelContent.Controls.Clear();
+            UC_Requested ucreq = new UC_Requested();
+            panelContent.Controls.Add(ucreq);
+            dRequested.ForeColor = Color.White;
+            dMyProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dListProject.ForeColor = Color.FromArgb(197, 190, 213);
+            myProjectImageActive.Visible = false;
+            myProjectImageDed.Visible = true;
+            listProjectImageDed.Visible = true;
+            listProjectImageActive.Visible = false;
+            requestedImageDed.Visible = false;
+            requestedImageActive.Visible = true;
+            myProjectPanel.BackColor = Color.FromArgb(50, 41, 93);
+            panelListProject.BackColor = Color.FromArgb(50, 41, 93);
+            panelRequested.BackColor = Color.FromArgb(29, 32, 62);
+        }
+
+        private void panelListProject_MouseClick(object sender, MouseEventArgs e)
+        {
+
+            CreateProject.Show();
+            UC_ListProject ucproject = new UC_ListProject();
+            panelContent.Show();
+            ucproject.Dock = DockStyle.Fill;
+            panelContent.Controls.Clear();
+            panelContent.Controls.Add(ucproject);
+            ucproject.BringToFront();
+            dListProject.ForeColor = Color.White;
+            dMyProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dRequested.ForeColor = Color.FromArgb(197, 190, 213);
+            myProjectImageActive.Visible = false;
+            myProjectImageDed.Visible = true;
+            listProjectImageDed.Visible = false;
+            listProjectImageActive.Visible = true;
+            requestedImageDed.Visible = true;
+            requestedImageActive.Visible = false;
+            myProjectPanel.BackColor = Color.FromArgb(50, 41, 93);
+            panelListProject.BackColor = Color.FromArgb(29, 32, 62);
+            panelRequested.BackColor = Color.FromArgb(50, 41, 93);
+        }
+
+        private void panel3_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void myProjectPanel_MouseClick(object sender, MouseEventArgs e)
+        {
+            CreateProject.Hide();
+            panelContent.Controls.Clear();
+            UC_MyProject uC_MyProject = new UC_MyProject();
+            panelContent.Controls.Add(uC_MyProject);
+            dMyProject.ForeColor = Color.White;
+            dListProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dRequested.ForeColor = Color.FromArgb(197, 190, 213);
+            myProjectImageActive.Visible = true;
+            myProjectImageDed.Visible = false;
+            listProjectImageDed.Visible = true;
+            listProjectImageActive.Visible = false;
+            requestedImageDed.Visible = true;
+            requestedImageActive.Visible = false;
+            myProjectPanel.BackColor = Color.FromArgb(29, 32, 62);
+            panelListProject.BackColor = Color.FromArgb(50, 41, 93);
+            panelRequested.BackColor = Color.FromArgb(50, 41, 93);
+        }
+
+        private void listProjectImageActive_Click(object sender, EventArgs e)
+        {
+            CreateProject.Hide();
+            panelContent.Controls.Clear();
+            UC_Requested ucreq = new UC_Requested();
+            panelContent.Controls.Add(ucreq);
+            dRequested.ForeColor = Color.White;
+            dMyProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dListProject.ForeColor = Color.FromArgb(197, 190, 213);
+            myProjectImageActive.Visible = false;
+            myProjectImageDed.Visible = true;
+            listProjectImageDed.Visible = true;
+            listProjectImageActive.Visible = false;
+            requestedImageDed.Visible = false;
+            requestedImageActive.Visible = true;
+            myProjectPanel.BackColor = Color.FromArgb(50, 41, 93);
+            panelListProject.BackColor = Color.FromArgb(50, 41, 93);
+            panelRequested.BackColor = Color.FromArgb(29, 32, 62);
+        }
+
+        private void listProjectImageDed_Click(object sender, EventArgs e)
+        {
+            CreateProject.Hide();
+            panelContent.Controls.Clear();
+            UC_Requested ucreq = new UC_Requested();
+            panelContent.Controls.Add(ucreq);
+            dRequested.ForeColor = Color.White;
+            dMyProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dListProject.ForeColor = Color.FromArgb(197, 190, 213);
+            myProjectImageActive.Visible = false;
+            myProjectImageDed.Visible = true;
+            listProjectImageDed.Visible = true;
+            listProjectImageActive.Visible = false;
+            requestedImageDed.Visible = false;
+            requestedImageActive.Visible = true;
+            myProjectPanel.BackColor = Color.FromArgb(50, 41, 93);
+            panelListProject.BackColor = Color.FromArgb(50, 41, 93);
+            panelRequested.BackColor = Color.FromArgb(29, 32, 62);
+        }
+
+        private void requestedImageActive_Click(object sender, EventArgs e)
+        {
+            CreateProject.Hide();
+            panelContent.Controls.Clear();
+            UC_Requested ucreq = new UC_Requested();
+            panelContent.Controls.Add(ucreq);
+            dRequested.ForeColor = Color.White;
+            dMyProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dListProject.ForeColor = Color.FromArgb(197, 190, 213);
+            myProjectImageActive.Visible = false;
+            myProjectImageDed.Visible = true;
+            listProjectImageDed.Visible = true;
+            listProjectImageActive.Visible = false;
+            requestedImageDed.Visible = false;
+            requestedImageActive.Visible = true;
+            myProjectPanel.BackColor = Color.FromArgb(50, 41, 93);
+            panelListProject.BackColor = Color.FromArgb(50, 41, 93);
+            panelRequested.BackColor = Color.FromArgb(29, 32, 62);
+        }
+
+        private void requestedImageDed_Click(object sender, EventArgs e)
+        {
+            CreateProject.Hide();
+            panelContent.Controls.Clear();
+            UC_Requested ucreq = new UC_Requested();
+            panelContent.Controls.Add(ucreq);
+            dRequested.ForeColor = Color.White;
+            dMyProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dListProject.ForeColor = Color.FromArgb(197, 190, 213);
+            myProjectImageActive.Visible = false;
+            myProjectImageDed.Visible = true;
+            listProjectImageDed.Visible = true;
+            listProjectImageActive.Visible = false;
+            requestedImageDed.Visible = false;
+            requestedImageActive.Visible = true;
+            myProjectPanel.BackColor = Color.FromArgb(50, 41, 93);
+            panelListProject.BackColor = Color.FromArgb(50, 41, 93);
+            panelRequested.BackColor = Color.FromArgb(29, 32, 62);
+        }
+
+        private void dMyProject_Click(object sender, EventArgs e)
+        {
+            CreateProject.Hide();
+            panelContent.Controls.Clear();
+            UC_MyProject uC_MyProject = new UC_MyProject();
+            panelContent.Controls.Add(uC_MyProject);
+            dMyProject.ForeColor = Color.White;
+            dListProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dRequested.ForeColor = Color.FromArgb(197, 190, 213);
+            myProjectImageActive.Visible = true;
+            myProjectImageDed.Visible = false;
+            listProjectImageDed.Visible = true;
+            listProjectImageActive.Visible = false;
+            requestedImageDed.Visible = true;
+            requestedImageActive.Visible = false;
+            myProjectPanel.BackColor = Color.FromArgb(29, 32, 62);
+            panelListProject.BackColor = Color.FromArgb(50, 41, 93);
+            panelRequested.BackColor = Color.FromArgb(50, 41, 93);
+        }
+
+        private void myProjectImageActive_Click(object sender, EventArgs e)
+        {
+            CreateProject.Hide();
+            panelContent.Controls.Clear();
+            UC_MyProject uC_MyProject = new UC_MyProject();
+            panelContent.Controls.Add(uC_MyProject);
+            dMyProject.ForeColor = Color.White;
+            dListProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dRequested.ForeColor = Color.FromArgb(197, 190, 213);
+            myProjectImageActive.Visible = true;
+            myProjectImageDed.Visible = false;
+            listProjectImageDed.Visible = true;
+            listProjectImageActive.Visible = false;
+            requestedImageDed.Visible = true;
+            requestedImageActive.Visible = false;
+            myProjectPanel.BackColor = Color.FromArgb(29, 32, 62);
+            panelListProject.BackColor = Color.FromArgb(50, 41, 93);
+            panelRequested.BackColor = Color.FromArgb(50, 41, 93);
+        }
+
+        private void myProjectImageDed_Click(object sender, EventArgs e)
+        {
+            CreateProject.Hide();
+            panelContent.Controls.Clear();
+            UC_MyProject uC_MyProject = new UC_MyProject();
+            panelContent.Controls.Add(uC_MyProject);
+            dMyProject.ForeColor = Color.White;
+            dListProject.ForeColor = Color.FromArgb(197, 190, 213);
+            dRequested.ForeColor = Color.FromArgb(197, 190, 213);
+            myProjectImageActive.Visible = true;
+            myProjectImageDed.Visible = false;
+            listProjectImageDed.Visible = true;
+            listProjectImageActive.Visible = false;
+            requestedImageDed.Visible = true;
+            requestedImageActive.Visible = false;
+            myProjectPanel.BackColor = Color.FromArgb(29, 32, 62);
+            panelListProject.BackColor = Color.FromArgb(50, 41, 93);
+            panelRequested.BackColor = Color.FromArgb(50, 41, 93);
         }
     }
 }
