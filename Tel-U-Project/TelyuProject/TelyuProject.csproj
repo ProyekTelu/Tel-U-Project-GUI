@@ -89,12 +89,6 @@
     <Compile Include="ListProdi.Designer.cs">
       <DependentUpon>ListProdi.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListSkill.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ListSkill.Designer.cs">
-      <DependentUpon>ListSkill.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +117,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RequestDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestDetail.Designer.cs">
+      <DependentUpon>RequestDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="RequestProject.cs">
       <SubType>Form</SubType>
@@ -202,9 +202,6 @@
     <EmbeddedResource Include="ListProdi.resx">
       <DependentUpon>ListProdi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListSkill.resx">
-      <DependentUpon>ListSkill.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -221,6 +218,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestDetail.resx">
+      <DependentUpon>RequestDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RequestProject.resx">
       <DependentUpon>RequestProject.cs</DependentUpon>

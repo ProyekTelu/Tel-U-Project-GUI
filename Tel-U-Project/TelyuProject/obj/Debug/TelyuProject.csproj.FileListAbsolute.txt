@@ -94,7 +94,6 @@ D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-G
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.EditProfil.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.ListProdi.resources
-D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.ListSkill.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.Login.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.MahasiswaMenu.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.Profil.resources
@@ -154,3 +153,4 @@ D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProj
 D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.pdb
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UserControlListProject.resources
 D:\#ME\KULIAH\TUGAS\S4\KPL\TUGAS\TUBES\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UserControlListProject.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.RequestDetail.resources

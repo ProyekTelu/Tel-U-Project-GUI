@@ -40,6 +40,7 @@
             this.TContract = new System.Windows.Forms.Label();
             this.LMajor = new System.Windows.Forms.Label();
             this.TMajor = new System.Windows.Forms.Label();
+            this.TNip = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Lproject
@@ -170,10 +171,23 @@
             this.TMajor.TabIndex = 17;
             this.TMajor.Text = "majorText";
             // 
+            // TNip
+            // 
+            this.TNip.AutoSize = true;
+            this.TNip.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TNip.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TNip.Location = new System.Drawing.Point(362, 160);
+            this.TNip.Name = "TNip";
+            this.TNip.Size = new System.Drawing.Size(36, 28);
+            this.TNip.TabIndex = 18;
+            this.TNip.Text = "NIP";
+            this.TNip.Click += new System.EventHandler(this.TNip_Click);
+            // 
             // UC_ProjectInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.TNip);
             this.Controls.Add(this.TMajor);
             this.Controls.Add(this.LMajor);
             this.Controls.Add(this.TContract);
@@ -206,5 +220,6 @@
         private System.Windows.Forms.Label TContract;
         private System.Windows.Forms.Label LMajor;
         private System.Windows.Forms.Label TMajor;
+        private System.Windows.Forms.Label TNip;
     }
 }

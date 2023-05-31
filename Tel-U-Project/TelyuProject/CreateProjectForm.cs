@@ -91,7 +91,8 @@ namespace TelyuProject
             Project project = new Project
             {
                 Title = textBox1.Text,
-                Lecturer = UserSession.currentDosenUser.first_name + " " + UserSession.currentDosenUser.last_name + " (" + UserSession.currentDosenUser.NIP + ")",
+                Lecturer = UserSession.currentDosenUser.first_name,
+                LecturerNip = UserSession.currentDosenUser.NIP,
                 Description = textBox2.Text,
                 Prodi = prodi,
                 StartDate = new DateTime(2022, 3, 1),
@@ -102,6 +103,10 @@ namespace TelyuProject
                 IsOpen = true
             };
 
+            if (Data.projectList == null)
+            {
+                Data.projectList = new List<Project>();
+            }
             Data.projectList.Add(project);
 
             string json_project = JsonConvert.SerializeObject(Data.projectList, Formatting.Indented);

@@ -16,17 +16,19 @@ namespace TelyuProject
 {
     public partial class RequestProject : Form
     {
-        public string dosen;
-        public string destinationFilePath;
-        String projectName;
+        private string dosenName;
+        private string dosenNip;
+        private string destinationFilePath;
+        private string projectName;
         Requested request = new Requested();
-        public RequestProject(String dosen, String projectName)
+        public RequestProject(String dosenName, String projectName, String dosenNip)
         {
             InitializeComponent();
-            this.dosen = dosen;
+            this.dosenName = dosenName;
             this.projectName = projectName;
+            this.dosenNip = dosenNip;
             labelStudentName.Text = UserSession.currentMhsUser.first_name+" "+UserSession.currentMhsUser.last_name;
-            labelLecturerName.Text = dosen;
+            labelLecturerName.Text = dosenName;
             EmailTextBox.Text = UserSession.currentMhsUser.email;
             textBoxPhoneNumber.Text = UserSession.currentMhsUser.phone;
             txtFilePath.ReadOnly = true;
@@ -131,14 +133,16 @@ namespace TelyuProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-            request.student_name = UserSession.currentMhsUser.first_name + " " + UserSession.currentMhsUser.last_name;
-            request.lecturer_name = dosen;
-            request.email = UserSession.currentMhsUser.email;
-            request.phone = UserSession.currentMhsUser.phone;
+            request.lecturerName = dosenName;
+            request.lecturerNip = dosenNip;
             request.notes = textBoxNotes.Text;
-            request.cv_directory = destinationFilePath;
+            request.cvDirectory = destinationFilePath;
             request.Mahasiswa = (UserSession.currentMhsUser);
             request.projectName = projectName;
+            if (Data.requestList == null)
+            {
+                Data.requestList = new List<Requested>();
+            }
             Data.requestList.Add(request);
 
             string json_data_requested = JsonConvert.SerializeObject(Data.requestList, Formatting.Indented);
@@ -150,7 +154,7 @@ namespace TelyuProject
 
         private void label12_Click(object sender, EventArgs e)
         {
-
+            
             this.Close();
         }
 

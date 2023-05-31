@@ -37,7 +37,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(525, 57);
+            this.label1.Location = new System.Drawing.Point(508, 57);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -70,10 +70,10 @@
             "S1 Teknik Elektro (International Class)",
             "S1 Teknik Industri",
             "S1 Teknik Telekomunikasi"});
-            this.checkedListBox1.Location = new System.Drawing.Point(446, 113);
+            this.checkedListBox1.Location = new System.Drawing.Point(431, 113);
             this.checkedListBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(403, 490);
+            this.checkedListBox1.Size = new System.Drawing.Size(403, 355);
             this.checkedListBox1.TabIndex = 2;
             this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
@@ -86,7 +86,7 @@
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
             this.button1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(878, 299);
+            this.button1.Location = new System.Drawing.Point(581, 499);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 54);
             this.button1.TabIndex = 2;

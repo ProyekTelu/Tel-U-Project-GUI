@@ -30,6 +30,9 @@ namespace TelyuProject
 
             string projectString = File.ReadAllText("Project.json");
             Data.projectList = JsonConvert.DeserializeObject<List<Project>>(projectString);
+
+            string dataRequestString = File.ReadAllText("DataRequested.json");
+            Data.requestList = JsonConvert.DeserializeObject<List<Requested>>(dataRequestString);
         }
 
         private void label2_Click(object sender, EventArgs e)

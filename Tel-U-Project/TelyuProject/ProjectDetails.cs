@@ -16,16 +16,18 @@ namespace TelyuProject
 
         String projectName;
         String lecturer;
-         String description;
-         String major;
-         String dates;
-         String quota;
+        String description;
+        String LecturerNip;
+        String major;
+        String dates;
+        String quota;
 
-        public ProjectDetails(String projectName, String lecturer,  String description, String major, String dates,String quota)
+        public ProjectDetails(String projectName, String lecturer, String LecturerNip,  String description, String major, String dates,String quota)
         {
             InitializeComponent();
             this.projectName = projectName;
             this.lecturer = lecturer;
+            this.LecturerNip = LecturerNip;
             this.description = description;
             this.major = major;
             this.dates = dates;
@@ -37,7 +39,7 @@ namespace TelyuProject
             {
                 control.Anchor = AnchorStyles.None;
             }
-            UC_ProjectInfo uc = new UC_ProjectInfo(projectName, lecturer, description, major, dates, quota);
+            UC_ProjectInfo uc = new UC_ProjectInfo(projectName, lecturer, LecturerNip, description, major, dates, quota);
             addUserControl(uc);
         }
 
@@ -64,7 +66,8 @@ namespace TelyuProject
             LTeams.ForeColor = Color.DarkCyan;
             LInfo.ForeColor = Color.Black;
             panelContainer.Show();
-            UC_Teams uc = new UC_Teams();
+           
+            UC_Teams uc = new UC_Teams(projectName, LecturerNip);
             addUserControl( uc );
 
 
@@ -75,7 +78,7 @@ namespace TelyuProject
             LInfo.ForeColor = Color.DarkCyan;
             LTeams.ForeColor = Color.Black;
             panelContainer.Show();
-            UC_ProjectInfo uc = new UC_ProjectInfo(projectName,lecturer,description, major,dates,quota);
+            UC_ProjectInfo uc = new UC_ProjectInfo(projectName,lecturer,LecturerNip, description, major,dates,quota);
             addUserControl(uc);
         }
 
@@ -105,7 +108,7 @@ namespace TelyuProject
 
         private void JoinProject_Click(object sender, EventArgs e)
         {
-            RequestProject requestProject = new RequestProject(lecturer,projectName);
+            RequestProject requestProject = new RequestProject(lecturer,projectName, LecturerNip);
             requestProject.Show();
         }
     }

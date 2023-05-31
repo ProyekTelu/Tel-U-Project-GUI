@@ -13,25 +13,53 @@ namespace TelyuProject
     public partial class UC_ListProject : UserControl
     {
         public string strProdi;
+        public int empty = 0;
         public UC_ListProject()
         {
             InitializeComponent();
-
-            // Add sample items to the ListView
-            foreach (Project project in Data.projectList)
+            empty = 0;
+            try
             {
-                ListViewItem item = new ListViewItem(project.Title);
-                item.SubItems.Add(project.Lecturer);
-                item.SubItems.Add(project.Description);
-                string strProdi = string.Join(", ", project.Prodi);
-                item.SubItems.Add(strProdi);
-                item.SubItems.Add(project.StartDate.ToString("dd/MM/yyyy") + " - " + project.EndDate.ToString("dd/MM/yyyy"));
-                item.SubItems.Add(project.quota.ToString());
-                listView1.Items.Add(item);
-            }
+                if (Data.projectList != null) {
+                    foreach (Project project in Data.projectList)
+                    {
+                        if (project.quota != 0)
+                        {
+                            ListViewItem item = new ListViewItem(project.Title);
+                            item.SubItems.Add(project.Lecturer);
+                            item.SubItems.Add(project.LecturerNip);
+                            item.SubItems.Add(project.Description);
+                            string strProdi = string.Join(", ", project.Prodi);
+                            item.SubItems.Add(strProdi);
+                            item.SubItems.Add(project.StartDate.ToString("dd/MM/yyyy") + " - " + project.EndDate.ToString("dd/MM/yyyy"));
+                            item.SubItems.Add(project.quota.ToString());
+                            listView1.Items.Add(item);
+                            empty++;
+                        }  
+                    }
 
-            // Hook up event handler
-            listView1.ItemActivate += ListView1_ItemActivate;
+
+                    listView1.ItemActivate += ListView1_ItemActivate;
+                }
+                if (empty == 0)
+                {
+                    listView1.Visible = false;
+                    emptyAnnounceProject.Visible = true;
+                    existProjectLabel.Visible = false;
+                }
+                if (empty > 0)
+                {
+                    listView1.Visible = true;
+                    emptyAnnounceProject.Visible = false;
+                    existProjectLabel.Visible = true;
+                }
+
+            } catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        
+            
 
         }
 
@@ -52,15 +80,27 @@ namespace TelyuProject
                 ListViewItem selectedItem = listView1.SelectedItems[0];
                 string title = selectedItem.SubItems[0].Text;
                 string lecturer = selectedItem.SubItems[1].Text;
-                string description = selectedItem.SubItems[2].Text;
-                string prodi = selectedItem.SubItems[3].Text;
-                string dates = selectedItem.SubItems[4].Text;
-                string quota = selectedItem.SubItems[5].Text;
+                string LecturerNip = selectedItem.SubItems[2].Text;
+                string description = selectedItem.SubItems[3].Text;
+                string prodi = selectedItem.SubItems[4].Text;
+                string dates = selectedItem.SubItems[5].Text;
+                string quota = selectedItem.SubItems[6].Text;
+                
 
                 // Show class based on item's data (replace with your own logic)
-                ProjectDetails projectDetails = new ProjectDetails(title,lecturer,description,prodi,dates, quota);
+                ProjectDetails projectDetails = new ProjectDetails(title,lecturer, LecturerNip, description,prodi,dates, quota);
                 projectDetails.ShowDialog();
             }
+        }
+
+        private void emptyAnnounceProject_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void existProjectLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

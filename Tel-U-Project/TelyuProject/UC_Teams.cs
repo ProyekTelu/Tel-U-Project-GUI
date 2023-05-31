@@ -12,51 +12,40 @@ namespace TelyuProject
 {
     public partial class UC_Teams : UserControl
     {
-        public UC_Teams()
+
+        private String projectName;
+        private String nip;
+
+        public UC_Teams(String projectName, String nip)
         {
             InitializeComponent();
+            this.projectName = projectName;
+            this.nip = nip;
             addTeam1();
-            addTeam2();
         }
 
         private void addTeam1()
         {
-            tableTeam.Rows.Add(
-                new object[]
+            Project currentProject = null;
+            foreach(Project project in Data.projectList)
+            {
+                if (project.Title == projectName && project.LecturerNip == nip)
                 {
-                    "Reza Adhie Dharmawan",
-                    1302213016,
-                    "S1 Rekayasa Perangkat Lunak"
+                    currentProject = project;
                 }
-            );
-            tableTeam.Rows.Add(
-                new object[]
-                {
-                    "Fasya Rahim Maulahir",
-                    1302213116,
-                    "S1 Rekayasa Perangkat Lunak"
-                }
-            );
-            tableTeam.Rows.Add(
-                new object[]
-                {
-                    "Muhammad Zaky Mufasa",
-                    1302213169,
-                    "S1 Rekayasa Perangkat Lunak"
-                }
-            );
-        }
+            }
 
-        private void addTeam2()
-        {
-            tableTeam2.Rows.Add(
-                new object[]
+            foreach(Mahasiswa mahasiswa in currentProject.ListMahasiswa)
+            {
+                tableTeam.Rows.Add(
+                     new object[]
                 {
-                    "Callista Putri",
-                    1302213112,
-                    "S1 Sistem Informasi"
+                    mahasiswa.first_name + " " + mahasiswa.last_name,
+                    mahasiswa.NIM,
+                    mahasiswa.prodi
                 }
             );
+            }
         }
 
         private void team1_Click(object sender, EventArgs e)

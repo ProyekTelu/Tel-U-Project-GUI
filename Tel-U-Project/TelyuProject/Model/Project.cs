@@ -7,6 +7,7 @@ namespace TelyuProject
     {
             public string Title { get; set; }
             public string Lecturer { get; set; }
+            public string LecturerNip { get; set; }
             public string Description { get; set; }
             public List<string> Prodi { get; set; }
             public DateTime StartDate { get; set; }

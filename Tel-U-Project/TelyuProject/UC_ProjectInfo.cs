@@ -12,12 +12,13 @@ namespace TelyuProject
 {
     public partial class UC_ProjectInfo : UserControl
     {
-        public UC_ProjectInfo(String projectName, String lecturer, String description, String major, String dates, String quota)
+        public UC_ProjectInfo(String projectName, String lecturer, String LecturerNip, String description, String major, String dates, String quota)
         {
 
             InitializeComponent();
             TProjectNama.Text = projectName;
             TDosen.Text = lecturer;
+            TNip.Text = "(" + LecturerNip + ")";
             TDeskripsi.Text = description;
             TMajor.Text = major;
             TContract.Text = dates;
@@ -34,6 +35,11 @@ namespace TelyuProject
         }
 
         private void UC_ProjectInfo_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TNip_Click(object sender, EventArgs e)
         {
 
         }

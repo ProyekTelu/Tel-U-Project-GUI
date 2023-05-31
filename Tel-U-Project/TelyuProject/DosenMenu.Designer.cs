@@ -38,42 +38,41 @@
             this.dMyProject = new System.Windows.Forms.Label();
             this.dListProject = new System.Windows.Forms.Label();
             this.CreateProject = new System.Windows.Forms.Button();
-            this.Project1 = new System.Windows.Forms.Label();
-            this.Project2 = new System.Windows.Forms.Label();
             this.eventLog1 = new System.Diagnostics.EventLog();
             this.panelContent = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panelKiri = new System.Windows.Forms.Panel();
-            this.requestedImageDed = new System.Windows.Forms.PictureBox();
-            this.myProjectImageDed = new System.Windows.Forms.PictureBox();
-            this.listProjectImageActive = new System.Windows.Forms.PictureBox();
             this.Explore = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelListProject = new System.Windows.Forms.Panel();
+            this.listProjectImageActive = new System.Windows.Forms.PictureBox();
+            this.listProjectImageDed = new System.Windows.Forms.PictureBox();
+            this.panelRequested = new System.Windows.Forms.Panel();
+            this.requestedImageActive = new System.Windows.Forms.PictureBox();
+            this.requestedImageDed = new System.Windows.Forms.PictureBox();
+            this.myProjectPanel = new System.Windows.Forms.Panel();
+            this.myProjectImageActive = new System.Windows.Forms.PictureBox();
+            this.myProjectImageDed = new System.Windows.Forms.PictureBox();
             this.panelAtas = new System.Windows.Forms.Panel();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.panelListProject = new System.Windows.Forms.Panel();
-            this.panelRequested = new System.Windows.Forms.Panel();
-            this.myProjectPanel = new System.Windows.Forms.Panel();
-            this.listProjectImageDed = new System.Windows.Forms.PictureBox();
-            this.requestedImageActive = new System.Windows.Forms.PictureBox();
-            this.myProjectImageActive = new System.Windows.Forms.PictureBox();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.panelKiri.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.requestedImageDed)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myProjectImageDed)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listProjectImageActive)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelListProject.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.listProjectImageActive)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listProjectImageDed)).BeginInit();
+            this.panelRequested.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.requestedImageActive)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.requestedImageDed)).BeginInit();
+            this.myProjectPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.myProjectImageActive)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myProjectImageDed)).BeginInit();
             this.panelAtas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
-            this.panelListProject.SuspendLayout();
-            this.panelRequested.SuspendLayout();
-            this.myProjectPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listProjectImageDed)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.requestedImageActive)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myProjectImageActive)).BeginInit();
             this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,7 +81,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(435, 19);
+            this.label1.Location = new System.Drawing.Point(444, 19);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(114, 28);
@@ -159,7 +158,7 @@
             this.CreateProject.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateProject.ForeColor = System.Drawing.SystemColors.ControlText;
             this.CreateProject.Location = new System.Drawing.Point(388, 510);
-            this.CreateProject.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CreateProject.Margin = new System.Windows.Forms.Padding(2);
             this.CreateProject.Name = "CreateProject";
             this.CreateProject.Size = new System.Drawing.Size(224, 54);
             this.CreateProject.TabIndex = 10;
@@ -168,34 +167,6 @@
             this.CreateProject.Visible = false;
             this.CreateProject.Click += new System.EventHandler(this.CreateProject_Click);
             this.CreateProject.Paint += new System.Windows.Forms.PaintEventHandler(this.CreateProject_Paint);
-            // 
-            // Project1
-            // 
-            this.Project1.AutoSize = true;
-            this.Project1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Project1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Project1.Location = new System.Drawing.Point(158, 525);
-            this.Project1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Project1.Name = "Project1";
-            this.Project1.Size = new System.Drawing.Size(113, 28);
-            this.Project1.TabIndex = 11;
-            this.Project1.Text = "Project YOLO";
-            this.Project1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Project1.Click += new System.EventHandler(this.Project1_Click);
-            // 
-            // Project2
-            // 
-            this.Project2.AutoSize = true;
-            this.Project2.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Project2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Project2.Location = new System.Drawing.Point(737, 525);
-            this.Project2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Project2.Name = "Project2";
-            this.Project2.Size = new System.Drawing.Size(110, 28);
-            this.Project2.TabIndex = 12;
-            this.Project2.Text = "Project TPLM";
-            this.Project2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Project2.Click += new System.EventHandler(this.Project2_Click);
             // 
             // eventLog1
             // 
@@ -213,7 +184,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(77, 591);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 34);
             this.button1.TabIndex = 15;
@@ -235,39 +206,6 @@
             this.panelKiri.Size = new System.Drawing.Size(266, 682);
             this.panelKiri.TabIndex = 16;
             this.panelKiri.Paint += new System.Windows.Forms.PaintEventHandler(this.panelKiri_Paint);
-            // 
-            // requestedImageDed
-            // 
-            this.requestedImageDed.Image = global::TelyuProject.Properties.Resources.requestDed;
-            this.requestedImageDed.Location = new System.Drawing.Point(15, 10);
-            this.requestedImageDed.Name = "requestedImageDed";
-            this.requestedImageDed.Size = new System.Drawing.Size(29, 32);
-            this.requestedImageDed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.requestedImageDed.TabIndex = 23;
-            this.requestedImageDed.TabStop = false;
-            this.requestedImageDed.Click += new System.EventHandler(this.requestedImageDed_Click);
-            // 
-            // myProjectImageDed
-            // 
-            this.myProjectImageDed.Image = global::TelyuProject.Properties.Resources.myProjectDed;
-            this.myProjectImageDed.Location = new System.Drawing.Point(15, 10);
-            this.myProjectImageDed.Name = "myProjectImageDed";
-            this.myProjectImageDed.Size = new System.Drawing.Size(29, 33);
-            this.myProjectImageDed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.myProjectImageDed.TabIndex = 22;
-            this.myProjectImageDed.TabStop = false;
-            this.myProjectImageDed.Click += new System.EventHandler(this.myProjectImageDed_Click);
-            // 
-            // listProjectImageActive
-            // 
-            this.listProjectImageActive.Image = ((System.Drawing.Image)(resources.GetObject("listProjectImageActive.Image")));
-            this.listProjectImageActive.Location = new System.Drawing.Point(15, 10);
-            this.listProjectImageActive.Name = "listProjectImageActive";
-            this.listProjectImageActive.Size = new System.Drawing.Size(29, 32);
-            this.listProjectImageActive.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.listProjectImageActive.TabIndex = 21;
-            this.listProjectImageActive.TabStop = false;
-            this.listProjectImageActive.Click += new System.EventHandler(this.listProjectImageActive_Click);
             // 
             // Explore
             // 
@@ -303,15 +241,6 @@
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
-            // panelAtas
-            // 
-            this.panelAtas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(47)))), ((int)(((byte)(72)))));
-            this.panelAtas.Controls.Add(this.label1);
-            this.panelAtas.Location = new System.Drawing.Point(265, 0);
-            this.panelAtas.Name = "panelAtas";
-            this.panelAtas.Size = new System.Drawing.Size(1002, 68);
-            this.panelAtas.TabIndex = 17;
-            // 
             // panelListProject
             // 
             this.panelListProject.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(62)))));
@@ -325,6 +254,29 @@
             this.panelListProject.TabIndex = 24;
             this.panelListProject.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             this.panelListProject.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelListProject_MouseClick);
+            // 
+            // listProjectImageActive
+            // 
+            this.listProjectImageActive.Image = ((System.Drawing.Image)(resources.GetObject("listProjectImageActive.Image")));
+            this.listProjectImageActive.Location = new System.Drawing.Point(15, 10);
+            this.listProjectImageActive.Name = "listProjectImageActive";
+            this.listProjectImageActive.Size = new System.Drawing.Size(29, 32);
+            this.listProjectImageActive.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.listProjectImageActive.TabIndex = 21;
+            this.listProjectImageActive.TabStop = false;
+            this.listProjectImageActive.Click += new System.EventHandler(this.listProjectImageActive_Click);
+            // 
+            // listProjectImageDed
+            // 
+            this.listProjectImageDed.Image = global::TelyuProject.Properties.Resources.listDed;
+            this.listProjectImageDed.Location = new System.Drawing.Point(15, 10);
+            this.listProjectImageDed.Name = "listProjectImageDed";
+            this.listProjectImageDed.Size = new System.Drawing.Size(29, 32);
+            this.listProjectImageDed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.listProjectImageDed.TabIndex = 22;
+            this.listProjectImageDed.TabStop = false;
+            this.listProjectImageDed.Visible = false;
+            this.listProjectImageDed.Click += new System.EventHandler(this.listProjectImageDed_Click);
             // 
             // panelRequested
             // 
@@ -340,6 +292,29 @@
             this.panelRequested.Paint += new System.Windows.Forms.PaintEventHandler(this.panelRequested_Paint);
             this.panelRequested.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelRequested_MouseClick);
             // 
+            // requestedImageActive
+            // 
+            this.requestedImageActive.Image = ((System.Drawing.Image)(resources.GetObject("requestedImageActive.Image")));
+            this.requestedImageActive.Location = new System.Drawing.Point(15, 10);
+            this.requestedImageActive.Name = "requestedImageActive";
+            this.requestedImageActive.Size = new System.Drawing.Size(29, 32);
+            this.requestedImageActive.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.requestedImageActive.TabIndex = 24;
+            this.requestedImageActive.TabStop = false;
+            this.requestedImageActive.Visible = false;
+            this.requestedImageActive.Click += new System.EventHandler(this.requestedImageActive_Click);
+            // 
+            // requestedImageDed
+            // 
+            this.requestedImageDed.Image = global::TelyuProject.Properties.Resources.requestDed;
+            this.requestedImageDed.Location = new System.Drawing.Point(15, 10);
+            this.requestedImageDed.Name = "requestedImageDed";
+            this.requestedImageDed.Size = new System.Drawing.Size(29, 32);
+            this.requestedImageDed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.requestedImageDed.TabIndex = 23;
+            this.requestedImageDed.TabStop = false;
+            this.requestedImageDed.Click += new System.EventHandler(this.requestedImageDed_Click);
+            // 
             // myProjectPanel
             // 
             this.myProjectPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(41)))), ((int)(((byte)(93)))));
@@ -354,30 +329,6 @@
             this.myProjectPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint_1);
             this.myProjectPanel.MouseClick += new System.Windows.Forms.MouseEventHandler(this.myProjectPanel_MouseClick);
             // 
-            // listProjectImageDed
-            // 
-            this.listProjectImageDed.Image = global::TelyuProject.Properties.Resources.listDed;
-            this.listProjectImageDed.Location = new System.Drawing.Point(15, 10);
-            this.listProjectImageDed.Name = "listProjectImageDed";
-            this.listProjectImageDed.Size = new System.Drawing.Size(29, 32);
-            this.listProjectImageDed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.listProjectImageDed.TabIndex = 22;
-            this.listProjectImageDed.TabStop = false;
-            this.listProjectImageDed.Visible = false;
-            this.listProjectImageDed.Click += new System.EventHandler(this.listProjectImageDed_Click);
-            // 
-            // requestedImageActive
-            // 
-            this.requestedImageActive.Image = ((System.Drawing.Image)(resources.GetObject("requestedImageActive.Image")));
-            this.requestedImageActive.Location = new System.Drawing.Point(15, 10);
-            this.requestedImageActive.Name = "requestedImageActive";
-            this.requestedImageActive.Size = new System.Drawing.Size(29, 32);
-            this.requestedImageActive.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.requestedImageActive.TabIndex = 24;
-            this.requestedImageActive.TabStop = false;
-            this.requestedImageActive.Visible = false;
-            this.requestedImageActive.Click += new System.EventHandler(this.requestedImageActive_Click);
-            // 
             // myProjectImageActive
             // 
             this.myProjectImageActive.Image = ((System.Drawing.Image)(resources.GetObject("myProjectImageActive.Image")));
@@ -390,16 +341,46 @@
             this.myProjectImageActive.Visible = false;
             this.myProjectImageActive.Click += new System.EventHandler(this.myProjectImageActive_Click);
             // 
+            // myProjectImageDed
+            // 
+            this.myProjectImageDed.Image = global::TelyuProject.Properties.Resources.myProjectDed;
+            this.myProjectImageDed.Location = new System.Drawing.Point(15, 10);
+            this.myProjectImageDed.Name = "myProjectImageDed";
+            this.myProjectImageDed.Size = new System.Drawing.Size(29, 33);
+            this.myProjectImageDed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.myProjectImageDed.TabIndex = 22;
+            this.myProjectImageDed.TabStop = false;
+            this.myProjectImageDed.Click += new System.EventHandler(this.myProjectImageDed_Click);
+            // 
+            // panelAtas
+            // 
+            this.panelAtas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(47)))), ((int)(((byte)(72)))));
+            this.panelAtas.Controls.Add(this.label1);
+            this.panelAtas.Location = new System.Drawing.Point(265, 0);
+            this.panelAtas.Name = "panelAtas";
+            this.panelAtas.Size = new System.Drawing.Size(1002, 68);
+            this.panelAtas.TabIndex = 17;
+            // 
             // panelMain
             // 
-            this.panelMain.Controls.Add(this.Project2);
+            this.panelMain.Controls.Add(this.label2);
             this.panelMain.Controls.Add(this.panelContent);
             this.panelMain.Controls.Add(this.CreateProject);
-            this.panelMain.Controls.Add(this.Project1);
             this.panelMain.Location = new System.Drawing.Point(266, 70);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1001, 612);
             this.panelMain.TabIndex = 18;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(375, 17);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(250, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "*Double Click Project Title to show more information";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // DosenMenu
             // 
@@ -410,7 +391,7 @@
             this.Controls.Add(this.panelKiri);
             this.Controls.Add(this.panelAtas);
             this.Controls.Add(this.panelMain);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DosenMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DosenMenu";
@@ -418,23 +399,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
             this.panelKiri.ResumeLayout(false);
             this.panelKiri.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.requestedImageDed)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myProjectImageDed)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listProjectImageActive)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panelListProject.ResumeLayout(false);
+            this.panelListProject.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.listProjectImageActive)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listProjectImageDed)).EndInit();
+            this.panelRequested.ResumeLayout(false);
+            this.panelRequested.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.requestedImageActive)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.requestedImageDed)).EndInit();
+            this.myProjectPanel.ResumeLayout(false);
+            this.myProjectPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.myProjectImageActive)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myProjectImageDed)).EndInit();
             this.panelAtas.ResumeLayout(false);
             this.panelAtas.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
-            this.panelListProject.ResumeLayout(false);
-            this.panelListProject.PerformLayout();
-            this.panelRequested.ResumeLayout(false);
-            this.panelRequested.PerformLayout();
-            this.myProjectPanel.ResumeLayout(false);
-            this.myProjectPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listProjectImageDed)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.requestedImageActive)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myProjectImageActive)).EndInit();
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
             this.ResumeLayout(false);
@@ -450,8 +431,6 @@
         private System.Windows.Forms.Label dListProject;
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.Button CreateProject;
-        private System.Windows.Forms.Label Project1;
-        private System.Windows.Forms.Label Project2;
         private System.Diagnostics.EventLog eventLog1;
         private System.Windows.Forms.Panel panelContent;
         private System.Windows.Forms.Button button1;
@@ -470,5 +449,6 @@
         private System.Windows.Forms.PictureBox requestedImageActive;
         private System.Windows.Forms.PictureBox myProjectImageActive;
         private System.Windows.Forms.Panel panelMain;
+        private System.Windows.Forms.Label label2;
     }
 }
