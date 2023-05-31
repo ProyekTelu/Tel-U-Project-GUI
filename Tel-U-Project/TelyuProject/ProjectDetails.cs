@@ -111,5 +111,10 @@ namespace TelyuProject
             RequestProject requestProject = new RequestProject(lecturer,projectName, LecturerNip);
             requestProject.Show();
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

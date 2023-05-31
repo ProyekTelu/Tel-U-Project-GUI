@@ -57,7 +57,6 @@
             this.panelAtas = new System.Windows.Forms.Panel();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.panelMain = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.panelKiri.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -174,9 +173,9 @@
             // 
             // panelContent
             // 
-            this.panelContent.Location = new System.Drawing.Point(66, 45);
+            this.panelContent.Location = new System.Drawing.Point(66, 32);
             this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(869, 434);
+            this.panelContent.Size = new System.Drawing.Size(869, 447);
             this.panelContent.TabIndex = 13;
             this.panelContent.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -363,24 +362,12 @@
             // 
             // panelMain
             // 
-            this.panelMain.Controls.Add(this.label2);
             this.panelMain.Controls.Add(this.panelContent);
             this.panelMain.Controls.Add(this.CreateProject);
             this.panelMain.Location = new System.Drawing.Point(266, 70);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1001, 612);
             this.panelMain.TabIndex = 18;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(375, 17);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(250, 13);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "*Double Click Project Title to show more information";
-            this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // DosenMenu
             // 
@@ -417,7 +404,6 @@
             this.panelAtas.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.panelMain.ResumeLayout(false);
-            this.panelMain.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -449,6 +435,5 @@
         private System.Windows.Forms.PictureBox requestedImageActive;
         private System.Windows.Forms.PictureBox myProjectImageActive;
         private System.Windows.Forms.Panel panelMain;
-        private System.Windows.Forms.Label label2;
     }
 }

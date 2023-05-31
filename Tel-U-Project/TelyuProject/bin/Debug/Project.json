@@ -1,10 +1,14 @@
 [
   {
-    "Title": "23123",
+    "Title": "Membuat mobil",
     "Lecturer": "dosen",
     "LecturerNip": "1201",
-    "Description": "213213",
-    "Prodi": [],
+    "Description": "mengerjakan tugas",
+    "Prodi": [
+      "S1 Data Science",
+      "S1 Ilmu Komunikasi",
+      "S1 Informatika"
+    ],
     "StartDate": "2022-03-01T00:00:00",
     "EndDate": "2022-08-31T00:00:00",
     "IsDone": false,
@@ -19,37 +23,9 @@
         "prodi": "S1 Teknik Elektro",
         "fakultas": "Fakultas Teknik Elektro. ",
         "phone": "081281"
-      },
-      {
-        "NIM": "1302",
-        "email": "reza@student.telkomuniversity.ac.id",
-        "first_name": "reza",
-        "last_name": "adhie",
-        "gender": "Laki-Laki",
-        "prodi": "S1 Teknik Elektro",
-        "fakultas": "Fakultas Teknik Elektro. ",
-        "phone": "081281"
       }
     ],
-    "quota": 0,
-    "linkGroup": "1231231"
-  },
-  {
-    "Title": "Pembangunan Jalan",
-    "Lecturer": "dosen",
-    "LecturerNip": "1201",
-    "Description": "pembuangan sampah",
-    "Prodi": [
-      "S1 Creative Arts",
-      "S1 Data Science",
-      "S1 Ilmu Komunikasi"
-    ],
-    "StartDate": "2022-03-01T00:00:00",
-    "EndDate": "2022-08-31T00:00:00",
-    "IsDone": false,
-    "IsOpen": true,
-    "ListMahasiswa": null,
     "quota": 2,
-    "linkGroup": "123213"
+    "linkGroup": "htttp,link.impo"
   }
 ]
