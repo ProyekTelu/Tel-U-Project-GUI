@@ -64,8 +64,7 @@ namespace TelyuProject
                     {
                         if (PasswordTextBox.Text.Equals(Data.mahasiswaList.password[i]))
                         {
-                            UserSession.currentMhsUser = Data.mahasiswaList.data[i];
-                            UserSession.currentDosenUser = null;
+                            UserSession<Mahasiswa>.currentUser = Data.mahasiswaList.data[i];
                             MessageBox.Show("Login Berhasil");
                             MahasiswaMenu mahasiswamenu = new MahasiswaMenu();
                             mahasiswamenu.Show();
@@ -89,8 +88,7 @@ namespace TelyuProject
                        
                         if (PasswordTextBox.Text.Equals(Data.dosenList.password[i]))
                         {
-                            UserSession.currentDosenUser = Data.dosenList.data[i];
-                            UserSession.currentMhsUser = null;
+                            UserSession<Dosen>.currentUser = Data.dosenList.data[i];
                             DosenMenu dosen_menu = new DosenMenu();
                             MessageBox.Show("Login Berhasil");
                             dosen_menu.Show();

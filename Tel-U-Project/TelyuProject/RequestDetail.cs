@@ -39,6 +39,10 @@ namespace TelyuProject
                     }
                     project.ListMahasiswa.Add(req.Mahasiswa);
                     project.quota -= 1;
+                    if (project.quota == 0)
+                    {
+                        project.IsOpen = false;
+                    }
                     Data.requestList.Remove(req);
                     MessageBox.Show("Berhasil menambahkan " + req.Mahasiswa.first_name + " " + req.Mahasiswa.last_name + " dengan NIM" + req.Mahasiswa.NIM + " ke Project " + project.Title);
                     

@@ -15,7 +15,7 @@ namespace TelyuProject
             InitializeComponent();
             CreateProject.Show();
             
-            label3.Text = UserSession.currentDosenUser.first_name;
+            label3.Text = UserSession<Dosen>.currentUser.first_name;
           
             foreach (Control control in Controls)
             {
@@ -140,7 +140,7 @@ namespace TelyuProject
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            UserSession.currentDosenUser = null;
+            UserSession<Dosen>.currentUser = null;
 
             Login login = new Login();
 

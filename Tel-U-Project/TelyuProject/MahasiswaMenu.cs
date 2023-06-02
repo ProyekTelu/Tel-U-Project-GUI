@@ -18,7 +18,7 @@ namespace TelyuProject
         {
             InitializeComponent();
 
-            label3.Text =   UserSession.currentMhsUser.first_name;
+            label3.Text =   UserSession<Mahasiswa>.currentUser.first_name;
             foreach (Control control in Controls)
             {
                 control.Anchor = AnchorStyles.None;
