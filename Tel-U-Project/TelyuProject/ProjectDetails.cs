@@ -21,10 +21,57 @@ namespace TelyuProject
         String major;
         String dates;
         String quota;
+        bool mahasiswaAlreadyInProject = true;
+        bool mahasiswaOnRequest = false;
 
-        public ProjectDetails(String projectName, String lecturer, String LecturerNip,  String description, String major, String dates,String quota)
+        public ProjectDetails(String projectName, String lecturer, String LecturerNip, String description, String major, String dates, String quota)
         {
             InitializeComponent();
+            if (UserSession<Dosen>.currentUser != null && UserSession<Dosen>.currentUser.GetType() == typeof(Dosen))
+            {
+                JoinProject.Visible = false;
+            }
+
+
+            if (UserSession<Mahasiswa>.currentUser != null)
+            {
+                foreach (Project project in Data.projectList)
+                {
+                    if (project.LecturerNip == LecturerNip && project.Title == projectName)
+                    {
+
+                       if (project.ListMahasiswa != null)
+                         {
+                             mahasiswaAlreadyInProject = project.ListMahasiswa.Contains(UserSession<Mahasiswa>.currentUser) ? true : false;
+                             break;
+                         }
+                        
+
+                    }
+                }
+            }
+            
+
+            foreach (Requested req in Data.requestList)
+            {
+                if (req.projectName == projectName && req.Mahasiswa.Equals(UserSession<Mahasiswa>.currentUser)) {
+                    mahasiswaOnRequest = true;
+                    break;
+                }
+            }
+
+            if (mahasiswaAlreadyInProject)
+            {
+                JoinProject.Text = "You're already in this project";
+                JoinProject.Enabled = false;
+            }
+
+            if (mahasiswaOnRequest)
+            {
+                JoinProject.Text = "On Request";
+                JoinProject.Enabled = false;
+            }
+            
             this.projectName = projectName;
             this.lecturer = lecturer;
             this.LecturerNip = LecturerNip;
@@ -63,8 +110,6 @@ namespace TelyuProject
 
         private void LTeams_Click(object sender, EventArgs e)
         {
-            LTeams.ForeColor = Color.DarkCyan;
-            LInfo.ForeColor = Color.Black;
             panelContainer.Show();
            
             UC_Teams uc = new UC_Teams(projectName, LecturerNip);
@@ -75,8 +120,6 @@ namespace TelyuProject
 
         private void LInfo_Click(object sender, EventArgs e)
         {
-            LInfo.ForeColor = Color.DarkCyan;
-            LTeams.ForeColor = Color.Black;
             panelContainer.Show();
             UC_ProjectInfo uc = new UC_ProjectInfo(projectName,lecturer,LecturerNip, description, major,dates,quota);
             addUserControl(uc);

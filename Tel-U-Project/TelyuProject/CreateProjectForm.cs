@@ -91,8 +91,8 @@ namespace TelyuProject
             Project project = new Project
             {
                 Title = textBox1.Text,
-                Lecturer = UserSession.currentDosenUser.first_name,
-                LecturerNip = UserSession.currentDosenUser.NIP,
+                Lecturer = UserSession<Dosen>.currentUser.first_name,
+                LecturerNip = UserSession<Dosen>.currentUser.NIP,
                 Description = textBox2.Text,
                 Prodi = prodi,
                 StartDate = new DateTime(2022, 3, 1),

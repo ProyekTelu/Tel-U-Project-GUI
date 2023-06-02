@@ -35,16 +35,19 @@ namespace TelyuProject
                 }
             }
 
-            foreach(Mahasiswa mahasiswa in currentProject.ListMahasiswa)
+            if (currentProject.ListMahasiswa!= null)
             {
-                tableTeam.Rows.Add(
-                     new object[]
+                foreach (Mahasiswa mahasiswa in currentProject.ListMahasiswa)
                 {
+                    tableTeam.Rows.Add(
+                         new object[]
+                    {
                     mahasiswa.first_name + " " + mahasiswa.last_name,
                     mahasiswa.NIM,
                     mahasiswa.prodi
+                    }
+                );
                 }
-            );
             }
         }
 

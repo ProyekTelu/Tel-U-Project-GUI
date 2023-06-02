@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace TelyuProject.Model
 {
-    public static class UserSession
+    public static class UserSession<T>
     {
-        public static Mahasiswa currentMhsUser { get; set; }
-        public static Dosen currentDosenUser { get; set; }
+        public static T currentUser { get; set; }
     }
 
 }

@@ -13,6 +13,7 @@ namespace TelyuProject
 {
     public partial class UC_Requested : UserControl
     {
+        bool empty = false;
         public UC_Requested()
         {
             InitializeComponent();
@@ -20,7 +21,7 @@ namespace TelyuProject
             {
                 foreach (Requested request in Data.requestList)
                 {
-                    if (request.lecturerNip == UserSession.currentDosenUser.NIP)
+                    if (request.lecturerNip == UserSession<Dosen>.currentUser.NIP)
                     {
                         ListViewItem item = new ListViewItem(request.Mahasiswa.first_name + " " + request.Mahasiswa.last_name);
                         item.SubItems.Add(request.projectName);
@@ -34,8 +35,13 @@ namespace TelyuProject
 
                 listView1.ItemActivate += ListView1_ItemActivate;
             }
-           
+
+            if (empty)
+            {
+                noRequestMessage.Visible = true;
+            }
         }
+
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {

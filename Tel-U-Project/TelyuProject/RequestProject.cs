@@ -24,14 +24,26 @@ namespace TelyuProject
         public RequestProject(String dosenName, String projectName, String dosenNip)
         {
             InitializeComponent();
+
+            try
+            {
+
             this.dosenName = dosenName;
             this.projectName = projectName;
             this.dosenNip = dosenNip;
-            labelStudentName.Text = UserSession.currentMhsUser.first_name+" "+UserSession.currentMhsUser.last_name;
-            labelLecturerName.Text = dosenName;
-            EmailTextBox.Text = UserSession.currentMhsUser.email;
-            textBoxPhoneNumber.Text = UserSession.currentMhsUser.phone;
+            
+            if (UserSession<Mahasiswa>.currentUser != null)
+                {
+                    labelStudentName.Text = UserSession<Mahasiswa>.currentUser.first_name + " " + UserSession<Mahasiswa>.currentUser.last_name;
+                    labelLecturerName.Text = dosenName;
+                    EmailTextBox.Text = UserSession<Mahasiswa>.currentUser.email;
+                    textBoxPhoneNumber.Text = UserSession<Mahasiswa>.currentUser.phone;
+                }
             txtFilePath.ReadOnly = true;
+            } catch (Exception ex)
+            {
+                Console.WriteLine("Error " + ex.Message);
+            }
             foreach (Control control in Controls)
             {
                 control.Anchor = AnchorStyles.None;
@@ -137,7 +149,7 @@ namespace TelyuProject
             request.lecturerNip = dosenNip;
             request.notes = textBoxNotes.Text;
             request.cvDirectory = destinationFilePath;
-            request.Mahasiswa = (UserSession.currentMhsUser);
+            request.Mahasiswa = (UserSession<Mahasiswa>.currentUser);
             request.projectName = projectName;
             if (Data.requestList == null)
             {

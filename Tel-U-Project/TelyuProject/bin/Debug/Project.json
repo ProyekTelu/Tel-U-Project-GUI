@@ -27,5 +27,78 @@
     ],
     "quota": 2,
     "linkGroup": "htttp,link.impo"
+  },
+  {
+    "Title": "d",
+    "Lecturer": "dosen",
+    "LecturerNip": "1201",
+    "Description": "2",
+    "Prodi": [],
+    "StartDate": "2022-03-01T00:00:00",
+    "EndDate": "2022-08-31T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": [
+      {
+        "NIM": "1302",
+        "email": "reza@student.telkomuniversity.ac.id",
+        "first_name": "reza",
+        "last_name": "adhie",
+        "gender": "Laki-Laki",
+        "prodi": "S1 Teknik Elektro",
+        "fakultas": "Fakultas Teknik Elektro. ",
+        "phone": "081281"
+      },
+      {
+        "NIM": "1302",
+        "email": "reza@student.telkomuniversity.ac.id",
+        "first_name": "reza",
+        "last_name": "adhie",
+        "gender": "Laki-Laki",
+        "prodi": "S1 Teknik Elektro",
+        "fakultas": "Fakultas Teknik Elektro. ",
+        "phone": "081281"
+      }
+    ],
+    "quota": 8,
+    "linkGroup": "22"
+  },
+  {
+    "Title": "d",
+    "Lecturer": "dosen",
+    "LecturerNip": "1201",
+    "Description": "d",
+    "Prodi": [
+      "d",
+      "S1 Rekayasa Perangkat Lunak"
+    ],
+    "StartDate": "2022-03-01T00:00:00",
+    "EndDate": "2022-08-31T00:00:00",
+    "IsDone": false,
+    "IsOpen": false,
+    "ListMahasiswa": [
+      {
+        "NIM": "1302",
+        "email": "reza@student.telkomuniversity.ac.id",
+        "first_name": "reza",
+        "last_name": "adhie",
+        "gender": "Laki-Laki",
+        "prodi": "S1 Teknik Elektro",
+        "fakultas": "Fakultas Teknik Elektro. ",
+        "phone": "081281"
+      },
+      {
+        "NIM": "1302",
+        "email": "reza@student.telkomuniversity.ac.id",
+        "first_name": "reza",
+        "last_name": "adhie",
+        "gender": "Laki-Laki",
+        "prodi": "S1 Teknik Elektro",
+        "fakultas": "Fakultas Teknik Elektro. ",
+        "phone": "081281"
+      }
+    ],
+    "quota": 0,
+    "linkGroup": "123"
   }
 ]

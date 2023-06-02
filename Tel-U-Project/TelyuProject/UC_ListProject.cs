@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TelyuProject.Model;
 
 namespace TelyuProject
 {
@@ -23,7 +24,7 @@ namespace TelyuProject
                 if (Data.projectList != null) {
                     foreach (Project project in Data.projectList)
                     {
-                        if (project.quota != 0)
+                        if (project.quota != 0 && DateTime.Now.Date > project.StartDate)
                         {
                             ListViewItem item = new ListViewItem(project.Title);
                             item.SubItems.Add(project.Lecturer);
@@ -49,9 +50,14 @@ namespace TelyuProject
                 }
                 if (empty > 0)
                 {
+                    if (UserSession<Dosen>.currentUser != null && UserSession<Dosen>.currentUser.GetType() == typeof(Dosen)) {
+                        existProjectLabel.Visible = false;
+                    } else
+                    {
+                        existProjectLabel.Visible = true;
+                    }
                     listView1.Visible = true;
                     emptyAnnounceProject.Visible = false;
-                    existProjectLabel.Visible = true;
                 }
 
             } catch (Exception ex)

@@ -34,7 +34,7 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label1 = new System.Windows.Forms.Label();
+            this.noRequestMessage = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listView1
@@ -79,22 +79,23 @@
             this.columnHeader5.Text = "Phone Number";
             this.columnHeader5.Width = 133;
             // 
-            // label1
+            // noRequestMessage
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(182, 203);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(505, 28);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "There are no students currently requesting to join your project.";
+            this.noRequestMessage.AutoSize = true;
+            this.noRequestMessage.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.noRequestMessage.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.noRequestMessage.Location = new System.Drawing.Point(182, 203);
+            this.noRequestMessage.Name = "noRequestMessage";
+            this.noRequestMessage.Size = new System.Drawing.Size(505, 28);
+            this.noRequestMessage.TabIndex = 1;
+            this.noRequestMessage.Text = "There are no students currently requesting to join your project.";
+            this.noRequestMessage.Visible = false;
             // 
             // UC_Requested
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.noRequestMessage);
             this.Controls.Add(this.listView1);
             this.Name = "UC_Requested";
             this.Size = new System.Drawing.Size(869, 434);
@@ -111,6 +112,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label noRequestMessage;
     }
 }
