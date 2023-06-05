@@ -52,7 +52,7 @@ namespace TelyuProject
 
         private void LBack_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void TEmployeeID_TextChanged(object sender, EventArgs e)

@@ -36,6 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "UserControlListProject";
             this.Size = new System.Drawing.Size(728, 462);
+            this.Load += new System.EventHandler(this.UserControlListProject_Load);
             this.ResumeLayout(false);
 
         }

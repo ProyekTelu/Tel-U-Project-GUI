@@ -27,7 +27,7 @@ namespace TelyuProject
         private void addTeam1()
         {
             Project currentProject = null;
-            foreach(Project project in Data.projectList)
+            foreach (Project project in Data.projectList)
             {
                 if (project.Title == projectName && project.LecturerNip == nip)
                 {
@@ -35,7 +35,7 @@ namespace TelyuProject
                 }
             }
 
-            if (currentProject.ListMahasiswa!= null)
+            if (currentProject.ListMahasiswa != null)
             {
                 foreach (Mahasiswa mahasiswa in currentProject.ListMahasiswa)
                 {

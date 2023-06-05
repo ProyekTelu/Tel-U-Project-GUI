@@ -13,7 +13,7 @@ namespace TelyuProject
 {
     public partial class UC_MyProject : UserControl
     {
-       
+
         public UC_MyProject()
         {
 
@@ -22,59 +22,65 @@ namespace TelyuProject
             label1.Visible = false;
             dataGridView1.Visible = true;
 
-            if (Data.projectList != null) { 
-     
-            foreach (Project project in Data.projectList)
+            if (Data.projectList != null)
             {
-                if (UserSession<Dosen>.currentUser != null)
+
+                foreach (Project project in Data.projectList)
                 {
-                    if (project.LecturerNip == UserSession<Dosen>.currentUser.NIP)
+                    if (UserSession<Dosen>.currentUser != null)
                     {
-                        String prodiStr = "";
-                        foreach (String prodi in project.Prodi)
+                        if (project.LecturerNip == UserSession<Dosen>.currentUser.NIP)
                         {
-                            if (prodiStr == "")
+                            String prodiStr = "";
+                            foreach (String prodi in project.Prodi)
                             {
-                            prodiStr = prodi;
-                            } else
-                            {
-                                prodiStr += " ," + prodi;
+                                if (prodiStr == "")
+                                {
+                                    prodiStr = prodi;
+                                }
+                                else
+                                {
+                                    prodiStr += " ," + prodi;
+                                }
                             }
-                        }
-                        dataGridView1.Rows.Add(new object[]
-                        {
-                           project.Title, 
-                           project.Lecturer, 
-                            project.LecturerNip, 
+                            dataGridView1.Rows.Add(new object[]
+                            {
+                           project.Title,
+                           project.Lecturer,
+                            project.LecturerNip,
                             project.Description,
-                            prodiStr, 
-                            project.StartDate + "-" + project.EndDate, 
+                            prodiStr,
+                            project.StartDate + "-" + project.EndDate,
                             project.quota,
-                             project.IsDone ? "Completed" : (DateTime.Now.Date > project.StartDate.Date ? "In Progress" : (project.IsOpen ? "Recruitment Open" : "Recruitment Closed"))
+                            project.IsDone ? "Completed" : (DateTime.Now.Date > project.StartDate.Date ? "In Progress" : (project.IsOpen ? "Recruitment Open" : "Recruitment Closed"))
+
+                        }
+                            );
+                        }
+                    }
+                    else if (UserSession<Mahasiswa>.currentUser != null)
+                    {
 
                     }
-                        ) ;
-                    }
-                } else if (UserSession<Mahasiswa>.currentUser != null)
-                {
-
                 }
-                }
-            } else
+            }
+            else
             {
                 label1.Visible = true;
                 dataGridView1.Visible = false;
-                
+
                 try
                 {
-                if (UserSession<Dosen>.currentUser != null && UserSession<Dosen>.currentUser.GetType().Equals(typeof(Dosen)))
-                {
-                    label1.Text = "You dont have project, \nDo you want to create a project? Click me";
-                } else
-                {
-                    label1.Text = "You dont have project, Join project";
+                    if (UserSession<Dosen>.currentUser != null && UserSession<Dosen>.currentUser.GetType().Equals(typeof(Dosen)))
+                    {
+                        label1.Text = "You dont have project, \nDo you want to create a project? Click me";
+                    }
+                    else
+                    {
+                        label1.Text = "You dont have project, Join project";
+                    }
                 }
-                } catch (Exception e)
+                catch (Exception e)
                 {
                     Console.WriteLine(e.ToString());
                 }
@@ -94,11 +100,17 @@ namespace TelyuProject
         private void label1_Click(object sender, EventArgs e)
         {
 
-            if (UserSession<Dosen>.currentUser != null) { 
+            if (UserSession<Dosen>.currentUser != null)
+            {
                 if (UserSession<Dosen>.currentUser.GetType() == typeof(Dosen))
                 {
                     CreateProjectForm createProjectForm = new CreateProjectForm();
-                    this.Hide();
+                    List<Form> list = Application.OpenForms.Cast<Form>().ToList();
+                    for (int i = 0; i < list.Count; i++)
+                    {
+                        Form form = list[i];
+                        form.Hide();
+                    }
                     createProjectForm.Show();
                 }
             }

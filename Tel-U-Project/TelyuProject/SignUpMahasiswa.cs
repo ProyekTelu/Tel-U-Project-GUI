@@ -34,15 +34,15 @@ namespace TelyuProject
             mahasiswa.prodi = BMajor.GetItemText(BMajor.SelectedItem).ToString();
             mahasiswa.fakultas = BFaculty.GetItemText(BFaculty.SelectedItem).ToString();
             mahasiswa.gender = RGenderM.Checked ? "Laki-Laki" : "Perempuan";
-            
+
             Data.mahasiswaList.data.Add(mahasiswa);
             Data.mahasiswaList.password.Add(password);
-            
+
             string json_data_mahasiswa = JsonConvert.SerializeObject(Data.mahasiswaList.data, Formatting.Indented);
             File.WriteAllText("DataMahasiswa.json", json_data_mahasiswa);
             string json_password_mahasiswa = JsonConvert.SerializeObject(Data.mahasiswaList.password, Formatting.Indented);
             File.WriteAllText("PasswordMahasiswa.json", json_password_mahasiswa);
-            
+
             MessageBox.Show("Sign Up berhasil");
             Login login = new Login();
             login.Show();
@@ -51,7 +51,7 @@ namespace TelyuProject
         }
         private void LBack_Click(object sender, EventArgs e)
         {
-            
+
 
         }
 
@@ -87,7 +87,7 @@ namespace TelyuProject
 
         private void TPhone_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void TPhone_KeyPress(object sender, KeyPressEventArgs e)

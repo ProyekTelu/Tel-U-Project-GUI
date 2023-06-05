@@ -17,8 +17,7 @@ namespace TelyuProject
 
             InitializeComponent();
             TProjectNama.Text = projectName;
-            TDosen.Text = lecturer;
-            TNip.Text = "(" + LecturerNip + ")";
+            TDosen.Text = lecturer + " " + "(" + LecturerNip + ")";
             TDeskripsi.Text = description;
             TMajor.Text = major;
             TContract.Text = dates;
@@ -40,6 +39,11 @@ namespace TelyuProject
         }
 
         private void TNip_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TDosen_Click(object sender, EventArgs e)
         {
 
         }

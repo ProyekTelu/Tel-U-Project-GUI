@@ -10,6 +10,6 @@ namespace TelyuProject
         public List<T> data { get; set; }
         public List<String> password { get; set; }
 
-        
+
     }
 }

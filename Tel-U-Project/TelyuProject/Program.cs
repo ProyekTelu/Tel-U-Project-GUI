@@ -13,13 +13,14 @@ namespace TelyuProject
         [STAThread]
         static void Main()
         {
-           
+
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Login());
 
-            try{
+            try
+            {
                 using (FileStream fs = new FileStream("filename.txt", FileMode.Open))
                 {
                     StreamReader sr = new StreamReader(fs);
@@ -28,7 +29,8 @@ namespace TelyuProject
                     sr.Close();
                     fs.Close();
                 }
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }

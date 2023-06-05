@@ -303,12 +303,12 @@ namespace TelyuProject
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            label3.Text = dateTimePicker1.Text + " - " + dateTimePicker2.Text;
+            label3.Text = dateTimePicker2.Text + " - " + dateTimePicker1.Text;
         }
 
         private void dateTimePicker2_ValueChanged_1(object sender, EventArgs e)
         {
-            label3.Text = dateTimePicker1.Text + " - " + dateTimePicker2.Text;
+            label3.Text = dateTimePicker2.Text + " - " + dateTimePicker1.Text;
         }
 
         private void TitleForm_Click(object sender, EventArgs e)
