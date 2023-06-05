@@ -98,7 +98,8 @@ namespace TelyuProject
                 if (UserSession<Dosen>.currentUser.GetType() == typeof(Dosen))
                 {
                     CreateProjectForm createProjectForm = new CreateProjectForm();
-                    createProjectForm.ShowDialog();
+                    this.Hide();
+                    createProjectForm.Show();
                 }
             }
 
