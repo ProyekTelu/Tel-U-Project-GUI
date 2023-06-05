@@ -13,7 +13,7 @@ namespace TelyuProject
 {
     public partial class UC_Requested : UserControl
     {
-        bool empty = false;
+        bool empty = true;
         public UC_Requested()
         {
             InitializeComponent();
@@ -23,6 +23,7 @@ namespace TelyuProject
                 {
                     if (request.lecturerNip == UserSession<Dosen>.currentUser.NIP)
                     {
+                        empty = false;
                         ListViewItem item = new ListViewItem(request.Mahasiswa.first_name + " " + request.Mahasiswa.last_name);
                         item.SubItems.Add(request.projectName);
                         item.SubItems.Add(request.notes);
@@ -39,6 +40,7 @@ namespace TelyuProject
             if (empty)
             {
                 noRequestMessage.Visible = true;
+                listView1.Visible = false;
             }
         }
 

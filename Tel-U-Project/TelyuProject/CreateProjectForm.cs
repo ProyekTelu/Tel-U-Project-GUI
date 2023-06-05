@@ -88,33 +88,98 @@ namespace TelyuProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Project project = new Project
-            {
-                Title = textBox1.Text,
-                Lecturer = UserSession<Dosen>.currentUser.first_name,
-                LecturerNip = UserSession<Dosen>.currentUser.NIP,
-                Description = textBox2.Text,
-                Prodi = prodi,
-                StartDate = new DateTime(2022, 3, 1),
-                EndDate = new DateTime(2022, 8, 31),
-                linkGroup = textBox5.Text,
-                quota = Convert.ToInt32(numericUpDown1.Value),
-                IsDone = false,
-                IsOpen = true
-            };
+            bool valid = true;
+            label4.Visible = false;
+            label7.Visible = false;
+            label8.Visible = false;
+            label9.Visible = false;
+            label10.Visible = false;
+            label11. Visible = false;
 
-            if (Data.projectList == null)
+            if (textBox1.Text.Length == 0)
             {
-                Data.projectList = new List<Project>();
+                label4.Visible = true;
+                label4.Text = "Title tidak boleh kosong";
+                valid = false;
+            } else if (textBox1.Text.Length < 8)
+            {
+                label4.Visible = true;
+                label4.Text = "Title harus lebih dari 8 huruf";
+                valid = false;
             }
-            Data.projectList.Add(project);
 
-            string json_project = JsonConvert.SerializeObject(Data.projectList, Formatting.Indented);
-            File.WriteAllText("Project.json", json_project);
+            if (textBox2.Text.Length == 0)
+            {
+                label7.Visible = true;
+                label7.Text = "Deskripsi tidak boleh kosong";
+                valid = false;
+            } else if (textBox2.Text.Length < 10)
+            {
+                label7.Visible = true;
+                label7.Text = "Deskripsi harus lebih dari 10 huruf";
+                valid = false;
+            }
 
-            this.Close();
-            DosenMenu dosenm = new DosenMenu();
-            dosenm.Show();
+
+            if (textBox4.Text.Length == 0)
+            {
+                label8.Visible = true;
+                label8.Text = "Major harus dipilih dahulu";
+                valid = false;
+            }
+
+            if (label3.Text.Length == 0)
+            {
+                label9.Visible = true;
+                label9.Text = "Major harus dipilih dahulu";
+                valid = false;
+            }
+
+            if (textBox5.Text.Length == 0)
+            {
+                label10.Visible = true;
+                label10.Text = "Link group tidak boleh kosong";
+                valid = false;
+            }
+
+            if (numericUpDown1.Value == 0)
+            {
+                label11.Visible = true;
+                valid = false;
+            }
+
+            if (valid)
+            {
+                Project project = new Project
+                {
+                    Title = textBox1.Text,
+                    Lecturer = UserSession<Dosen>.currentUser.first_name,
+                    LecturerNip = UserSession<Dosen>.currentUser.NIP,
+                    Description = textBox2.Text,
+                    Prodi = prodi,
+                    StartDate = dateTimePicker2.Value.Date,
+                    EndDate = dateTimePicker1.Value.Date,
+                    linkGroup = textBox5.Text,
+                    quota = Convert.ToInt32(numericUpDown1.Value),
+                    IsDone = false,
+                    IsOpen = true
+                };
+
+                if (Data.projectList == null)
+                {
+                    Data.projectList = new List<Project>();
+                }
+                Data.projectList.Add(project);
+
+                string json_project = JsonConvert.SerializeObject(Data.projectList, Formatting.Indented);
+                File.WriteAllText("Project.json", json_project);
+
+                this.Close();
+                DosenMenu dosenm = new DosenMenu();
+                dosenm.Show();
+            }
+
+           
 
         }
 
@@ -260,6 +325,11 @@ namespace TelyuProject
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }

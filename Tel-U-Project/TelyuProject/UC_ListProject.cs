@@ -24,7 +24,7 @@ namespace TelyuProject
                 if (Data.projectList != null) {
                     foreach (Project project in Data.projectList)
                     {
-                        if (project.quota != 0 && DateTime.Now.Date > project.StartDate)
+                        if (project.quota != 0 &&  DateTime.Now.Date > project.StartDate.Date)
                         {
                             ListViewItem item = new ListViewItem(project.Title);
                             item.SubItems.Add(project.Lecturer);
