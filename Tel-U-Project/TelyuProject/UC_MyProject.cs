@@ -43,22 +43,47 @@ namespace TelyuProject
                         }
                         dataGridView1.Rows.Add(new object[]
                         {
-                           project.Title, 
-                           project.Lecturer, 
+                            project.Title, 
+                            project.Lecturer, 
                             project.LecturerNip, 
                             project.Description,
                             prodiStr, 
                             project.StartDate + "-" + project.EndDate, 
                             project.quota,
-                             project.IsDone ? "Completed" : (DateTime.Now.Date > project.StartDate.Date ? "In Progress" : (project.IsOpen ? "Recruitment Open" : "Recruitment Closed"))
+                            project.IsDone ? "Completed" : (DateTime.Now.Date > project.StartDate.Date ? "In Progress" : (project.IsOpen ? "Recruitment Open" : "Recruitment Closed"))
 
-                    }
-                        ) ;
+                        }) ;
                     }
                 } else if (UserSession<Mahasiswa>.currentUser != null)
                 {
+                        if (project.ListMahasiswa != null && project.ListMahasiswa.Any(mahasiswa => mahasiswa.NIM == UserSession<Mahasiswa>.currentUser.NIM) )
+                        {
+                            String prodiStr = "";
+                            foreach (String prodi in project.Prodi)
+                            {
+                                if (prodiStr == "")
+                                {
+                                    prodiStr = prodi;
+                                }
+                                else
+                                {
+                                    prodiStr += " ," + prodi;
+                                }
+                            }
+                            dataGridView1.Rows.Add(new object[]
+                            {
+                                project.Title,
+                                project.Lecturer,
+                                project.LecturerNip,
+                                project.Description,
+                                prodiStr,
+                                project.StartDate + "-" + project.EndDate,
+                                project.quota,
+                                project.IsDone ? "Completed" : (DateTime.Now.Date > project.StartDate.Date ? "In Progress" : (project.IsOpen ? "Recruitment Open" : "Recruitment Closed"))
 
-                }
+                            });
+                        }
+                    }
                 }
             } else
             {

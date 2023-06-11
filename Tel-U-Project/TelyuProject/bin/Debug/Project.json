@@ -1,0 +1,50 @@
+[
+  {
+    "Title": "AI Parking",
+    "Lecturer": "dosen",
+    "LecturerNip": "1201",
+    "Description": "Park using AI",
+    "Prodi": [
+      "S1 Informatika",
+      "S1 Rekayasa Perangkat Lunak",
+      "S1 Smart Science and Technology"
+    ],
+    "StartDate": "2023-06-11T00:00:00+07:00",
+    "EndDate": "2023-06-30T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 5,
+    "linkGroup": "www.google.com"
+  },
+  {
+    "Title": "Chat DBT",
+    "Lecturer": "dosen",
+    "LecturerNip": "1201",
+    "Description": "AI for chatting",
+    "Prodi": [
+      "S1 Creative Arts",
+      "S1 Informatika",
+      "S1 Rekayasa Perangkat Lunak",
+      "S1 Smart Science and Technology"
+    ],
+    "StartDate": "2023-06-01T00:00:00",
+    "EndDate": "2023-06-30T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": [
+      {
+        "NIM": "1302",
+        "email": "reza@student.telkomuniversity.ac.id",
+        "first_name": "reza",
+        "last_name": "adhie",
+        "gender": "Laki-Laki",
+        "prodi": "S1 Teknik Elektro",
+        "fakultas": "Fakultas Teknik Elektro. ",
+        "phone": "081281"
+      }
+    ],
+    "quota": 7,
+    "linkGroup": "www.google.com"
+  }
+]

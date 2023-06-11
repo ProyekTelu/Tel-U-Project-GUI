@@ -21,7 +21,7 @@ namespace TelyuProject
         String major;
         String dates;
         String quota;
-        bool mahasiswaAlreadyInProject = true;
+        bool mahasiswaAlreadyInProject = false;
         bool mahasiswaOnRequest = false;
 
         public ProjectDetails(String projectName, String lecturer, String LecturerNip, String description, String major, String dates, String quota)
