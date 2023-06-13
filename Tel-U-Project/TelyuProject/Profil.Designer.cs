@@ -40,6 +40,10 @@
             this.labelProfilSID = new System.Windows.Forms.Label();
             this.labelProfilEmail = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.labelProfilMajor = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.labelProfilPhone = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -176,6 +180,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(88)))), ((int)(((byte)(135)))));
+            this.panel1.Controls.Add(this.labelProfilPhone);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.labelProfilMajor);
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.TitleForm);
             this.panel1.Controls.Add(this.Nama);
             this.panel1.Controls.Add(this.labelProfilEmail);
@@ -190,6 +198,54 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(621, 599);
             this.panel1.TabIndex = 52;
+            // 
+            // labelProfilMajor
+            // 
+            this.labelProfilMajor.BackColor = System.Drawing.SystemColors.Control;
+            this.labelProfilMajor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelProfilMajor.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelProfilMajor.ForeColor = System.Drawing.Color.Black;
+            this.labelProfilMajor.Location = new System.Drawing.Point(46, 378);
+            this.labelProfilMajor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelProfilMajor.Name = "labelProfilMajor";
+            this.labelProfilMajor.Size = new System.Drawing.Size(527, 32);
+            this.labelProfilMajor.TabIndex = 49;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.DarkGray;
+            this.label3.Location = new System.Drawing.Point(41, 349);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 29);
+            this.label3.TabIndex = 48;
+            this.label3.Text = "Major*";
+            // 
+            // labelProfilPhone
+            // 
+            this.labelProfilPhone.BackColor = System.Drawing.SystemColors.Control;
+            this.labelProfilPhone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelProfilPhone.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelProfilPhone.ForeColor = System.Drawing.Color.Black;
+            this.labelProfilPhone.Location = new System.Drawing.Point(46, 446);
+            this.labelProfilPhone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelProfilPhone.Name = "labelProfilPhone";
+            this.labelProfilPhone.Size = new System.Drawing.Size(527, 32);
+            this.labelProfilPhone.TabIndex = 51;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.DarkGray;
+            this.label5.Location = new System.Drawing.Point(41, 417);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(177, 29);
+            this.label5.TabIndex = 50;
+            this.label5.Text = "Phone Number*";
             // 
             // Profil
             // 
@@ -226,5 +282,9 @@
         private System.Windows.Forms.Label labelProfilSID;
         private System.Windows.Forms.Label labelProfilEmail;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label labelProfilMajor;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelProfilPhone;
+        private System.Windows.Forms.Label label5;
     }
 }
