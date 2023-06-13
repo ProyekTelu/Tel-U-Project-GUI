@@ -92,7 +92,7 @@
             // columnHeader7
             // 
             this.columnHeader7.Text = "Quota";
-            this.columnHeader7.Width = 162;
+            this.columnHeader7.Width = 85;
             // 
             // emptyAnnounceProject
             // 

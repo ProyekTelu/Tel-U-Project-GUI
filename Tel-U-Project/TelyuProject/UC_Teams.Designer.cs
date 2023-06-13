@@ -42,7 +42,7 @@
             this.team1.BackColor = System.Drawing.Color.Red;
             this.team1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.team1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.team1.Location = new System.Drawing.Point(56, 0);
+            this.team1.Location = new System.Drawing.Point(2, 9);
             this.team1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.team1.Name = "team1";
             this.team1.Size = new System.Drawing.Size(107, 19);
@@ -52,18 +52,18 @@
             // 
             // tableTeam
             // 
-            this.tableTeam.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.tableTeam.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(62)))));
             this.tableTeam.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tableTeam.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nama,
             this.NIM,
             this.Fakultas});
-            this.tableTeam.Location = new System.Drawing.Point(58, 31);
-            this.tableTeam.Margin = new System.Windows.Forms.Padding(2);
+            this.tableTeam.Location = new System.Drawing.Point(2, 32);
+            this.tableTeam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableTeam.Name = "tableTeam";
             this.tableTeam.RowHeadersWidth = 51;
             this.tableTeam.RowTemplate.Height = 24;
-            this.tableTeam.Size = new System.Drawing.Size(565, 295);
+            this.tableTeam.Size = new System.Drawing.Size(749, 372);
             this.tableTeam.TabIndex = 16;
             this.tableTeam.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tableTeam_CellContentClick);
             // 
@@ -72,14 +72,14 @@
             this.Nama.HeaderText = "Nama";
             this.Nama.MinimumWidth = 6;
             this.Nama.Name = "Nama";
-            this.Nama.Width = 200;
+            this.Nama.Width = 300;
             // 
             // NIM
             // 
             this.NIM.HeaderText = "NIM";
             this.NIM.MinimumWidth = 6;
             this.NIM.Name = "NIM";
-            this.NIM.Width = 125;
+            this.NIM.Width = 200;
             // 
             // Fakultas
             // 
@@ -94,9 +94,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.team1);
             this.Controls.Add(this.tableTeam);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UC_Teams";
-            this.Size = new System.Drawing.Size(684, 372);
+            this.Size = new System.Drawing.Size(749, 372);
             ((System.ComponentModel.ISupportInitialize)(this.tableTeam)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

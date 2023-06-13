@@ -32,7 +32,6 @@
             this.LTeams = new System.Windows.Forms.Label();
             this.LInfo = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panelContainer = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -43,15 +42,15 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(412, 83);
+            this.label1.Location = new System.Drawing.Point(140, 83);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 31);
+            this.label1.Size = new System.Drawing.Size(749, 49);
             this.label1.TabIndex = 0;
             this.label1.Text = "Project YOLO";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // LTeams
@@ -96,9 +95,9 @@
             // panelContainer
             // 
             this.panelContainer.Location = new System.Drawing.Point(140, 171);
-            this.panelContainer.Margin = new System.Windows.Forms.Padding(2);
+            this.panelContainer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(737, 372);
+            this.panelContainer.Size = new System.Drawing.Size(749, 372);
             this.panelContainer.TabIndex = 16;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
             // 
@@ -131,7 +130,7 @@
             this.JoinProject.BackColor = System.Drawing.Color.AliceBlue;
             this.JoinProject.Font = new System.Drawing.Font("Poppins", 12F);
             this.JoinProject.Location = new System.Drawing.Point(393, 581);
-            this.JoinProject.Margin = new System.Windows.Forms.Padding(2);
+            this.JoinProject.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.JoinProject.Name = "JoinProject";
             this.JoinProject.Size = new System.Drawing.Size(224, 55);
             this.JoinProject.TabIndex = 19;
@@ -144,10 +143,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1267, 684);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ProjectDetails";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProjectDetails";
@@ -157,7 +156,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -168,7 +166,6 @@
         private System.Windows.Forms.Label LTeams;
         private System.Windows.Forms.Label LInfo;
         private System.Windows.Forms.Label label2;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Panel panelContainer;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;

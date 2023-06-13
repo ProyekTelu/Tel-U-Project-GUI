@@ -16,8 +16,6 @@ namespace TelyuProject
         public String prodi { get; set; }
         public String fakultas { get; set; }
         public String phone { get; set; }
-        public String skills { get; set; }
-        public String looking_for { get; set; }
 
 
         

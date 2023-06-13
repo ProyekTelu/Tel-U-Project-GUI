@@ -60,7 +60,7 @@ namespace TelyuProject
             {
                 for (int i = 0; i < Data.mahasiswaList.data.Count; i++)
                 {
-                    if (EmailTextBox.Text.Equals(Data.mahasiswaList.data[i].email))
+                    if (EmailTextBox.Text.ToLower().Equals(Data.mahasiswaList.data[i].email.ToLower()))
                     {
                         if (PasswordTextBox.Text.Equals(Data.mahasiswaList.password[i]))
                         {
@@ -84,7 +84,7 @@ namespace TelyuProject
             {
                 for (int i = 0; i < Data.dosenList.data.Count; i++)
                 {
-                    if (EmailTextBox.Text.Equals(Data.dosenList.data[i].email))
+                    if (EmailTextBox.Text.ToLower().Equals(Data.dosenList.data[i].email.ToLower()))
                     {
 
                         if (PasswordTextBox.Text.Equals(Data.dosenList.password[i]))
