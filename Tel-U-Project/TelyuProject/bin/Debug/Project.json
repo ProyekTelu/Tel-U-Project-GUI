@@ -109,5 +109,76 @@
     ],
     "quota": 5,
     "linkGroup": "htttps:/Youtube.com"
+  },
+  {
+    "Title": "Kuku kaki kalkan makan ayam",
+    "Lecturer": "Berlian",
+    "LecturerNip": "13022131",
+    "Description": "mencari petunjuk dunia",
+    "Prodi": [
+      "S1 Ilmu Komunikasi",
+      "S1 Informatika",
+      "S1 Leisure Management"
+    ],
+    "StartDate": "2023-06-29T00:00:00",
+    "EndDate": "2023-07-07T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 10,
+    "linkGroup": "https://web.whatsapp.com/"
+  },
+  {
+    "Title": "Perjuangan semut",
+    "Lecturer": "Berlian",
+    "LecturerNip": "13022131",
+    "Description": "menangkap udang dibalik semut",
+    "Prodi": [
+      "S1 Data Science",
+      "S1 Ilmu Komunikasi",
+      "S1 Informatika"
+    ],
+    "StartDate": "2023-06-22T00:00:00",
+    "EndDate": "2023-07-28T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 3,
+    "linkGroup": "https://web.whatsapp.com/"
+  },
+  {
+    "Title": "mengundang dosen dari itb dan ins",
+    "Lecturer": "Berlian",
+    "LecturerNip": "13022131",
+    "Description": "menggelar karpet kebenaran",
+    "Prodi": [
+      "S1 Administrasi Bisnis",
+      "S1 Akutansi"
+    ],
+    "StartDate": "2023-06-28T00:00:00",
+    "EndDate": "2023-08-10T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 2,
+    "linkGroup": "https://web.whatsapp.com/"
+  },
+  {
+    "Title": "mengetrack makanan di sekitar telkom",
+    "Lecturer": "Berlian",
+    "LecturerNip": "13022131",
+    "Description": "makanan telkom banyak dan enak ",
+    "Prodi": [
+      "S1 Creative Arts",
+      "S1 Kriya",
+      "S1 Sistem Informasi"
+    ],
+    "StartDate": "2023-06-23T00:00:00",
+    "EndDate": "2023-07-14T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 3,
+    "linkGroup": "https://web.whatsapp.com/"
   }
 ]

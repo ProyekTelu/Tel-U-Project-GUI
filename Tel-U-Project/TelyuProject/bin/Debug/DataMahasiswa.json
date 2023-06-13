@@ -9,5 +9,16 @@
     "fakultas": "Fakultas Informatika.",
     "phone": "081221313131",
     "invitations": []
+  },
+  {
+    "NIM": "1302213030",
+    "email": "reza@student.telkomuniversity.ac.id",
+    "first_name": "Reza",
+    "last_name": "buzzardian",
+    "gender": "Laki-Laki",
+    "prodi": "S1 Rekayasa Perangkat Lunak",
+    "fakultas": "Fakultas Informatika.",
+    "phone": "089672823222",
+    "invitations": []
   }
 ]
