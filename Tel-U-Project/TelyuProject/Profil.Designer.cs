@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.TitleForm = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.StudentID = new System.Windows.Forms.Label();
             this.NamaB = new System.Windows.Forms.Label();
             this.Nama = new System.Windows.Forms.Label();
@@ -41,8 +39,6 @@
             this.labelProfilLName = new System.Windows.Forms.Label();
             this.labelProfilSID = new System.Windows.Forms.Label();
             this.labelProfilEmail = new System.Windows.Forms.Label();
-            this.labelProfilLookingFor = new System.Windows.Forms.Label();
-            this.labelProfilSkill = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -57,28 +53,6 @@
             this.TitleForm.Size = new System.Drawing.Size(93, 41);
             this.TitleForm.TabIndex = 14;
             this.TitleForm.Text = "Profil";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.Window;
-            this.label7.Location = new System.Drawing.Point(45, 419);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(129, 29);
-            this.label7.TabIndex = 31;
-            this.label7.Text = "Looking For";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.Window;
-            this.label6.Location = new System.Drawing.Point(41, 348);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 29);
-            this.label6.TabIndex = 30;
-            this.label6.Text = "Skills";
             // 
             // StudentID
             // 
@@ -199,45 +173,17 @@
             this.labelProfilEmail.Size = new System.Drawing.Size(527, 32);
             this.labelProfilEmail.TabIndex = 47;
             // 
-            // labelProfilLookingFor
-            // 
-            this.labelProfilLookingFor.BackColor = System.Drawing.SystemColors.Window;
-            this.labelProfilLookingFor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelProfilLookingFor.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelProfilLookingFor.ForeColor = System.Drawing.Color.Black;
-            this.labelProfilLookingFor.Location = new System.Drawing.Point(46, 448);
-            this.labelProfilLookingFor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelProfilLookingFor.Name = "labelProfilLookingFor";
-            this.labelProfilLookingFor.Size = new System.Drawing.Size(527, 32);
-            this.labelProfilLookingFor.TabIndex = 51;
-            // 
-            // labelProfilSkill
-            // 
-            this.labelProfilSkill.BackColor = System.Drawing.SystemColors.Window;
-            this.labelProfilSkill.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelProfilSkill.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelProfilSkill.ForeColor = System.Drawing.Color.Black;
-            this.labelProfilSkill.Location = new System.Drawing.Point(46, 377);
-            this.labelProfilSkill.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelProfilSkill.Name = "labelProfilSkill";
-            this.labelProfilSkill.Size = new System.Drawing.Size(527, 32);
-            this.labelProfilSkill.TabIndex = 49;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(88)))), ((int)(((byte)(135)))));
-            this.panel1.Controls.Add(this.labelProfilLookingFor);
             this.panel1.Controls.Add(this.TitleForm);
-            this.panel1.Controls.Add(this.labelProfilSkill);
             this.panel1.Controls.Add(this.Nama);
             this.panel1.Controls.Add(this.labelProfilEmail);
             this.panel1.Controls.Add(this.NamaB);
             this.panel1.Controls.Add(this.labelProfilSID);
             this.panel1.Controls.Add(this.StudentID);
             this.panel1.Controls.Add(this.labelProfilLName);
-            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.labelProfilName);
-            this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.EmailAddress);
             this.panel1.Location = new System.Drawing.Point(322, 46);
@@ -269,8 +215,6 @@
         #endregion
 
         private System.Windows.Forms.Label TitleForm;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label StudentID;
         private System.Windows.Forms.Label NamaB;
         private System.Windows.Forms.Label Nama;
@@ -281,8 +225,6 @@
         private System.Windows.Forms.Label labelProfilLName;
         private System.Windows.Forms.Label labelProfilSID;
         private System.Windows.Forms.Label labelProfilEmail;
-        private System.Windows.Forms.Label labelProfilLookingFor;
-        private System.Windows.Forms.Label labelProfilSkill;
         private System.Windows.Forms.Panel panel1;
     }
 }

@@ -20,12 +20,20 @@ namespace TelyuProject
         {
             InitializeComponent();
 
-            if (UserSession<Dosen>.currentUser != null)
+            if(UserSession<Dosen>.currentUser != null && UserSession<Dosen>.currentUser.GetType() == typeof(Dosen))
             {
                 EditFirstName.Text = UserSession<Dosen>.currentUser.first_name;
                 EditLastName.Text = UserSession<Dosen>.currentUser.last_name;
                 EditStudentID.Text = UserSession<Dosen>.currentUser.NIP;
                 EditProfilEmail.Text = UserSession<Dosen>.currentUser.email;
+                EStudentID.Text = "Lecture ID";
+            }
+            else
+            {
+                EditFirstName.Text = UserSession<Mahasiswa>.currentUser.first_name;
+                EditLastName.Text = UserSession<Mahasiswa>.currentUser.last_name;
+                EditStudentID.Text = UserSession<Mahasiswa>.currentUser.NIM;
+                EditProfilEmail.Text = UserSession<Mahasiswa>.currentUser.email;
             }
 
 
@@ -70,22 +78,68 @@ namespace TelyuProject
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-           /* Mahasiswa mahasiswa = UserSession.currentMhsUser;
+            string oldPassword = OldPassword.Text;
+            string newPassword = NewPassword.Text;
+            string confirmPassword = ConfirmPassword.Text;
 
-            mahasiswa.skills = EditSkill.Text;
-            mahasiswa.looking_for = EditLookingFor.Text;
+            if (string.IsNullOrEmpty(oldPassword) || string.IsNullOrEmpty(newPassword) || string.IsNullOrEmpty(confirmPassword))
+            {
+                MessageBox.Show("Please fill in all the password fields.");
+                return;
+            }
 
+            if (newPassword != confirmPassword)
+            {
+                MessageBox.Show("New password and confirm password do not match.");
+                return;
+            }
 
-            UserSession.currentMhsUser = mahasiswa;
+            if (UserSession<Dosen>.currentUser != null && UserSession<Dosen>.currentUser.GetType() == typeof(Dosen))
+            {
+                int index = Data.dosenList.data.FindIndex(d => d.email == UserSession<Dosen>.currentUser.email);
+                if (index >= 0)
+                {
+                    if (Data.dosenList.password[index] == oldPassword)
+                    {
+                        Data.dosenList.password[index] = newPassword;
 
-            string jsonUpdated = JsonConvert.SerializeObject(Data.mahasiswaList, Formatting.Indented);
-            File.WriteAllText("DataMahasiswa.json", jsonUpdated);
+                        string passwordDosenString = JsonConvert.SerializeObject(Data.dosenList.password);
+                        File.WriteAllText("PasswordDosen.json", passwordDosenString);
 
-            */
-            MessageBox.Show("Edit Profil Suceed");
-            Profil profil = new Profil();
-            profil.Show();
-            this.Close();
+                        MessageBox.Show("Password updated successfully.");
+                        Profil profil = new Profil();
+                        profil.Show();
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Old password is incorrect.");
+                    }
+                }
+            }
+            else
+            {
+                int index = Data.mahasiswaList.data.FindIndex(m => m.email == UserSession<Mahasiswa>.currentUser.email);
+                if (index >= 0)
+                {
+                    if (Data.mahasiswaList.password[index] == oldPassword)
+                    {
+                        Data.mahasiswaList.password[index] = newPassword;
+
+                        string passwordMahasiswaString = JsonConvert.SerializeObject(Data.mahasiswaList.password);
+                        File.WriteAllText("PasswordMahasiswa.json", passwordMahasiswaString);
+
+                        MessageBox.Show("Password updated successfully.");
+                        Profil profil = new Profil();
+                        profil.Show();
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Old password is incorrect.");
+                    }
+                }
+            }
         }
 
         private void TitleForm_Click(object sender, EventArgs e)
@@ -105,6 +159,22 @@ namespace TelyuProject
                 control.Anchor = AnchorStyles.None;
             }
 
+        }
+
+        private void ShowPassword_CheckedChanged(object sender, EventArgs e)
+        {
+            if(ShowPassword.Checked)
+            {
+                OldPassword.UseSystemPasswordChar = false;
+                NewPassword.UseSystemPasswordChar = false;
+                ConfirmPassword.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                OldPassword.UseSystemPasswordChar = true;
+                NewPassword.UseSystemPasswordChar = true;
+                ConfirmPassword.UseSystemPasswordChar = true;
+            }
         }
     }
 }

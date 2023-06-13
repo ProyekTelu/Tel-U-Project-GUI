@@ -36,15 +36,18 @@
             this.EditLastName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.EditStudentID = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.EditSkill = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.EditLookingFor = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.EStudentID = new System.Windows.Forms.Label();
             this.SaveButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelProfilEmail = new System.Windows.Forms.Label();
             this.EditProfilEmail = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.NewPassword = new System.Windows.Forms.TextBox();
+            this.OldPassword = new System.Windows.Forms.TextBox();
+            this.ConfirmPassword = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.ShowPassword = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -143,60 +146,16 @@
             this.EditStudentID.TabIndex = 21;
             this.EditStudentID.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // label4
+            // EStudentID
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.DarkGray;
-            this.label4.Location = new System.Drawing.Point(39, 200);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(129, 29);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "Student ID*";
-            // 
-            // EditSkill
-            // 
-            this.EditSkill.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.EditSkill.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EditSkill.Location = new System.Drawing.Point(44, 364);
-            this.EditSkill.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.EditSkill.Multiline = true;
-            this.EditSkill.Name = "EditSkill";
-            this.EditSkill.Size = new System.Drawing.Size(531, 32);
-            this.EditSkill.TabIndex = 25;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.Window;
-            this.label6.Location = new System.Drawing.Point(43, 334);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 29);
-            this.label6.TabIndex = 24;
-            this.label6.Text = "Skill";
-            // 
-            // EditLookingFor
-            // 
-            this.EditLookingFor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.EditLookingFor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EditLookingFor.Location = new System.Drawing.Point(44, 429);
-            this.EditLookingFor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.EditLookingFor.Multiline = true;
-            this.EditLookingFor.Name = "EditLookingFor";
-            this.EditLookingFor.Size = new System.Drawing.Size(531, 32);
-            this.EditLookingFor.TabIndex = 27;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.Window;
-            this.label7.Location = new System.Drawing.Point(43, 398);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(129, 29);
-            this.label7.TabIndex = 26;
-            this.label7.Text = "Looking For";
+            this.EStudentID.AutoSize = true;
+            this.EStudentID.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EStudentID.ForeColor = System.Drawing.Color.DarkGray;
+            this.EStudentID.Location = new System.Drawing.Point(39, 200);
+            this.EStudentID.Name = "EStudentID";
+            this.EStudentID.Size = new System.Drawing.Size(129, 29);
+            this.EStudentID.TabIndex = 20;
+            this.EStudentID.Text = "Student ID*";
             // 
             // SaveButton
             // 
@@ -204,7 +163,7 @@
             this.SaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SaveButton.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SaveButton.ForeColor = System.Drawing.Color.White;
-            this.SaveButton.Location = new System.Drawing.Point(575, 569);
+            this.SaveButton.Location = new System.Drawing.Point(244, 536);
             this.SaveButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(113, 58);
@@ -216,17 +175,21 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(88)))), ((int)(((byte)(135)))));
+            this.panel1.Controls.Add(this.ShowPassword);
+            this.panel1.Controls.Add(this.SaveButton);
+            this.panel1.Controls.Add(this.ConfirmPassword);
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.labelProfilEmail);
             this.panel1.Controls.Add(this.EditStudentID);
             this.panel1.Controls.Add(this.EditProfilEmail);
             this.panel1.Controls.Add(this.EditLastName);
             this.panel1.Controls.Add(this.TitleForm);
-            this.panel1.Controls.Add(this.EditSkill);
-            this.panel1.Controls.Add(this.EditLookingFor);
+            this.panel1.Controls.Add(this.OldPassword);
+            this.panel1.Controls.Add(this.NewPassword);
             this.panel1.Controls.Add(this.Nama);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.EStudentID);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Location = new System.Drawing.Point(322, 46);
             this.panel1.Name = "panel1";
@@ -256,13 +219,90 @@
             this.EditProfilEmail.Size = new System.Drawing.Size(531, 32);
             this.EditProfilEmail.TabIndex = 30;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.Window;
+            this.label7.Location = new System.Drawing.Point(43, 398);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(162, 29);
+            this.label7.TabIndex = 26;
+            this.label7.Text = "New Password";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.Window;
+            this.label6.Location = new System.Drawing.Point(43, 334);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(151, 29);
+            this.label6.TabIndex = 24;
+            this.label6.Text = "Old Password";
+            // 
+            // NewPassword
+            // 
+            this.NewPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.NewPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NewPassword.Location = new System.Drawing.Point(44, 429);
+            this.NewPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.NewPassword.Name = "NewPassword";
+            this.NewPassword.Size = new System.Drawing.Size(531, 30);
+            this.NewPassword.TabIndex = 27;
+            this.NewPassword.UseSystemPasswordChar = true;
+            // 
+            // OldPassword
+            // 
+            this.OldPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.OldPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OldPassword.Location = new System.Drawing.Point(44, 364);
+            this.OldPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.OldPassword.Name = "OldPassword";
+            this.OldPassword.Size = new System.Drawing.Size(531, 30);
+            this.OldPassword.TabIndex = 25;
+            this.OldPassword.UseSystemPasswordChar = true;
+            // 
+            // ConfirmPassword
+            // 
+            this.ConfirmPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ConfirmPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConfirmPassword.Location = new System.Drawing.Point(44, 500);
+            this.ConfirmPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ConfirmPassword.Name = "ConfirmPassword";
+            this.ConfirmPassword.Size = new System.Drawing.Size(531, 30);
+            this.ConfirmPassword.TabIndex = 33;
+            this.ConfirmPassword.UseSystemPasswordChar = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.Window;
+            this.label5.Location = new System.Drawing.Point(43, 469);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(197, 29);
+            this.label5.TabIndex = 32;
+            this.label5.Text = "Confirm Password";
+            // 
+            // ShowPassword
+            // 
+            this.ShowPassword.AutoSize = true;
+            this.ShowPassword.ForeColor = System.Drawing.SystemColors.Window;
+            this.ShowPassword.Location = new System.Drawing.Point(377, 536);
+            this.ShowPassword.Name = "ShowPassword";
+            this.ShowPassword.Size = new System.Drawing.Size(125, 20);
+            this.ShowPassword.TabIndex = 34;
+            this.ShowPassword.Text = "Show Password";
+            this.ShowPassword.UseVisualStyleBackColor = true;
+            this.ShowPassword.CheckedChanged += new System.EventHandler(this.ShowPassword_CheckedChanged);
+            // 
             // EditProfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(62)))));
             this.ClientSize = new System.Drawing.Size(1262, 673);
-            this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.EditFirstName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -290,14 +330,17 @@
         private System.Windows.Forms.TextBox EditLastName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox EditStudentID;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox EditSkill;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox EditLookingFor;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label EStudentID;
         private System.Windows.Forms.Button SaveButton;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label labelProfilEmail;
         private System.Windows.Forms.TextBox EditProfilEmail;
+        private System.Windows.Forms.TextBox OldPassword;
+        private System.Windows.Forms.TextBox NewPassword;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.CheckBox ShowPassword;
+        private System.Windows.Forms.TextBox ConfirmPassword;
+        private System.Windows.Forms.Label label5;
     }
 }

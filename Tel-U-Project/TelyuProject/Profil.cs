@@ -26,7 +26,9 @@ namespace TelyuProject
                 labelProfilLName.Text = UserSession<Dosen>.currentUser.last_name;
                 labelProfilSID.Text = UserSession<Dosen>.currentUser.NIP;
                 labelProfilEmail.Text = UserSession<Dosen>.currentUser.email;
-            } else
+                StudentID.Text = "Lecture ID";
+            }
+            else
             {
                 labelProfilName.Text = UserSession<Mahasiswa>.currentUser.first_name;
                 labelProfilLName.Text = UserSession<Mahasiswa>.currentUser.last_name;
@@ -85,9 +87,19 @@ namespace TelyuProject
 
         private void label2_Click(object sender, EventArgs e)
         {
-            MahasiswaMenu mahasiswaMenu = new MahasiswaMenu();
-            mahasiswaMenu.Show();
-            this.Hide();
+            if (UserSession<Dosen>.currentUser != null && UserSession<Dosen>.currentUser.GetType() == typeof(Dosen))
+            {
+                DosenMenu dosenMenu = new DosenMenu();
+                dosenMenu.Show();
+                this.Hide();
+            }
+            else
+            {
+                MahasiswaMenu mahasiswaMenu = new MahasiswaMenu();
+                mahasiswaMenu.Show();
+                this.Hide();
+            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
