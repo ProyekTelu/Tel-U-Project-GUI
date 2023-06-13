@@ -119,7 +119,7 @@
             // 
             this.BMajor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.BMajor.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BMajor.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BMajor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BMajor.FormattingEnabled = true;
             this.BMajor.Items.AddRange(new object[] {
             "S1 Teknik Elektro",
@@ -162,7 +162,7 @@
             // 
             this.BFaculty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.BFaculty.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BFaculty.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BFaculty.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BFaculty.FormattingEnabled = true;
             this.BFaculty.Items.AddRange(new object[] {
             "Fakultas Teknik Elektro. ",
@@ -195,7 +195,7 @@
             // 
             this.TPhone.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TPhone.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.TPhone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.TPhone.Location = new System.Drawing.Point(478, 201);
             this.TPhone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TPhone.Name = "TPhone";
@@ -221,7 +221,7 @@
             // 
             this.TEmployeeID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TEmployeeID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TEmployeeID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.TEmployeeID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.TEmployeeID.Location = new System.Drawing.Point(279, 201);
             this.TEmployeeID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TEmployeeID.Name = "TEmployeeID";
@@ -260,7 +260,7 @@
             // 
             this.TLecCode.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TLecCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TLecCode.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.TLecCode.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.TLecCode.Location = new System.Drawing.Point(279, 331);
             this.TLecCode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TLecCode.Name = "TLecCode";

@@ -42,7 +42,8 @@
             this.team1.BackColor = System.Drawing.Color.Red;
             this.team1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.team1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.team1.Location = new System.Drawing.Point(3, 14);
+            this.team1.Location = new System.Drawing.Point(2, 9);
+            this.team1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.team1.Name = "team1";
             this.team1.Size = new System.Drawing.Size(107, 19);
             this.team1.TabIndex = 17;
@@ -57,11 +58,12 @@
             this.Nama,
             this.NIM,
             this.Fakultas});
-            this.tableTeam.Location = new System.Drawing.Point(3, 50);
+            this.tableTeam.Location = new System.Drawing.Point(2, 32);
+            this.tableTeam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableTeam.Name = "tableTeam";
             this.tableTeam.RowHeadersWidth = 51;
             this.tableTeam.RowTemplate.Height = 24;
-            this.tableTeam.Size = new System.Drawing.Size(1020, 452);
+            this.tableTeam.Size = new System.Drawing.Size(749, 372);
             this.tableTeam.TabIndex = 16;
             this.tableTeam.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tableTeam_CellContentClick);
             // 
@@ -70,7 +72,7 @@
             this.Nama.HeaderText = "Nama";
             this.Nama.MinimumWidth = 6;
             this.Nama.Name = "Nama";
-            this.Nama.Width = 370;
+            this.Nama.Width = 300;
             // 
             // NIM
             // 
@@ -84,16 +86,17 @@
             this.Fakultas.HeaderText = "Fakultas";
             this.Fakultas.MinimumWidth = 6;
             this.Fakultas.Name = "Fakultas";
-            this.Fakultas.Width = 400;
+            this.Fakultas.Width = 200;
             // 
             // UC_Teams
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.team1);
             this.Controls.Add(this.tableTeam);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UC_Teams";
-            this.Size = new System.Drawing.Size(1026, 572);
+            this.Size = new System.Drawing.Size(749, 372);
             ((System.ComponentModel.ISupportInitialize)(this.tableTeam)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -101,7 +101,7 @@
             // 
             this.TEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TEmail.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TEmail.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.TEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.TEmail.Location = new System.Drawing.Point(268, 243);
             this.TEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TEmail.Name = "TEmail";
@@ -125,7 +125,7 @@
             // TPassword
             // 
             this.TPassword.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TPassword.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.TPassword.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.TPassword.Location = new System.Drawing.Point(268, 304);
             this.TPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TPassword.Name = "TPassword";
@@ -166,7 +166,7 @@
             // 
             this.TFirstName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TFirstName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TFirstName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.TFirstName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.TFirstName.Location = new System.Drawing.Point(268, 193);
             this.TFirstName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TFirstName.Name = "TFirstName";
@@ -178,7 +178,7 @@
             // 
             this.TLastName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TLastName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TLastName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.TLastName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.TLastName.Location = new System.Drawing.Point(478, 193);
             this.TLastName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TLastName.Name = "TLastName";

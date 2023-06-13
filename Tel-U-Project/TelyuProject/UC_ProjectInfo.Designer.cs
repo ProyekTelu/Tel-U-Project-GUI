@@ -186,6 +186,7 @@
             this.linkLabel1.TabIndex = 18;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "linkLabel1";
+            this.linkLabel1.Visible = false;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // LinkGroup
@@ -198,6 +199,7 @@
             this.LinkGroup.Size = new System.Drawing.Size(94, 28);
             this.LinkGroup.TabIndex = 19;
             this.LinkGroup.Text = "Link Group";
+            this.LinkGroup.Visible = false;
             this.LinkGroup.Click += new System.EventHandler(this.LinkGroup_Click);
             // 
             // button1

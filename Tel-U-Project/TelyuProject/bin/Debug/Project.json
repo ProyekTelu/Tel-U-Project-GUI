@@ -72,5 +72,22 @@
     ],
     "quota": 7,
     "linkGroup": "ambasing"
+  },
+  {
+    "Title": "Ekspedisi sd 44 Bandung raya mengelola anak",
+    "Lecturer": "Han",
+    "LecturerNip": "1302212020",
+    "Description": "membangun anak yang rajin dan pintar tetapi suka makan seblak",
+    "Prodi": [
+      "D3 Digital Marketing",
+      "S1 Ilmu Komunikasi"
+    ],
+    "StartDate": "2023-07-25T00:00:00",
+    "EndDate": "2023-08-26T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": null,
+    "quota": 6,
+    "linkGroup": "htttps:/Youtube.com"
   }
 ]

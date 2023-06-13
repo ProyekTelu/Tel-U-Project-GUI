@@ -8,7 +8,8 @@
     "gender": "Laki-Laki",
     "prodi": "S1 Teknik Elektro (International Class)",
     "fakultas": "Fakultas Rekayasa Industri. ",
-    "phone": "08372313131"
+    "phone": "08372313131",
+    "requested": null
   },
   {
     "NIP": "69420",
@@ -19,7 +20,8 @@
     "gender": "Laki-Laki",
     "prodi": "S1 Teknik Elektro",
     "fakultas": "Fakultas Informatika.",
-    "phone": "08269420"
+    "phone": "08269420",
+    "requested": null
   },
   {
     "NIP": "1201",
@@ -30,6 +32,19 @@
     "gender": "Perempuan",
     "prodi": "S1 Teknik Industri",
     "fakultas": "Fakultas Informatika.",
-    "phone": "08901"
+    "phone": "08901",
+    "requested": null
+  },
+  {
+    "NIP": "1302212020",
+    "email": "Hansolo@telkomuniversity.ac.id",
+    "first_name": "Han",
+    "last_name": "Solo",
+    "kode_dosen": "HSL",
+    "gender": "Laki-Laki",
+    "prodi": "S1 Smart Science and Technology",
+    "fakultas": "Fakultas Rekayasa Industri. ",
+    "phone": "082178223213",
+    "requested": null
   }
 ]

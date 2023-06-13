@@ -34,6 +34,8 @@ namespace TelyuProject
                         if (project.Lecturer == UserSession<Dosen>.currentUser.first_name)
                         {
                             button1.Visible = true;
+                            linkLabel1.Visible = true;
+                            LinkGroup.Visible = true;
                             break;
                         }
                     }

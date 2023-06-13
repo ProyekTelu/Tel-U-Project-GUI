@@ -42,15 +42,15 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(412, 83);
+            this.label1.Location = new System.Drawing.Point(140, 83);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 31);
+            this.label1.Size = new System.Drawing.Size(749, 49);
             this.label1.TabIndex = 0;
             this.label1.Text = "Project YOLO";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // LTeams
@@ -97,7 +97,7 @@
             this.panelContainer.Location = new System.Drawing.Point(140, 171);
             this.panelContainer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(737, 372);
+            this.panelContainer.Size = new System.Drawing.Size(749, 372);
             this.panelContainer.TabIndex = 16;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
             // 
@@ -156,7 +156,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
