@@ -32,7 +32,6 @@
             this.LTeams = new System.Windows.Forms.Label();
             this.LInfo = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panelContainer = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -96,7 +95,7 @@
             // panelContainer
             // 
             this.panelContainer.Location = new System.Drawing.Point(140, 171);
-            this.panelContainer.Margin = new System.Windows.Forms.Padding(2);
+            this.panelContainer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(737, 372);
             this.panelContainer.TabIndex = 16;
@@ -131,7 +130,7 @@
             this.JoinProject.BackColor = System.Drawing.Color.AliceBlue;
             this.JoinProject.Font = new System.Drawing.Font("Poppins", 12F);
             this.JoinProject.Location = new System.Drawing.Point(393, 581);
-            this.JoinProject.Margin = new System.Windows.Forms.Padding(2);
+            this.JoinProject.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.JoinProject.Name = "JoinProject";
             this.JoinProject.Size = new System.Drawing.Size(224, 55);
             this.JoinProject.TabIndex = 19;
@@ -144,10 +143,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1267, 684);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ProjectDetails";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProjectDetails";
@@ -168,7 +167,6 @@
         private System.Windows.Forms.Label LTeams;
         private System.Windows.Forms.Label LInfo;
         private System.Windows.Forms.Label label2;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Panel panelContainer;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
