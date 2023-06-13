@@ -47,18 +47,15 @@ namespace TelyuProject
                 {
                     if (project.LecturerNip == LecturerNip && project.Title == projectName)
                     {
-
-                       if (project.ListMahasiswa != null)
-                         {
-                             mahasiswaAlreadyInProject = project.ListMahasiswa.Contains(UserSession<Mahasiswa>.currentUser) ? true : false;
-                             break;
-                         }
-                        
-
+                        if (project.ListMahasiswa != null && project.ListMahasiswa.Any(m => m.NIM == UserSession<Mahasiswa>.currentUser.NIM))
+                        {
+                            mahasiswaAlreadyInProject = true;
+                            break;
+                        }
                     }
                 }
             }
-            
+
 
             foreach (Requested req in Data.requestList)
             {
@@ -70,7 +67,7 @@ namespace TelyuProject
 
             if (mahasiswaAlreadyInProject)
             {
-                JoinProject.Text = "You're already in this project";
+                JoinProject.Text = "You are already in this project";
                 JoinProject.Enabled = false;
             }
 

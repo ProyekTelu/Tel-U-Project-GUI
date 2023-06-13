@@ -20,6 +20,10 @@ namespace TelyuProject
         {
             InitializeComponent();
             this.req = req;
+            label1.Text = req.Mahasiswa.first_name + " " + req.Mahasiswa.last_name;
+            label6.Text = req.Mahasiswa.NIM;
+            label7.Text = req.Mahasiswa.prodi;
+            textBox1.Text = req.notes;
         }
 
         private void RequestDetail_Load(object sender, EventArgs e)
@@ -60,6 +64,20 @@ namespace TelyuProject
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Data.requestList.RemoveAll(r => r.projectName == req.projectName && r.Mahasiswa.NIM == req.Mahasiswa.NIM);
+            MessageBox.Show("Berhasil menolak mahasiswa " + req.Mahasiswa.first_name);
+            Application.Exit();
+            DosenMenu dosenmenu = new DosenMenu();
+            dosenmenu.Show();
         }
     }
 }

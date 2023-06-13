@@ -7,7 +7,9 @@
     "gender": "Laki-Laki",
     "prodi": "S1 Teknik Elektro",
     "fakultas": "Fakultas Teknik Elektro. ",
-    "phone": "082312"
+    "phone": "082312",
+    "skills": null,
+    "looking_for": null
   },
   {
     "NIM": "1302",
@@ -17,6 +19,20 @@
     "gender": "Laki-Laki",
     "prodi": "S1 Teknik Elektro",
     "fakultas": "Fakultas Teknik Elektro. ",
-    "phone": "081281"
+    "phone": "081281",
+    "skills": null,
+    "looking_for": null
+  },
+  {
+    "NIM": "1302213067",
+    "email": "mzakyf@student.telkomuniversity.ac.id",
+    "first_name": "Muhammad Zaky",
+    "last_name": "Fathurahim",
+    "gender": "Laki-Laki",
+    "prodi": "S1 Rekayasa Perangkat Lunak",
+    "fakultas": "Fakultas Informatika.",
+    "phone": "089678220200",
+    "skills": null,
+    "looking_for": null
   }
 ]

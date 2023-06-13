@@ -130,7 +130,9 @@
             this.EmailTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EmailTextBox.AutoCompleteCustomSource.AddRange(new string[] {
             "dosen@telkomuniversity.ac.id",
-            "reza@student.telkomuniversity.ac.id"});
+            "reza@student.telkomuniversity.ac.id",
+            "hansolo@telkomuniversity.ac.id",
+            "mzakyf@student.telkomuniversity.ac.id"});
             this.EmailTextBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
             this.EmailTextBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.EmailTextBox.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

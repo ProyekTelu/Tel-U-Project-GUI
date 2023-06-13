@@ -86,8 +86,21 @@
     "EndDate": "2023-08-26T00:00:00",
     "IsDone": false,
     "IsOpen": true,
-    "ListMahasiswa": null,
-    "quota": 6,
+    "ListMahasiswa": [
+      {
+        "NIM": "1302213067",
+        "email": "mzakyf@student.telkomuniversity.ac.id",
+        "first_name": "Muhammad Zaky",
+        "last_name": "Fathurahim",
+        "gender": "Laki-Laki",
+        "prodi": "S1 Rekayasa Perangkat Lunak",
+        "fakultas": "Fakultas Informatika.",
+        "phone": "089678220200",
+        "skills": null,
+        "looking_for": null
+      }
+    ],
+    "quota": 5,
     "linkGroup": "htttps:/Youtube.com"
   }
 ]
