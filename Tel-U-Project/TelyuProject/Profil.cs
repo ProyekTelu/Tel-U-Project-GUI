@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TelyuProject.Model;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace TelyuProject
@@ -17,6 +18,22 @@ namespace TelyuProject
         public Profil()
         {
             InitializeComponent();
+
+
+            if (UserSession<Dosen>.currentUser != null && UserSession<Dosen>.currentUser.GetType() == typeof(Dosen))
+            {
+                labelProfilName.Text = UserSession<Dosen>.currentUser.first_name;
+                labelProfilLName.Text = UserSession<Dosen>.currentUser.last_name;
+                labelProfilSID.Text = UserSession<Dosen>.currentUser.NIP;
+                labelProfilEmail.Text = UserSession<Dosen>.currentUser.email;
+            } else
+            {
+                labelProfilName.Text = UserSession<Mahasiswa>.currentUser.first_name;
+                labelProfilLName.Text = UserSession<Mahasiswa>.currentUser.last_name;
+                labelProfilSID.Text = UserSession<Mahasiswa>.currentUser.NIM;
+                labelProfilEmail.Text = UserSession<Mahasiswa>.currentUser.email;
+            }
+
             foreach (Control control in Controls)
             {
                 control.Anchor = AnchorStyles.None;
@@ -68,8 +85,8 @@ namespace TelyuProject
 
         private void label2_Click(object sender, EventArgs e)
         {
-            DosenMenu dosenMenu = new DosenMenu();
-            dosenMenu.Show();
+            MahasiswaMenu mahasiswaMenu = new MahasiswaMenu();
+            mahasiswaMenu.Show();
             this.Hide();
         }
 

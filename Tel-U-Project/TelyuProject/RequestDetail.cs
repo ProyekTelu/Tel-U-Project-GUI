@@ -29,7 +29,7 @@ namespace TelyuProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            foreach(Project project in Data.projectList)
+            foreach (Project project in Data.projectList)
             {
                 if (project.Lecturer == req.lecturerName && project.LecturerNip == req.lecturerNip && project.Title == req.projectName)
                 {
@@ -45,14 +45,14 @@ namespace TelyuProject
                     }
                     Data.requestList.Remove(req);
                     MessageBox.Show("Berhasil menambahkan " + req.Mahasiswa.first_name + " " + req.Mahasiswa.last_name + " dengan NIM" + req.Mahasiswa.NIM + " ke Project " + project.Title);
-                    
+
                     string newProjectList = JsonConvert.SerializeObject(Data.projectList, Formatting.Indented);
                     File.WriteAllText("Project.json", newProjectList);
                     string newRequestList = JsonConvert.SerializeObject(Data.requestList, Formatting.Indented);
                     File.WriteAllText("DataRequested.json", newRequestList);
                     this.Close();
-                    
-                    
+
+
                 }
             }
         }

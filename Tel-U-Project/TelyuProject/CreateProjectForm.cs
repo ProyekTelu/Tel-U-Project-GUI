@@ -131,7 +131,7 @@ namespace TelyuProject
             if (label3.Text.Length == 0)
             {
                 label9.Visible = true;
-                label9.Text = "Major harus dipilih dahulu";
+                label9.Text = "Contract harus ditentukan";
                 valid = false;
             }
 
@@ -303,12 +303,12 @@ namespace TelyuProject
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            label3.Text = dateTimePicker1.Text + " - " + dateTimePicker2.Text;
+            label3.Text = dateTimePicker2.Text + " - " + dateTimePicker1.Text;
         }
 
         private void dateTimePicker2_ValueChanged_1(object sender, EventArgs e)
         {
-            label3.Text = dateTimePicker1.Text + " - " + dateTimePicker2.Text;
+            label3.Text = dateTimePicker2.Text + " - " + dateTimePicker1.Text;
         }
 
         private void TitleForm_Click(object sender, EventArgs e)
@@ -330,6 +330,11 @@ namespace TelyuProject
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }

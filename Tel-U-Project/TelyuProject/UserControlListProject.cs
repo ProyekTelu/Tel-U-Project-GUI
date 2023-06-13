@@ -16,5 +16,10 @@ namespace TelyuProject
         {
             InitializeComponent();
         }
+
+        private void UserControlListProject_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

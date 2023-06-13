@@ -100,7 +100,6 @@ D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-G
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.ProjectDetails.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.Properties.Resources.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.RequestProject.resources
-D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.SelectTeam.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.Sign_Up.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.SignUpDosen.resources
 D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.SignUpMahasiswa.resources

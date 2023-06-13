@@ -1,0 +1,76 @@
+[
+  {
+    "Title": "Membuat jembatan dari pisang kayu",
+    "Lecturer": "dosen",
+    "LecturerNip": "1201",
+    "Description": "memakan nasi dikali bersama pisang goreng",
+    "Prodi": [
+      "S1 Akutansi",
+      "S1 Creative Arts",
+      "S1 Data Science"
+    ],
+    "StartDate": "2023-07-01T00:00:00",
+    "EndDate": "2023-08-01T00:00:00",
+    "IsDone": false,
+    "IsOpen": false,
+    "ListMahasiswa": [
+      {
+        "NIM": "1302",
+        "email": "reza@student.telkomuniversity.ac.id",
+        "first_name": "reza",
+        "last_name": "adhie",
+        "gender": "Laki-Laki",
+        "prodi": "S1 Teknik Elektro",
+        "fakultas": "Fakultas Teknik Elektro. ",
+        "phone": "081281",
+        "skills": null,
+        "looking_for": null
+      },
+      {
+        "NIM": "1302",
+        "email": "reza@student.telkomuniversity.ac.id",
+        "first_name": "reza",
+        "last_name": "adhie",
+        "gender": "Laki-Laki",
+        "prodi": "S1 Teknik Elektro",
+        "fakultas": "Fakultas Teknik Elektro. ",
+        "phone": "081281",
+        "skills": null,
+        "looking_for": null
+      }
+    ],
+    "quota": 0,
+    "linkGroup": "https://www.youtube.com/"
+  },
+  {
+    "Title": "Makan nasi pake sambal",
+    "Lecturer": "dosen",
+    "LecturerNip": "1201",
+    "Description": "aku suka makan",
+    "Prodi": [
+      "S1 Data Science",
+      "S1 Ilmu Komunikasi",
+      "S1 Informatika"
+    ],
+    "StartDate": "2023-06-08T00:00:00",
+    "EndDate": "2023-06-08T00:00:00",
+    "IsDone": false,
+    "IsOpen": true,
+    "ListMahasiswa": [
+      {
+        "NIM": "1302",
+        "email": "reza@student.telkomuniversity.ac.id",
+        "first_name": "reza",
+        "last_name": "adhie",
+        "gender": "Laki-Laki",
+        "prodi": "S1 Teknik Elektro",
+        "fakultas": "Fakultas Teknik Elektro. ",
+        "phone": "081281",
+        "skills": null,
+        "looking_for": null
+      }
+    ],
+    "quota": 7,
+    "linkGroup": "ambasing"
+  }
+]

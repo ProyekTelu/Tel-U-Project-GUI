@@ -79,13 +79,14 @@ namespace TelyuProject
                         return;
                     }
                 }
-            } else if (!EmailTextBox.Text.Equals(""))
+            }
+            else if (!EmailTextBox.Text.Equals(""))
             {
                 for (int i = 0; i < Data.dosenList.data.Count; i++)
                 {
                     if (EmailTextBox.Text.Equals(Data.dosenList.data[i].email))
                     {
-                       
+
                         if (PasswordTextBox.Text.Equals(Data.dosenList.password[i]))
                         {
                             UserSession<Dosen>.currentUser = Data.dosenList.data[i];
@@ -103,14 +104,15 @@ namespace TelyuProject
                         return;
                     }
                 }
-            } else
+            }
+            else
             {
                 MessageBox.Show("Mohon Isi Email Anda");
                 return;
             }
-            
 
-            
+
+
             MessageBox.Show("Email tidak ditemukan, jika anda belum pernah mendaftar pada aplikasi kami tekan sign up");
         }
 
@@ -146,7 +148,7 @@ namespace TelyuProject
 
         private void LoginButton_Paint(object sender, PaintEventArgs e)
         {
-            
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

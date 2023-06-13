@@ -9,14 +9,14 @@ namespace TelyuProject
 
     public partial class DosenMenu : Form
     {
-    
+
         public DosenMenu()
         {
             InitializeComponent();
             CreateProject.Show();
-            
+
             label3.Text = UserSession<Dosen>.currentUser.first_name;
-          
+
             foreach (Control control in Controls)
             {
                 control.Anchor = AnchorStyles.None;
@@ -393,6 +393,11 @@ namespace TelyuProject
         }
 
         private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelMain_Paint(object sender, PaintEventArgs e)
         {
 
         }

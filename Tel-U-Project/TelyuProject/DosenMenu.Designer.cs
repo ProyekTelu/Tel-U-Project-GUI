@@ -368,6 +368,7 @@
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1001, 612);
             this.panelMain.TabIndex = 18;
+            this.panelMain.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMain_Paint);
             // 
             // DosenMenu
             // 

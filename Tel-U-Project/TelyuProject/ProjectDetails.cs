@@ -21,11 +21,19 @@ namespace TelyuProject
         String major;
         String dates;
         String quota;
-        bool mahasiswaAlreadyInProject = true;
+        bool mahasiswaAlreadyInProject = false;
         bool mahasiswaOnRequest = false;
 
         public ProjectDetails(String projectName, String lecturer, String LecturerNip, String description, String major, String dates, String quota)
         {
+            this.projectName = projectName;
+            this.lecturer = lecturer;
+            this.LecturerNip = LecturerNip;
+            this.description = description;
+            this.major = major;
+            this.dates = dates;
+            this.quota = quota;
+
             InitializeComponent();
             if (UserSession<Dosen>.currentUser != null && UserSession<Dosen>.currentUser.GetType() == typeof(Dosen))
             {
@@ -72,13 +80,7 @@ namespace TelyuProject
                 JoinProject.Enabled = false;
             }
             
-            this.projectName = projectName;
-            this.lecturer = lecturer;
-            this.LecturerNip = LecturerNip;
-            this.description = description;
-            this.major = major;
-            this.dates = dates;
-            this.quota = quota;
+
             panelContainer.Hide();
             LInfo_Click(this, new EventArgs());
             label1.Text = projectName;
@@ -120,6 +122,7 @@ namespace TelyuProject
 
         private void LInfo_Click(object sender, EventArgs e)
         {
+
             panelContainer.Show();
             UC_ProjectInfo uc = new UC_ProjectInfo(projectName,lecturer,LecturerNip, description, major,dates,quota);
             addUserControl(uc);

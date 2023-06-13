@@ -111,11 +111,12 @@
             // 
             this.existProjectLabel.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.existProjectLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.existProjectLabel.Location = new System.Drawing.Point(292, 4);
+            this.existProjectLabel.Location = new System.Drawing.Point(239, 4);
             this.existProjectLabel.Name = "existProjectLabel";
-            this.existProjectLabel.Size = new System.Drawing.Size(268, 23);
+            this.existProjectLabel.Size = new System.Drawing.Size(374, 23);
             this.existProjectLabel.TabIndex = 0;
             this.existProjectLabel.Text = "*Double Click Project Title to Join Project";
+            this.existProjectLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.existProjectLabel.Visible = false;
             this.existProjectLabel.Click += new System.EventHandler(this.existProjectLabel_Click);
             // 

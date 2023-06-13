@@ -28,19 +28,20 @@ namespace TelyuProject
             try
             {
 
-            this.dosenName = dosenName;
-            this.projectName = projectName;
-            this.dosenNip = dosenNip;
-            
-            if (UserSession<Mahasiswa>.currentUser != null)
+                this.dosenName = dosenName;
+                this.projectName = projectName;
+                this.dosenNip = dosenNip;
+
+                if (UserSession<Mahasiswa>.currentUser != null)
                 {
                     labelStudentName.Text = UserSession<Mahasiswa>.currentUser.first_name + " " + UserSession<Mahasiswa>.currentUser.last_name;
                     labelLecturerName.Text = dosenName;
                     EmailTextBox.Text = UserSession<Mahasiswa>.currentUser.email;
                     textBoxPhoneNumber.Text = UserSession<Mahasiswa>.currentUser.phone;
                 }
-            txtFilePath.ReadOnly = true;
-            } catch (Exception ex)
+                txtFilePath.ReadOnly = true;
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine("Error " + ex.Message);
             }
@@ -125,12 +126,12 @@ namespace TelyuProject
 
         private void txtFilePath_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void RequestProject_Load(object sender, EventArgs e)
         {
-       
+
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -166,13 +167,13 @@ namespace TelyuProject
 
         private void label12_Click(object sender, EventArgs e)
         {
-            
+
             this.Close();
         }
 
         private void Tphoneno_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
