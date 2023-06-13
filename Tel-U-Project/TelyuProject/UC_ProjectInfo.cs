@@ -36,10 +36,6 @@ namespace TelyuProject
                         if (project.Lecturer == UserSession<Dosen>.currentUser.first_name)
                         {
                             button1.Visible = true;
-                            if (project.quota == 0)
-                                {
-                                    button1.Visible = false;
-                                }
                             linkLabel1.Visible = true;
                             LinkGroup.Visible = true;
                             linkLabel1.Text = project.linkGroup;
