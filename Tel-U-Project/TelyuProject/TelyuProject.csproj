@@ -56,6 +56,18 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InviteMahasiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InviteMahasiswa.Designer.cs">
+      <DependentUpon>InviteMahasiswa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MahasiswaInvitation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MahasiswaInvitation.Designer.cs">
+      <DependentUpon>MahasiswaInvitation.cs</DependentUpon>
+    </Compile>
     <Compile Include="MahasiswaMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,7 +107,9 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Invitation.cs" />
     <Compile Include="Model\Mahasiswa.cs" />
+    <Compile Include="Model\ProjectSession.cs" />
     <Compile Include="Model\Requested.cs" />
     <Compile Include="Model\UserSession.cs" />
     <Compile Include="Profil.cs">
@@ -193,11 +207,17 @@
     <EmbeddedResource Include="EditProfil.resx">
       <DependentUpon>EditProfil.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InviteMahasiswa.resx">
+      <DependentUpon>InviteMahasiswa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListProdi.resx">
       <DependentUpon>ListProdi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MahasiswaInvitation.resx">
+      <DependentUpon>MahasiswaInvitation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MahasiswaMenu.resx">
       <DependentUpon>MahasiswaMenu.cs</DependentUpon>

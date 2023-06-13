@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace TelyuProject
 {
-    internal class Project
+    public class Project
     {
             public string Title { get; set; }
             public string Lecturer { get; set; }
@@ -15,7 +15,6 @@ namespace TelyuProject
             public bool IsDone { get; set; }
             public bool IsOpen { get; set; }
             public List<Mahasiswa> ListMahasiswa { get; set; }
-
             public int quota { get; set; }
 
             public string linkGroup { get; set; }

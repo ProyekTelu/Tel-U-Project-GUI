@@ -35,6 +35,14 @@ namespace TelyuProject
             panelContent.Controls.Clear();
             panelContent.Controls.Add(ucproject);
             ucproject.BringToFront();
+
+            if(UserSession<Mahasiswa>.currentUser.invitations.Count == 1)
+            {
+                button1.Text = "You have 1 invitation";
+            } else if (UserSession<Mahasiswa>.currentUser.invitations.Count > 1)
+            {
+                button1.Text = "You have " + UserSession<Mahasiswa>.currentUser.invitations.Count + " invitations";
+            }
         }
 
         private void MahasiswaMenu_Load(object sender, EventArgs e)
@@ -138,6 +146,12 @@ namespace TelyuProject
         private void panelContent_Paint_1(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MahasiswaInvitation mahasiswaInvitation = new MahasiswaInvitation();
+            mahasiswaInvitation.ShowDialog();
         }
     }
 }

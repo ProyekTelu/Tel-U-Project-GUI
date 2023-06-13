@@ -185,3 +185,5 @@ E:\Tugas Kuliah\Semester 4\KPL\Tubes\Ver4\Tel-U-Project-GUI\Tel-U-Project\TelyuP
 E:\Tugas Kuliah\Semester 4\KPL\Tubes\Ver4\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.exe
 E:\Tugas Kuliah\Semester 4\KPL\Tubes\Ver4\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.pdb
 E:\Tugas Kuliah\Semester 4\KPL\Tubes\Ver4\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\TelyuProject.pdb
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.InviteMahasiswa.resources
+D:\Zaky\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Kelompok\GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.MahasiswaInvitation.resources

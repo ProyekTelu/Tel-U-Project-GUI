@@ -46,5 +46,17 @@
     "fakultas": "Fakultas Rekayasa Industri. ",
     "phone": "082178223213",
     "requested": null
+  },
+  {
+    "NIP": "13022131",
+    "email": "berlian@telkomuniversity.ac.id",
+    "first_name": "Berlian",
+    "last_name": "Novel",
+    "kode_dosen": "BBL",
+    "gender": "Laki-Laki",
+    "prodi": "S1 Rekayasa Perangkat Lunak",
+    "fakultas": "Fakultas Informatika.",
+    "phone": "0823872321",
+    "requested": null
   }
 ]
