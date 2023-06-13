@@ -40,6 +40,9 @@
             this.TContract = new System.Windows.Forms.Label();
             this.LMajor = new System.Windows.Forms.Label();
             this.TMajor = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.LinkGroup = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Lproject
@@ -171,10 +174,50 @@
             this.TMajor.TabIndex = 17;
             this.TMajor.Text = "majorText";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Poppins", 12F);
+            this.linkLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(191, 297);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(86, 28);
+            this.linkLabel1.TabIndex = 18;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "linkLabel1";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // LinkGroup
+            // 
+            this.LinkGroup.AutoSize = true;
+            this.LinkGroup.Font = new System.Drawing.Font("Poppins", 12F);
+            this.LinkGroup.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.LinkGroup.Location = new System.Drawing.Point(76, 297);
+            this.LinkGroup.Name = "LinkGroup";
+            this.LinkGroup.Size = new System.Drawing.Size(94, 28);
+            this.LinkGroup.TabIndex = 19;
+            this.LinkGroup.Text = "Link Group";
+            this.LinkGroup.Click += new System.EventHandler(this.LinkGroup_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(334, 348);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(153, 23);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Invite mahasiswa";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // UC_ProjectInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.LinkGroup);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.TMajor);
             this.Controls.Add(this.LMajor);
             this.Controls.Add(this.TContract);
@@ -207,5 +250,8 @@
         private System.Windows.Forms.Label TContract;
         private System.Windows.Forms.Label LMajor;
         private System.Windows.Forms.Label TMajor;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label LinkGroup;
+        private System.Windows.Forms.Button button1;
     }
 }

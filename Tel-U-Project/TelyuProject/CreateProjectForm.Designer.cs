@@ -51,12 +51,12 @@
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -284,6 +284,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(440, 20);
             this.textBox5.TabIndex = 33;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // numericUpDown1
             // 
@@ -334,57 +335,18 @@
             this.panel2.TabIndex = 36;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // label4
+            // label11
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.ForeColor = System.Drawing.Color.Crimson;
-            this.label4.Location = new System.Drawing.Point(235, 56);
-            this.label4.Name = "label4";
-            this.label4.Padding = new System.Windows.Forms.Padding(3);
-            this.label4.Size = new System.Drawing.Size(126, 19);
-            this.label4.TabIndex = 35;
-            this.label4.Text = "Title tidak boleh kosong";
-            this.label4.Visible = false;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.ForeColor = System.Drawing.Color.Crimson;
-            this.label7.Location = new System.Drawing.Point(234, 147);
-            this.label7.Name = "label7";
-            this.label7.Padding = new System.Windows.Forms.Padding(3);
-            this.label7.Size = new System.Drawing.Size(159, 19);
-            this.label7.TabIndex = 36;
-            this.label7.Text = "Description tidak boleh kosong";
-            this.label7.Visible = false;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.White;
-            this.label8.ForeColor = System.Drawing.Color.Crimson;
-            this.label8.Location = new System.Drawing.Point(235, 214);
-            this.label8.Name = "label8";
-            this.label8.Padding = new System.Windows.Forms.Padding(3);
-            this.label8.Size = new System.Drawing.Size(132, 19);
-            this.label8.TabIndex = 37;
-            this.label8.Text = "Major tidak boleh kosong";
-            this.label8.Visible = false;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.White;
-            this.label9.ForeColor = System.Drawing.Color.Crimson;
-            this.label9.Location = new System.Drawing.Point(234, 298);
-            this.label9.Name = "label9";
-            this.label9.Padding = new System.Windows.Forms.Padding(3);
-            this.label9.Size = new System.Drawing.Size(135, 19);
-            this.label9.TabIndex = 38;
-            this.label9.Text = "Contract harus ditentukan";
-            this.label9.Visible = false;
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.White;
+            this.label11.ForeColor = System.Drawing.Color.Crimson;
+            this.label11.Location = new System.Drawing.Point(234, 404);
+            this.label11.Name = "label11";
+            this.label11.Padding = new System.Windows.Forms.Padding(3);
+            this.label11.Size = new System.Drawing.Size(155, 19);
+            this.label11.TabIndex = 40;
+            this.label11.Text = "Max member harus ditentukan";
+            this.label11.Visible = false;
             // 
             // label10
             // 
@@ -399,18 +361,57 @@
             this.label10.Text = "Link Group tidak boleh kosong";
             this.label10.Visible = false;
             // 
-            // label11
+            // label9
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.White;
-            this.label11.ForeColor = System.Drawing.Color.Crimson;
-            this.label11.Location = new System.Drawing.Point(234, 404);
-            this.label11.Name = "label11";
-            this.label11.Padding = new System.Windows.Forms.Padding(3);
-            this.label11.Size = new System.Drawing.Size(155, 19);
-            this.label11.TabIndex = 40;
-            this.label11.Text = "Max member harus ditentukan";
-            this.label11.Visible = false;
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.ForeColor = System.Drawing.Color.Crimson;
+            this.label9.Location = new System.Drawing.Point(234, 298);
+            this.label9.Name = "label9";
+            this.label9.Padding = new System.Windows.Forms.Padding(3);
+            this.label9.Size = new System.Drawing.Size(135, 19);
+            this.label9.TabIndex = 38;
+            this.label9.Text = "Contract harus ditentukan";
+            this.label9.Visible = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.White;
+            this.label8.ForeColor = System.Drawing.Color.Crimson;
+            this.label8.Location = new System.Drawing.Point(235, 214);
+            this.label8.Name = "label8";
+            this.label8.Padding = new System.Windows.Forms.Padding(3);
+            this.label8.Size = new System.Drawing.Size(132, 19);
+            this.label8.TabIndex = 37;
+            this.label8.Text = "Major tidak boleh kosong";
+            this.label8.Visible = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.ForeColor = System.Drawing.Color.Crimson;
+            this.label7.Location = new System.Drawing.Point(234, 147);
+            this.label7.Name = "label7";
+            this.label7.Padding = new System.Windows.Forms.Padding(3);
+            this.label7.Size = new System.Drawing.Size(159, 19);
+            this.label7.TabIndex = 36;
+            this.label7.Text = "Description tidak boleh kosong";
+            this.label7.Visible = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.ForeColor = System.Drawing.Color.Crimson;
+            this.label4.Location = new System.Drawing.Point(235, 56);
+            this.label4.Name = "label4";
+            this.label4.Padding = new System.Windows.Forms.Padding(3);
+            this.label4.Size = new System.Drawing.Size(126, 19);
+            this.label4.TabIndex = 35;
+            this.label4.Text = "Title tidak boleh kosong";
+            this.label4.Visible = false;
             // 
             // CreateProjectForm
             // 

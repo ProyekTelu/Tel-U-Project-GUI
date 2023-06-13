@@ -97,7 +97,6 @@ namespace TelyuProject
                 string dates = selectedItem.SubItems[5].Text;
                 string quota = selectedItem.SubItems[6].Text;
 
-
                 // Show class based on item's data (replace with your own logic)
                 ProjectDetails projectDetails = new ProjectDetails(title, lecturer, LecturerNip, description, prodi, dates, quota);
                 projectDetails.ShowDialog();

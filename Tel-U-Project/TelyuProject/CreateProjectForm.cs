@@ -131,7 +131,7 @@ namespace TelyuProject
             if (label3.Text.Length == 0)
             {
                 label9.Visible = true;
-                label9.Text = "Major harus dipilih dahulu";
+                label9.Text = "Contract harus ditentukan";
                 valid = false;
             }
 
@@ -330,6 +330,11 @@ namespace TelyuProject
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }

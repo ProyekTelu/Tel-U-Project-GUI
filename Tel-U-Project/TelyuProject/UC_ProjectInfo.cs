@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TelyuProject.Model;
 
 namespace TelyuProject
 {
@@ -21,6 +22,25 @@ namespace TelyuProject
             TDeskripsi.Text = description;
             TMajor.Text = major;
             TContract.Text = dates;
+
+            if (UserSession<Mahasiswa>.currentUser == null)
+            {
+            foreach (Project project in Data.projectList)
+            {
+                if (project.Title == projectName)
+                {
+                    if (UserSession<Dosen>.currentUser != null)
+                    {
+                        if (project.Lecturer == UserSession<Dosen>.currentUser.first_name)
+                        {
+                            button1.Visible = true;
+                            break;
+                        }
+                    }
+                }
+
+            }    
+            }
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -44,6 +64,21 @@ namespace TelyuProject
         }
 
         private void TDosen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void LinkGroup_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }

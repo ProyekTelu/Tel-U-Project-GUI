@@ -57,6 +57,7 @@
             // LTeams
             // 
             this.LTeams.AutoSize = true;
+            this.LTeams.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LTeams.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LTeams.Location = new System.Drawing.Point(66, 322);
             this.LTeams.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -69,6 +70,7 @@
             // LInfo
             // 
             this.LInfo.AutoSize = true;
+            this.LInfo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LInfo.Location = new System.Drawing.Point(66, 274);
             this.LInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -81,6 +83,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(30, 24);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -93,7 +96,7 @@
             // panelContainer
             // 
             this.panelContainer.Location = new System.Drawing.Point(140, 171);
-            this.panelContainer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelContainer.Margin = new System.Windows.Forms.Padding(2);
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(737, 372);
             this.panelContainer.TabIndex = 16;
@@ -128,7 +131,7 @@
             this.JoinProject.BackColor = System.Drawing.Color.AliceBlue;
             this.JoinProject.Font = new System.Drawing.Font("Poppins", 12F);
             this.JoinProject.Location = new System.Drawing.Point(393, 581);
-            this.JoinProject.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.JoinProject.Margin = new System.Windows.Forms.Padding(2);
             this.JoinProject.Name = "JoinProject";
             this.JoinProject.Size = new System.Drawing.Size(224, 55);
             this.JoinProject.TabIndex = 19;
@@ -144,7 +147,7 @@
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ProjectDetails";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProjectDetails";
