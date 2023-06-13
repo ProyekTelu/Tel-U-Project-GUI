@@ -26,6 +26,8 @@ namespace TelyuProject
                 labelProfilLName.Text = UserSession<Dosen>.currentUser.last_name;
                 labelProfilSID.Text = UserSession<Dosen>.currentUser.NIP;
                 labelProfilEmail.Text = UserSession<Dosen>.currentUser.email;
+                labelProfilMajor.Text = UserSession<Dosen>.currentUser.prodi;
+                labelProfilPhone.Text = UserSession<Dosen>.currentUser.phone;
                 StudentID.Text = "Lecture ID";
             }
             else
@@ -34,6 +36,8 @@ namespace TelyuProject
                 labelProfilLName.Text = UserSession<Mahasiswa>.currentUser.last_name;
                 labelProfilSID.Text = UserSession<Mahasiswa>.currentUser.NIM;
                 labelProfilEmail.Text = UserSession<Mahasiswa>.currentUser.email;
+                labelProfilMajor.Text = UserSession<Mahasiswa>.currentUser.prodi;
+                labelProfilPhone.Text = UserSession<Mahasiswa>.currentUser.phone;
             }
 
             foreach (Control control in Controls)

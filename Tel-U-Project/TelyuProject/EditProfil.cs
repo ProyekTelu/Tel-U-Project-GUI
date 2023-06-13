@@ -103,7 +103,7 @@ namespace TelyuProject
                     {
                         Data.dosenList.password[index] = newPassword;
 
-                        string passwordDosenString = JsonConvert.SerializeObject(Data.dosenList.password);
+                        string passwordDosenString = JsonConvert.SerializeObject(Data.dosenList.password, Formatting.Indented);
                         File.WriteAllText("PasswordDosen.json", passwordDosenString);
 
                         MessageBox.Show("Password updated successfully.");
@@ -126,7 +126,7 @@ namespace TelyuProject
                     {
                         Data.mahasiswaList.password[index] = newPassword;
 
-                        string passwordMahasiswaString = JsonConvert.SerializeObject(Data.mahasiswaList.password);
+                        string passwordMahasiswaString = JsonConvert.SerializeObject(Data.mahasiswaList.password, Formatting.Indented);
                         File.WriteAllText("PasswordMahasiswa.json", passwordMahasiswaString);
 
                         MessageBox.Show("Password updated successfully.");
