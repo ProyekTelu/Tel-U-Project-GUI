@@ -46,6 +46,17 @@
         "fakultas": "Fakultas Informatika.",
         "phone": "081221313131",
         "invitations": []
+      },
+      {
+        "NIM": "1302213116",
+        "email": "fasya@student.telkomuniversity.ac.id",
+        "first_name": "Fasya ",
+        "last_name": "Raihan Maulana",
+        "gender": "Laki-Laki",
+        "prodi": "S1 Smart Science and Technology",
+        "fakultas": "Fakultas Informatika.",
+        "phone": "081221313131",
+        "invitations": []
       }
     ],
     "quota": 0,

@@ -51,21 +51,30 @@ namespace TelyuProject
             }
 
             //Menhapus invations dalam mahasiswa
-            for (int i = 0; i < Data.mahasiswaList.data.Count; i++)
+            try
             {
-                if (UserSession<Mahasiswa>.currentUser.first_name.Equals(Data.mahasiswaList.data[i].first_name))
+                for (int i = 0; i < Data.mahasiswaList.data.Count; i++)
                 {
-                    for (int j = 0; j < Data.mahasiswaList.data[i].invitations.Count; j++)
+                    if (UserSession<Mahasiswa>.currentUser.first_name.Equals(Data.mahasiswaList.data[i].first_name))
                     {
-                        if (Data.mahasiswaList.data[i].invitations[j].project.Equals(label2.Text.Substring(9)))
+                        for (int j = 0; j < Data.mahasiswaList.data[i].invitations.Count; j++)
                         {
-                            Data.mahasiswaList.data[i].invitations.RemoveAt(j);
-                            UserSession<Mahasiswa>.currentUser.invitations.RemoveAt(j);
+                            if (Data.mahasiswaList.data[i].invitations[j].project.Equals(label2.Text.Substring(9)))
+                            {
+                                Data.mahasiswaList.data[i].invitations.RemoveAt(j);
+                                UserSession<Mahasiswa>.currentUser.invitations.RemoveAt(j);
+                            }
                         }
+                        break;
                     }
-                    break;
+
+
                 }
+            } catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
             }
+
 
             //menghapus row di grid pada view
             foreach (DataGridViewRow row in dataGridView1.Rows)
