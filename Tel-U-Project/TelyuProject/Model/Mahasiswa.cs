@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using Newtonsoft.Json;
 using System.IO;
+using TelyuProject.Model;
 
 namespace TelyuProject
 {
@@ -16,8 +17,6 @@ namespace TelyuProject
         public String prodi { get; set; }
         public String fakultas { get; set; }
         public String phone { get; set; }
-
-
-        
+        public List<Invitation> invitations { get; set; } = new List<Invitation>();
     }
 }

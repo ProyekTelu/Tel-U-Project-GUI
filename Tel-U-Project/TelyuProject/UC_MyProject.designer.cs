@@ -55,9 +55,10 @@
             this.ContractColumn,
             this.QuotaColumn,
             this.StatusColumn});
-            this.dataGridView1.Location = new System.Drawing.Point(6, 41);
+            this.dataGridView1.Location = new System.Drawing.Point(9, 63);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(863, 403);
+            this.dataGridView1.Size = new System.Drawing.Size(1294, 620);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -108,10 +109,10 @@
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(276, 186);
-            this.label1.Margin = new System.Windows.Forms.Padding(5);
+            this.label1.Location = new System.Drawing.Point(414, 286);
+            this.label1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(316, 74);
+            this.label1.Size = new System.Drawing.Size(474, 114);
             this.label1.TabIndex = 1;
             this.label1.Text = "You dont have Project, \r\nWant to create a project?";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -119,12 +120,13 @@
             // 
             // UC_MyProject
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "UC_MyProject";
-            this.Size = new System.Drawing.Size(869, 447);
+            this.Size = new System.Drawing.Size(1304, 688);
             this.Load += new System.EventHandler(this.UC_MyProject_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

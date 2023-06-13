@@ -113,7 +113,29 @@ namespace TelyuProject
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                // Mendapatkan nilai dari baris yang diklik
+                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+                string projectName = row.Cells["TitleColumn"].Value.ToString();
+                string lecturer = row.Cells["LectureColumn"].Value.ToString();
+                string lecturerNip = row.Cells["LectureNipColumn"].Value.ToString();
+                string description = row.Cells["DescriptionColumn"].Value.ToString();
+                string major = row.Cells["MajorColumn"].Value.ToString();
+                string contract = row.Cells["ContractColumn"].Value.ToString();
+                string quota = row.Cells["QuotaColumn"].Value.ToString();
 
+                // Membuat instance dari ProjectDetails dan meneruskan data yang diambil
+                ProjectDetails projectDetails = new ProjectDetails(projectName, lecturer, lecturerNip, description, major, contract, quota);
+                foreach(Project project in Data.projectList)
+                {
+                    if (project.Title.Equals(projectName))
+                    {
+                        ProjectSession.currentProject = project;
+                    }
+                }
+                projectDetails.ShowDialog();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)

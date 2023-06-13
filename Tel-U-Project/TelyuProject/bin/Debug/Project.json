@@ -23,8 +23,7 @@
         "prodi": "S1 Teknik Elektro",
         "fakultas": "Fakultas Teknik Elektro. ",
         "phone": "081281",
-        "skills": null,
-        "looking_for": null
+        "invitations": []
       },
       {
         "NIM": "1302",
@@ -35,8 +34,18 @@
         "prodi": "S1 Teknik Elektro",
         "fakultas": "Fakultas Teknik Elektro. ",
         "phone": "081281",
-        "skills": null,
-        "looking_for": null
+        "invitations": []
+      },
+      {
+        "NIM": "1302213116",
+        "email": "fasya@student.telkomuniversity.ac.id",
+        "first_name": "Fasya ",
+        "last_name": "Raihan Maulana",
+        "gender": "Laki-Laki",
+        "prodi": "S1 Smart Science and Technology",
+        "fakultas": "Fakultas Informatika.",
+        "phone": "081221313131",
+        "invitations": []
       }
     ],
     "quota": 0,
@@ -66,8 +75,7 @@
         "prodi": "S1 Teknik Elektro",
         "fakultas": "Fakultas Teknik Elektro. ",
         "phone": "081281",
-        "skills": null,
-        "looking_for": null
+        "invitations": []
       }
     ],
     "quota": 7,
@@ -96,8 +104,7 @@
         "prodi": "S1 Rekayasa Perangkat Lunak",
         "fakultas": "Fakultas Informatika.",
         "phone": "089678220200",
-        "skills": null,
-        "looking_for": null
+        "invitations": []
       }
     ],
     "quota": 5,

@@ -1,38 +1,13 @@
 [
   {
-    "NIM": "663085",
-    "email": "reja@student.telkomuniversity.ac.id",
-    "first_name": "ripo",
-    "last_name": "reja",
+    "NIM": "1302213116",
+    "email": "fasya@student.telkomuniversity.ac.id",
+    "first_name": "Fasya ",
+    "last_name": "Raihan Maulana",
     "gender": "Laki-Laki",
-    "prodi": "S1 Teknik Elektro",
-    "fakultas": "Fakultas Teknik Elektro. ",
-    "phone": "082312",
-    "skills": null,
-    "looking_for": null
-  },
-  {
-    "NIM": "1302",
-    "email": "reza@student.telkomuniversity.ac.id",
-    "first_name": "reza",
-    "last_name": "adhie",
-    "gender": "Laki-Laki",
-    "prodi": "S1 Teknik Elektro",
-    "fakultas": "Fakultas Teknik Elektro. ",
-    "phone": "081281",
-    "skills": null,
-    "looking_for": null
-  },
-  {
-    "NIM": "1302213067",
-    "email": "mzakyf@student.telkomuniversity.ac.id",
-    "first_name": "Muhammad Zaky",
-    "last_name": "Fathurahim",
-    "gender": "Laki-Laki",
-    "prodi": "S1 Rekayasa Perangkat Lunak",
+    "prodi": "S1 Smart Science and Technology",
     "fakultas": "Fakultas Informatika.",
-    "phone": "089678220200",
-    "skills": null,
-    "looking_for": null
+    "phone": "081221313131",
+    "invitations": []
   }
 ]

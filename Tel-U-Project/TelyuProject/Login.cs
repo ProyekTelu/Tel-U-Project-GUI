@@ -91,7 +91,6 @@ namespace TelyuProject
                         {
                             UserSession<Dosen>.currentUser = Data.dosenList.data[i];
                             DosenMenu dosen_menu = new DosenMenu();
-                            MessageBox.Show("Login Berhasil");
                             dosen_menu.Show();
                             this.Hide();
                         }

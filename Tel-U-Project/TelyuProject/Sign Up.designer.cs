@@ -48,10 +48,9 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(365, 93);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(548, 143);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(195, 32);
+            this.label3.Size = new System.Drawing.Size(292, 49);
             this.label3.TabIndex = 8;
             this.label3.Text = "Tel-U Project";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -61,10 +60,9 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(365, 61);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(548, 94);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(195, 39);
+            this.label1.Size = new System.Drawing.Size(292, 60);
             this.label1.TabIndex = 7;
             this.label1.Text = "Sign Up";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -75,10 +73,9 @@
             this.LPassword.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LPassword.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LPassword.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LPassword.Location = new System.Drawing.Point(266, 283);
-            this.LPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LPassword.Location = new System.Drawing.Point(399, 435);
             this.LPassword.Name = "LPassword";
-            this.LPassword.Size = new System.Drawing.Size(195, 20);
+            this.LPassword.Size = new System.Drawing.Size(292, 31);
             this.LPassword.TabIndex = 14;
             this.LPassword.Text = "Password";
             this.LPassword.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -89,10 +86,9 @@
             this.LEmail.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LEmail.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LEmail.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LEmail.Location = new System.Drawing.Point(266, 222);
-            this.LEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LEmail.Location = new System.Drawing.Point(399, 342);
             this.LEmail.Name = "LEmail";
-            this.LEmail.Size = new System.Drawing.Size(195, 20);
+            this.LEmail.Size = new System.Drawing.Size(292, 31);
             this.LEmail.TabIndex = 13;
             this.LEmail.Text = "Email";
             this.LEmail.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -102,10 +98,9 @@
             this.TEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TEmail.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.TEmail.Location = new System.Drawing.Point(268, 243);
-            this.TEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TEmail.Location = new System.Drawing.Point(402, 374);
             this.TEmail.Name = "TEmail";
-            this.TEmail.Size = new System.Drawing.Size(392, 27);
+            this.TEmail.Size = new System.Drawing.Size(586, 27);
             this.TEmail.TabIndex = 12;
             this.TEmail.TextChanged += new System.EventHandler(this.UsernameTextBox_TextChanged);
             // 
@@ -113,10 +108,9 @@
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(270, 429);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(405, 660);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(400, 67);
+            this.label2.Size = new System.Drawing.Size(600, 103);
             this.label2.TabIndex = 11;
             this.label2.Text = "Silakan gunakan username@telkomuniversity.ac.id sesuai iGracias Telkom University" +
     " untuk TPA/Dosen dan username@student.telkomuniversity.ac.id untuk Mahasiswa";
@@ -126,10 +120,9 @@
             // 
             this.TPassword.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TPassword.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.TPassword.Location = new System.Drawing.Point(268, 304);
-            this.TPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TPassword.Location = new System.Drawing.Point(402, 468);
             this.TPassword.Name = "TPassword";
-            this.TPassword.Size = new System.Drawing.Size(393, 27);
+            this.TPassword.Size = new System.Drawing.Size(588, 27);
             this.TPassword.TabIndex = 10;
             this.TPassword.UseSystemPasswordChar = true;
             this.TPassword.TextChanged += new System.EventHandler(this.PasswordTextBox_TextChanged);
@@ -140,10 +133,9 @@
             this.LoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginButton.ForeColor = System.Drawing.Color.White;
-            this.LoginButton.Location = new System.Drawing.Point(271, 380);
-            this.LoginButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LoginButton.Location = new System.Drawing.Point(406, 585);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(391, 47);
+            this.LoginButton.Size = new System.Drawing.Size(586, 72);
             this.LoginButton.TabIndex = 9;
             this.LoginButton.Text = "Sign-Up";
             this.LoginButton.UseVisualStyleBackColor = false;
@@ -154,10 +146,9 @@
             this.LFirstname.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LFirstname.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LFirstname.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LFirstname.Location = new System.Drawing.Point(266, 171);
-            this.LFirstname.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LFirstname.Location = new System.Drawing.Point(399, 263);
             this.LFirstname.Name = "LFirstname";
-            this.LFirstname.Size = new System.Drawing.Size(195, 20);
+            this.LFirstname.Size = new System.Drawing.Size(292, 31);
             this.LFirstname.TabIndex = 18;
             this.LFirstname.Text = "First Name";
             this.LFirstname.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -167,10 +158,9 @@
             this.TFirstName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TFirstName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TFirstName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.TFirstName.Location = new System.Drawing.Point(268, 193);
-            this.TFirstName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TFirstName.Location = new System.Drawing.Point(402, 297);
             this.TFirstName.Name = "TFirstName";
-            this.TFirstName.Size = new System.Drawing.Size(181, 27);
+            this.TFirstName.Size = new System.Drawing.Size(270, 27);
             this.TFirstName.TabIndex = 19;
             this.TFirstName.TextChanged += new System.EventHandler(this.TFirstName_TextChanged);
             // 
@@ -179,10 +169,9 @@
             this.TLastName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TLastName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TLastName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.TLastName.Location = new System.Drawing.Point(478, 193);
-            this.TLastName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TLastName.Location = new System.Drawing.Point(717, 297);
             this.TLastName.Name = "TLastName";
-            this.TLastName.Size = new System.Drawing.Size(182, 27);
+            this.TLastName.Size = new System.Drawing.Size(271, 27);
             this.TLastName.TabIndex = 21;
             this.TLastName.TextChanged += new System.EventHandler(this.TLastName_TextChanged);
             // 
@@ -191,10 +180,9 @@
             this.LLastName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LLastName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LLastName.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LLastName.Location = new System.Drawing.Point(475, 171);
-            this.LLastName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LLastName.Location = new System.Drawing.Point(712, 263);
             this.LLastName.Name = "LLastName";
-            this.LLastName.Size = new System.Drawing.Size(195, 20);
+            this.LLastName.Size = new System.Drawing.Size(292, 31);
             this.LLastName.TabIndex = 20;
             this.LLastName.Text = "Last Name";
             this.LLastName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -204,9 +192,8 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(88)))), ((int)(((byte)(135)))));
-            this.linkLabel1.Location = new System.Drawing.Point(269, 357);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.linkLabel1.LinkColor = System.Drawing.Color.Cyan;
+            this.linkLabel1.Location = new System.Drawing.Point(404, 549);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(147, 13);
             this.linkLabel1.TabIndex = 22;
@@ -216,10 +203,10 @@
             // 
             // Sign_Up
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(62)))));
-            this.ClientSize = new System.Drawing.Size(946, 547);
+            this.ClientSize = new System.Drawing.Size(1419, 842);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.TLastName);
             this.Controls.Add(this.LLastName);
@@ -233,7 +220,6 @@
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Sign_Up";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sign_Up";

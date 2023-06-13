@@ -23,6 +23,8 @@ namespace TelyuProject
             TMajor.Text = major;
             TContract.Text = dates;
 
+
+
             if (UserSession<Mahasiswa>.currentUser == null)
             {
             foreach (Project project in Data.projectList)
@@ -34,15 +36,21 @@ namespace TelyuProject
                         if (project.Lecturer == UserSession<Dosen>.currentUser.first_name)
                         {
                             button1.Visible = true;
+                            if (project.quota == 0)
+                                {
+                                    button1.Visible = false;
+                                }
                             linkLabel1.Visible = true;
                             LinkGroup.Visible = true;
+                            linkLabel1.Text = project.linkGroup;
                             break;
                         }
                     }
+                    
                 }
-
             }    
             }
+            
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -82,7 +90,8 @@ namespace TelyuProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            InviteMahasiswa inviteMahasiswa = new InviteMahasiswa();
+            inviteMahasiswa.Show();
         }
     }
 }
