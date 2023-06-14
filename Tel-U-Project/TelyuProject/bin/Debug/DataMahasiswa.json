@@ -20,5 +20,16 @@
     "fakultas": "Fakultas Informatika.",
     "phone": "089672823222",
     "invitations": []
+  },
+  {
+    "NIM": "123",
+    "email": "koko@student.telkomuniversity.ac.id",
+    "first_name": "Koko",
+    "last_name": "Kaka",
+    "gender": "Laki-Laki",
+    "prodi": "S1 Teknik Telekomunikasi",
+    "fakultas": "Fakultas Teknik Elektro. ",
+    "phone": "00023123",
+    "invitations": []
   }
 ]

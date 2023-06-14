@@ -58,5 +58,17 @@
     "fakultas": "Fakultas Informatika.",
     "phone": "0823872321",
     "requested": null
+  },
+  {
+    "NIP": "093",
+    "email": "kiki@telkomuniversity.ac.id",
+    "first_name": "kiki",
+    "last_name": "oye",
+    "kode_dosen": "234",
+    "gender": "Laki-Laki",
+    "prodi": "S1 Teknik Elektro (International Class)",
+    "fakultas": "Fakultas Teknik Elektro. ",
+    "phone": "002394",
+    "requested": null
   }
 ]

@@ -221,3 +221,37 @@ C:\Users\Raihan Sulthon Y\OneDrive - Telkom University\Desktop\Tubes KPL\Tel-U-P
 C:\Users\Raihan Sulthon Y\OneDrive - Telkom University\Desktop\Tubes KPL\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.csproj.CopyComplete
 C:\Users\Raihan Sulthon Y\OneDrive - Telkom University\Desktop\Tubes KPL\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.exe
 C:\Users\Raihan Sulthon Y\OneDrive - Telkom University\Desktop\Tubes KPL\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.pdb
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\TelyuProject.exe.config
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\TelyuProject.exe
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\TelyuProject.pdb
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\Newtonsoft.Json.dll
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\bin\Debug\Newtonsoft.Json.xml
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.csproj.AssemblyReference.cache
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.DosenMenu.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.CreateProjectForm.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.EditProfil.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.InviteMahasiswa.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.ListProdi.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.Login.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.MahasiswaInvitation.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.MahasiswaMenu.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.Profil.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.ProjectDetails.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.Properties.Resources.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.RequestDetail.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.RequestProject.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.Sign_Up.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.SignUpDosen.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.SignUpMahasiswa.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UC_ListProject.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UC_MyProject.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UC_ProjectInfo.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UC_Requested.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UC_Teams.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.UserControlListProject.resources
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.csproj.GenerateResource.cache
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.csproj.CoreCompileInputs.cache
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.csproj.CopyComplete
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.exe
+C:\Users\iceice\Documents\semester 4\kpl\Project\Tel-U-Project-GUI\Tel-U-Project-GUI\Tel-U-Project\TelyuProject\obj\Debug\TelyuProject.pdb
